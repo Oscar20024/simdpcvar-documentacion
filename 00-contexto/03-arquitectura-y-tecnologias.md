@@ -37,7 +37,8 @@ Principios (documento 02, capítulo «Infraestructura y ecosistema»):
 | Fotos | Cloudinary (plan Free), tipo `authenticated`, carpeta `riachuelo/piloto/{sesión}/{pasada}/{captura}`, transformaciones con nombre (miniatura) | Originales privados; miniaturas y foto del aviso por URL firmada |
 | Avisos | Telegram Bot API | Mensaje con foto, lote, hilera, lado, segmento, marcador y botones «Ver caso» y «Cómo llegar» |
 | Servidor | VPS Hostinger KVM 1 (Ubuntu 24.04, 1 vCPU, 3,8 GB RAM, 48 GB), Docker Compose, Traefik con Let's Encrypt; contenedores `web` (~700 MB, 0,8 CPU) y `worker` (~1,2 GB, 0,7 CPU), usuario sin privilegios y sistema de archivos de solo lectura | Producción del piloto en `monitoreo.agricolariachuelo.org` |
-| Monitoreo externo | UptimeRobot (plan gratis, cada 5 min) sobre `/api/v1/health` | Medición de SLA-01 y creación automática de incidentes en Jira (ver `06-…`) |
+| Monitoreo externo | UptimeRobot (plan gratis, cada 5 min) sobre `/api/v1/health` | Medición de SLA-01; sus correos «DOWN»/«UP» crean y cierran incidentes en Jira (ver `06-…`) |
+| Mesa de servicio | Jira Service Management Free, portal «Soporte SIMDPCVAR · Agrícola Riachuelo» | Incidentes (INC) y solicitudes (SOL-01…08) con SLA. La web enlaza al portal con «Reportar un problema» (variable `SOPORTE_URL`, desde v1.6.2) |
 
 ## API `/api/v1` (resumen; detalle en `05-repositorios-de-codigo/plataforma-web/docs/INTEGRACION_APP.md` y `04-maestros/MAESTRO_APP_MOVIL.md` §15)
 

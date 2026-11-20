@@ -15,7 +15,8 @@ Este repositorio **no contiene código ejecutable**. Reúne en Markdown toda la 
 - **Solución.** Tres celulares Android en un **soporte tipo T** (un *controlador* y dos *cámaras*) recorren cada hilera por sus dos lados (lateral A y lateral B) y fotografían cada punto **sin internet**. Con señal, el controlador **sincroniza** con una **plataforma Django** en la nube; un **modelo YOLO** analiza cada foto y **sugiere indicios**; el **especialista fitosanitario** confirma o descarta en la web; al confirmarse, **Telegram** avisa al jefe de fundo y al supervisor con foto, lugar exacto y botón «Cómo llegar». La app tiene además «Ubicar plaga» para llegar a pie a la planta.
 - **Componentes.** App móvil (Expo/React Native) · Plataforma web + API `/api/v1` (Django 5.2 + HTMX + Leaflet) · Worker de IA (YOLO26n en ONNX) · Supabase PostgreSQL · Cloudinary · Telegram Bot API · VPS Hostinger con Docker y Traefik.
 - **En producción (piloto):** <https://monitoreo.agricolariachuelo.org> · salud: `/api/v1/health` → `{"status":"UP"}`.
-- **Versiones documentadas (noviembre 2026):** web **v1.6.1** · app **0.6.1** · modelo IA **2026.10-v2** (provisional).
+- **Versiones documentadas (19/11/2026):** web **v1.6.2** en código (en el servidor, hasta v1.6 mientras no se despliegue) · app **0.6.1** · modelo IA **2026.10-v2** (provisional). Qué corre hoy y qué falta: [`00-contexto/08-estado-versiones-y-pendientes.md`](00-contexto/08-estado-versiones-y-pendientes.md).
+- **Soporte:** portal de Jira Service Management <https://oscoscantonio.atlassian.net/servicedesk/customer/portal/1> (incidentes INC y solicitudes SOL con SLA).
 
 ## Mapa del repositorio
 

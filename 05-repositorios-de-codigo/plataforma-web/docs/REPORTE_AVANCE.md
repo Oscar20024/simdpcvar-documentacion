@@ -431,3 +431,21 @@ auditoría de seguridad.
 - **Pruebas.** **307 pruebas OK** (2 actualizadas en `web/tests/test_views.py`).
 - **Pendiente.** Crear o verificar en el piloto las cuentas de prueba (testeador@… con los 3 roles de la web y
   testeador2@… como operador), activas y sin contraseña temporal.
+
+## v1.6.2 — 19/11/2026 · Enlace «Reportar un problema» al portal de soporte (Jira Service Management)
+
+- **Qué.** Enlace al portal de soporte del servicio (14.7.10 del informe) en dos lugares: una tarjeta «¿Algo no
+  funciona?» con el botón «Reportar un problema» en **Ayuda y manuales**, y el enlace «Reportar un problema» en el **pie
+  de página** de todas las pantallas. Abre en otra pestaña (`target="_blank" rel="noopener"`). La tarjeta explica cuándo
+  elegir INC o una solicitud SOL, qué anotar y el horario de atención (lunes a sábado, 06:00–14:00, hora de Lima).
+- **Configuración.** Nueva variable `SOPORTE_URL` (por defecto el portal del piloto en Jira; vacía = no se muestra el
+  enlace) en `config/settings.py`, `.env.example` y `deploy/env.piloto.plantilla`. Se expone en
+  `web/context_processors.py` como constante: **sin consultas nuevas** (la bandeja sigue en 6).
+- **Archivos.** `config/settings.py`, `web/context_processors.py`, `web/templates/web/base.html`,
+  `web/templates/web/ayuda.html`, `web/tests/test_ayuda.py`, `.env.example`, `deploy/env.piloto.plantilla`.
+- **Reglas.** W-01 y W-17 (solo HTML, sin JavaScript en línea ni CDN); el enlace externo no requiere cambios de CSP.
+- **Migraciones.** Ninguna. **App.** Sin cambios. **Dependencias.** Ninguna.
+- **Pruebas.** `check` sin problemas, `makemigrations --check` sin cambios y **309 pruebas OK** (13 omitidas; 2 nuevas en
+  `ReportarUnProblema`: la Ayuda y el pie enlazan al portal; sin `SOPORTE_URL` no aparece el enlace).
+- **Despliegue.** `git pull && bash deploy/actualizar.sh` en el VPS. Si se cambia el portal, definir `SOPORTE_URL` en
+  `.env.piloto`.
