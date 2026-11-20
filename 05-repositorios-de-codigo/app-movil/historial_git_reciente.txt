@@ -1,0 +1,17 @@
+7a95da6 2026-10-30 00:06:34 -0500 se agrego validacion para fotos que traban el proceso
+65d3a7b 2026-10-20 22:36:28 -0500 cambios despues del campo
+4b5c181 2026-10-09 07:33:11 +0000 v0.5.1: borrar en el celular lo que el administrador eliminó (CFG-9, ADR 0010)
+1ac1859 2026-10-08 20:11:23 -0500 implementacion de busqueda de plagas
+1e214db 2026-10-07 23:38:02 -0500 v0.4.6
+7291105 2026-10-07 21:36:25 -0500 guardado
+3a0dce0 2026-10-07 21:12:19 -0500 error de prueba de camaras solucionado
+037b946 2026-10-07 00:36:16 -0500 v0.4.3: fotos de hasta 12 MP y conexión más estable entre celulares
+5c56d7d 2026-10-06 23:11:20 -0500 v0.4.2: corrección de la cámara en la prueba corta
+f260f33 2026-10-06 21:46:49 -0500 v0.4.1: arreglo del QR y avisos de catálogos
+4e7ea11 2026-10-06 18:43:25 -0500 Fase 4: sincronización con la plataforma Django y subida directa a Cloudinary (v0.4.0)
+af58bce 2026-10-03 15:47:53 -0500 se agrego las vistas de Camara 1 y Camara 2, y tmb se quitaron funciones en el controlador, se agrego la opcion de elegir la funcion despues del login
+2fb1075 2026-10-03 00:30:38 -0500 Resolver conflictos iniciales con GitHub
+24cec14 2026-10-03 00:26:59 -0500 Subir proyecto mobile Agricola Riachuelo
+29c2d1c 2026-10-02 22:38:53 -0500 chore: agregar archivo gitignore
+22f7b48 2026-10-02 22:29:18 -0500 chore: initial commit
+38a6e41 2026-10-02 01:43:10 -0500 Initial commit
