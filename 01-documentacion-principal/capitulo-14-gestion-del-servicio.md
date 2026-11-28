@@ -10,7 +10,7 @@ El servicio combina cuatro elementos:
 
 - Un modelo de inteligencia artificial (YOLO26n exportado a ONNX) que analiza las imágenes sincronizadas y señala posibles indicios de plaga.
 
-- Una plataforma web (Django + HTMX, con mapas Leaflet/OpenStreetMap) donde el especialista fitosanitario revisa, confirma o descarta cada hallazgo.
+- Una plataforma web (Django + HTMX, con mapas Leaflet sobre teselas satelitales Esri y OpenStreetMap) donde el especialista fitosanitario revisa, confirma o descarta cada hallazgo.
 
 - Alertas por Telegram (Telegram Bot API, SC-02) al jefe de fundo y al supervisor de zona, emitidas cuando el especialista confirma un hallazgo o, como alerta temprana marcada «falta la revisión del especialista», cuando la IA encuentra evidencia visual fuerte (SC-03; ver 14.7.4).
 
@@ -213,7 +213,7 @@ Por su diseño offline-first, la captura en campo no depende de la plataforma: l
 | Horario de soporte | Lunes a sábado, de 06:00 a 14:00. Fuera de ese horario solo se atienden incidentes de prioridad crítica, sin plazo comprometido. |
 | Día de servicio | Lunes a sábado, salvo feriados sin jornada de campo. Los plazos expresados en «días de servicio» u «horas de servicio» se cuentan con este calendario. |
 | Mantenimiento programado | Domingos, o de lunes a sábado después de las 14:00, con aviso al grupo del piloto con al menos 24 horas de anticipación. Cada actualización de la plataforma deja la web sin respuesta entre 1 y 2 minutos. |
-| Canales de soporte | Grupo de WhatsApp del piloto (canal principal), correo del equipo del proyecto y registro de cada caso en el tablero Jira del proyecto para su trazabilidad. |
+| Canales de soporte | Grupo de Telegram del piloto (canal principal), correo del equipo del proyecto y registro de cada caso en el tablero Jira del proyecto para su trazabilidad. |
 
 ### 14.7.3 Niveles de servicio comprometidos:
 
@@ -385,132 +385,101 @@ Cuando un segmento no tenga hallazgos, KPI-07, KPI-08 y KPI-09 se registran como
 <thead>
 <tr class="header">
 <th><strong>Código</strong></th>
-<th><blockquote>
-<p><strong>KPI</strong></p>
-</blockquote></th>
-<th><blockquote>
-<p><strong>Fórmula</strong></p>
-</blockquote></th>
-<th><blockquote>
-<p><strong>Meta</strong></p>
-</blockquote></th>
-<th><blockquote>
-<p><strong>Fuente</strong></p>
-</blockquote></th>
+<th><p><strong>KPI</strong></p>
+</th>
+<th><p><strong>Fórmula</strong></p>
+</th>
+<th><p><strong>Meta</strong></p>
+</th>
+<th><p><strong>Fuente</strong></p>
+</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>KPI-10</td>
-<td><blockquote>
-<p>Tiempo de ciclo del hallazgo</p>
-</blockquote></td>
-<td><blockquote>
-<p>Mediana de (hora de decisión del</p>
+<td><p>Tiempo de ciclo del hallazgo</p>
+</td>
+<td><p>Mediana de (hora de decisión del</p>
 <p>especialista − hora de captura)</p>
-</blockquote></td>
-<td><blockquote>
-<p>≤ 24 h</p>
-</blockquote></td>
-<td><blockquote>
-<p>review_cases</p>
+</td>
+<td><p>≤ 24 h</p>
+</td>
+<td><p>review_cases</p>
 <p>(captured_at, decided_at)</p>
-</blockquote></td>
+</td>
 </tr>
 <tr class="even">
 <td>KPI-11</td>
-<td><blockquote>
-<p>Tiempo hasta el primer aviso</p>
-</blockquote></td>
-<td><blockquote>
-<p>Mediana de (hora del primer aviso − hora de captura), por vía de alerta</p>
-</blockquote></td>
-<td><blockquote>
-<p>≤ 24 h</p>
-</blockquote></td>
-<td><blockquote>
-<p>notifications y review_cases</p>
-</blockquote></td>
+<td><p>Tiempo hasta el primer aviso</p>
+</td>
+<td><p>Mediana de (hora del primer aviso − hora de captura), por vía de alerta</p>
+</td>
+<td><p>≤ 24 h</p>
+</td>
+<td><p>notifications y review_cases</p>
+</td>
 </tr>
 <tr class="odd">
 <td>KPI-12</td>
-<td><blockquote>
-<p>Casos revisados dentrodelplazo</p>
-</blockquote></td>
-<td><blockquote>
-<p>Casos decididos en ≤ 24 h de servicio desde su apertura ÷casos abiertos × 100</p>
-</blockquote></td>
-<td><blockquote>
-<p>≥ 90 %</p>
-</blockquote></td>
-<td><blockquote>
-<p>review_cases</p>
+<td><p>Casos revisados dentrodelplazo</p>
+</td>
+<td><p>Casos decididos en ≤ 24 h de servicio desde su apertura ÷casos abiertos × 100</p>
+</td>
+<td><p>≥ 90 %</p>
+</td>
+<td><p>review_cases</p>
 <p>(opened_at, decided_at)</p>
-</blockquote></td>
+</td>
 </tr>
 <tr class="even">
 <td>KPI-13</td>
-<td><blockquote>
-<p>Cumplimiento</p>
+<td><p>Cumplimiento</p>
 <p>del SLA</p>
-</blockquote></td>
-<td><blockquote>
-<p>Indicadores SLA-01 a SLA-09 que cumplensu meta ÷ indicadores medidos × 100</p>
-</blockquote></td>
+</td>
+<td><p>Indicadores SLA-01 a SLA-09 que cumplensu meta ÷ indicadores medidos × 100</p>
+</td>
 <td><p>≥ 90 % por</p>
 <p>quincena</p></td>
-<td><blockquote>
-<p>Informe de nivelesdeservicio</p>
-</blockquote></td>
+<td><p>Informe de nivelesdeservicio</p>
+</td>
 </tr>
 <tr class="odd">
 <td>KPI-14</td>
-<td><blockquote>
-<p>Incidentes</p>
+<td><p>Incidentes</p>
 <p>restablecidos en plazo</p>
-</blockquote></td>
-<td><blockquote>
-<p>Incidentes restablecidos dentro del tiempo de su prioridad ÷ incidentes cerrados × 100</p>
-</blockquote></td>
-<td><blockquote>
-<p>≥ 90 %</p>
-</blockquote></td>
-<td><blockquote>
-<p>Registro de incidentes (Jira)</p>
-</blockquote></td>
+</td>
+<td><p>Incidentes restablecidos dentro del tiempo de su prioridad ÷ incidentes cerrados × 100</p>
+</td>
+<td><p>≥ 90 %</p>
+</td>
+<td><p>Registro de incidentes (Jira)</p>
+</td>
 </tr>
 <tr class="even">
 <td>KPI-15</td>
-<td><blockquote>
-<p>Solicitudes</p>
+<td><p>Solicitudes</p>
 <p>atendidas en plazo</p>
-</blockquote></td>
-<td><blockquote>
-<p>Solicitudes atendidas dentro del plazo de 14.7.6÷ solicitudes cerradas ×100</p>
-</blockquote></td>
-<td><blockquote>
-<p>≥ 90 %</p>
-</blockquote></td>
-<td><blockquote>
-<p>Registro de solicitudes (Jira)</p>
-</blockquote></td>
+</td>
+<td><p>Solicitudes atendidas dentro del plazo de 14.7.6÷ solicitudes cerradas ×100</p>
+</td>
+<td><p>≥ 90 %</p>
+</td>
+<td><p>Registro de solicitudes (Jira)</p>
+</td>
 </tr>
 <tr class="odd">
 <td>KPI-16</td>
-<td><blockquote>
-<p>Uso del sistema en las</p>
+<td><p>Uso del sistema en las</p>
 <p>jornadas</p>
-</blockquote></td>
-<td><blockquote>
-<p>Jornadas de los segmentos piloto registradas como sesiones en la app ÷ jornadas programadas</p>
+</td>
+<td><p>Jornadas de los segmentos piloto registradas como sesiones en la app ÷ jornadas programadas</p>
 <p>× 100</p>
-</blockquote></td>
-<td><blockquote>
-<p>100 % en elpostest</p>
-</blockquote></td>
-<td><blockquote>
-<p>monitoring_sessions y plan de jornadas</p>
-</blockquote></td>
+</td>
+<td><p>100 % en elpostest</p>
+</td>
+<td><p>monitoring_sessions y plan de jornadas</p>
+</td>
 </tr>
 </tbody>
 </table>
@@ -530,84 +499,64 @@ La IA solo sugiere indicios; su calidad se mide comparando lo que sugirió con l
 <thead>
 <tr class="header">
 <th><strong>Código</strong></th>
-<th><blockquote>
-<p><strong>KPI</strong></p>
-</blockquote></th>
-<th><blockquote>
-<p><strong>Fórmula</strong></p>
-</blockquote></th>
-<th><blockquote>
-<p><strong>Meta</strong></p>
-</blockquote></th>
-<th><blockquote>
-<p><strong>Uso del resultado</strong></p>
-</blockquote></th>
+<th><p><strong>KPI</strong></p>
+</th>
+<th><p><strong>Fórmula</strong></p>
+</th>
+<th><p><strong>Meta</strong></p>
+</th>
+<th><p><strong>Uso del resultado</strong></p>
+</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>KPI-17</td>
-<td><blockquote>
-<p>Precisión de las sugerencias de la IA</p>
-</blockquote></td>
-<td><blockquote>
-<p>Casos de origenIA confirmados por el especialista ÷ casos de origen IA condecisión final (confirmados + descartados) × 100</p>
-</blockquote></td>
-<td><blockquote>
-<p>≥ 85 %</p>
-</blockquote></td>
-<td><blockquote>
-<p>Si no se cumple, se reentrena el modelo usando los casos revisadoscomoejemplos.</p>
-</blockquote></td>
+<td><p>Precisión de las sugerencias de la IA</p>
+</td>
+<td><p>Casos de origenIA confirmados por el especialista ÷ casos de origen IA condecisión final (confirmados + descartados) × 100</p>
+</td>
+<td><p>≥ 85 %</p>
+</td>
+<td><p>Si no se cumple, se reentrena el modelo usando los casos revisadoscomoejemplos.</p>
+</td>
 </tr>
 <tr class="even">
 <td>KPI-18</td>
-<td><blockquote>
-<p>Tasa de falsos negativos</p>
-</blockquote></td>
-<td><blockquote>
-<p>Fotos con plaga no detectadas (halladas en la muestra de descartadas, proyectadas al total) ÷ (fotos con plaga detectadas + no detectadas) × 100</p>
-</blockquote></td>
-<td><blockquote>
-<p>≤ 5 %</p>
-</blockquote></td>
-<td><blockquote>
-<p>El especialista revisa cada semanauna muestra aleatoria del</p>
+<td><p>Tasa de falsos negativos</p>
+</td>
+<td><p>Fotos con plaga no detectadas (halladas en la muestra de descartadas, proyectadas al total) ÷ (fotos con plaga detectadas + no detectadas) × 100</p>
+</td>
+<td><p>≤ 5 %</p>
+</td>
+<td><p>El especialista revisa cada semanauna muestra aleatoria del</p>
 <p>10 % de las fotos descartadas porlaIA.</p>
-</blockquote></td>
+</td>
 </tr>
 <tr class="odd">
 <td>KPI-19</td>
-<td><blockquote>
-<p>Concordancia de la alerta temprana</p>
-</blockquote></td>
-<td><blockquote>
-<p>Casos «Confirmadopor IA» ratificados por el especialista ÷ casos</p>
+<td><p>Concordancia de la alerta temprana</p>
+</td>
+<td><p>Casos «Confirmadopor IA» ratificados por el especialista ÷ casos</p>
 <p>«Confirmado por IA» revisados × 100</p>
-</blockquote></td>
-<td><blockquote>
-<p>≥ 90 %</p>
-</blockquote></td>
-<td><blockquote>
-<p>Si baja de 90 % en una quincena, se suben los umbrales de confirmación por IA o se apaga esa vía, con aprobación del Product Owner.</p>
-</blockquote></td>
+</td>
+<td><p>≥ 90 %</p>
+</td>
+<td><p>Si baja de 90 % en una quincena, se suben los umbrales de confirmación por IA o se apaga esa vía, con aprobación del Product Owner.</p>
+</td>
 </tr>
 <tr class="even">
 <td>KPI-20</td>
-<td><blockquote>
-<p>Carga de</p>
+<td><p>Carga de</p>
 <p>revisión del especialista</p>
-</blockquote></td>
-<td><blockquote>
-<p>Fotos que pasan a</p>
+</td>
+<td><p>Fotos que pasan a</p>
 <p>«Pendiente de revisión» ÷ fotos analizadas × 100</p>
-</blockquote></td>
-<td><blockquote>
-<p>Seguimiento</p>
-</blockquote></td>
-<td><blockquote>
-<p>Dimensiona el tiempo que el especialista dedica a la bandeja; debe bajar con cada versión del modelo.</p>
-</blockquote></td>
+</td>
+<td><p>Seguimiento</p>
+</td>
+<td><p>Dimensiona el tiempo que el especialista dedica a la bandeja; debe bajar con cada versión del modelo.</p>
+</td>
 </tr>
 </tbody>
 </table>

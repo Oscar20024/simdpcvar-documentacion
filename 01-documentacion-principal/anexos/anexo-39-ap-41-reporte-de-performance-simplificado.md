@@ -131,7 +131,7 @@
 <td>06/10/2026</td>
 </tr>
 <tr>
-<td>Pruebas de integración del webhook de disparo de alertas vía WhatsApp Cloud API.</td>
+<td>Pruebas de integración del webhook de disparo de alertas vía Telegram Bot API.</td>
 <td>Grace Lucia Peña<br>Reyes</td>
 <td>08/10/2026</td>
 </tr>

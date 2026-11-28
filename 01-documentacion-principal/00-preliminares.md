@@ -1,4 +1,6 @@
-![](media/image1.png)
+![Logotipo de la Universidad Tecnológica del Perú (portada)](media/image1.png)
+
+> **Figura transcrita (image1.png):** Logo institucional en la portada del informe. No aporta información técnica. [Transcripción completa](../06-figuras/informe-principal/img01-logotipo-de-la-universidad-tecnologica-del-peru-portada.md)
 
 **Facultad:**
 

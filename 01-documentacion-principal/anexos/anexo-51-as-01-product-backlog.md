@@ -25,7 +25,7 @@
 |  | Oscar Manue l, María Fernanda Zúñiga) |  |  |  |  |
 |---|---|---|---|---|---|
 
-![](../media/image69.png)
+BACKLOG PRIORIZADO DEL PRODUCTO
 
 **Código y Nombre del Proyecto**
 

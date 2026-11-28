@@ -13,47 +13,36 @@ Nota. Este anexo conserva los requisitos con la codificación y la redacción co
 </colgroup>
 <thead>
 <tr class="header">
-<th colspan="6"><blockquote>
-<p>CONTROL DE VERSIONES</p>
-</blockquote></th>
+<th colspan="6"><p>CONTROL DE VERSIONES</p>
+</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><blockquote>
-<p><em><strong>Versión</strong></em></p>
-</blockquote></td>
-<td><blockquote>
-<p><em><strong>Hecha por</strong></em></p>
-</blockquote></td>
-<td><blockquote>
-<p><em><strong>Revisada por</strong></em></p>
-</blockquote></td>
-<td><blockquote>
-<p><em><strong>Aprobada por</strong></em></p>
-</blockquote></td>
+<td><p><em><strong>Versión</strong></em></p>
+</td>
+<td><p><em><strong>Hecha por</strong></em></p>
+</td>
+<td><p><em><strong>Revisada por</strong></em></p>
+</td>
+<td><p><em><strong>Aprobada por</strong></em></p>
+</td>
 <td><em><strong>Fecha</strong></em></td>
-<td><blockquote>
-<p><em><strong>Motivo</strong></em></p>
-</blockquote></td>
+<td><p><em><strong>Motivo</strong></em></p>
+</td>
 </tr>
 <tr class="even">
-<td><blockquote>
-<p>1.1</p>
-</blockquote></td>
-<td><blockquote>
-<p>Equipo del proyecto</p>
-</blockquote></td>
-<td><blockquote>
-<p>Oscar Antonio Gutiérrez Rojas</p>
-</blockquote></td>
-<td><blockquote>
-<p>Pendiente de aprobación formal</p>
-</blockquote></td>
+<td><p>1.1</p>
+</td>
+<td><p>Equipo del proyecto</p>
+</td>
+<td><p>Oscar Antonio Gutiérrez Rojas</p>
+</td>
+<td><p>Pendiente de aprobación formal</p>
+</td>
 <td>30/10/2026</td>
-<td><blockquote>
-<p>Desarrollo del anexo a partir del informe del curso</p>
-</blockquote></td>
+<td><p>Desarrollo del anexo a partir del informe del curso</p>
+</td>
 </tr>
 </tbody>
 </table>
@@ -109,7 +98,9 @@ Nota. Este anexo conserva los requisitos con la codificación y la redacción co
 <td></td>
 </tr>
 <tr>
-<td colspan="4">II. REQUISITOS DE LOS INTERESADOS: DESCRIBIR DETALLADAMENTE LAS NECESIDADES DE LOS INTERESADOS O GRUPO DE<br>INTERESADOS.<br>![](../media/image51.png)</td>
+<td colspan="4">II. REQUISITOS DE LOS INTERESADOS: DESCRIBIR DETALLADAMENTE LAS NECESIDADES DE LOS INTERESADOS O GRUPO DE<br>INTERESADOS.<br>![Logotipo «Dharma Consulting» (encabezado de las plantillas de gestión)](../media/image51.png)</td>
+
+> **Figura transcrita (image51.png):** Encabezado de las plantillas de gestión de proyectos (formatos tipo PMBOK de Dharma Consulting) usadas en varios anexos AP. No aporta información del proyecto. [Transcripción completa](../../06-figuras/informe-principal/img51-logotipo-dharma-consulting-encabezado-de-las-plantillas-de-g.md)
 </tr>
 <tr>
 <td>Código del<br>REQUISITO</td>
@@ -215,62 +206,46 @@ Nota. Este anexo conserva los requisitos con la codificación y la redacción co
 </colgroup>
 <thead>
 <tr class="header">
-<th><blockquote>
-<p>RNF-01</p>
-</blockquote></th>
-<th><blockquote>
-<p>Disponibilidad de captura local con conectividad limitada</p>
-</blockquote></th>
-<th><blockquote>
-<p>Operador</p>
-</blockquote></th>
-<th><blockquote>
-<p>Alta</p>
-</blockquote></th>
+<th><p>RNF-01</p>
+</th>
+<th><p>Disponibilidad de captura local con conectividad limitada</p>
+</th>
+<th><p>Operador</p>
+</th>
+<th><p>Alta</p>
+</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><blockquote>
-<p>RNF-02</p>
-</blockquote></td>
-<td><blockquote>
-<p>Validación rápida de calidad de imágenes</p>
-</blockquote></td>
-<td><blockquote>
-<p>Aplicación móvil</p>
-</blockquote></td>
-<td><blockquote>
-<p>Alta</p>
-</blockquote></td>
+<td><p>RNF-02</p>
+</td>
+<td><p>Validación rápida de calidad de imágenes</p>
+</td>
+<td><p>Aplicación móvil</p>
+</td>
+<td><p>Alta</p>
+</td>
 </tr>
 <tr class="even">
-<td><blockquote>
-<p>RNF-03</p>
-</blockquote></td>
-<td><blockquote>
-<p>Autenticación y transmisión segura</p>
-</blockquote></td>
-<td><blockquote>
-<p>Administrador</p>
-</blockquote></td>
-<td><blockquote>
-<p>Alta</p>
-</blockquote></td>
+<td><p>RNF-03</p>
+</td>
+<td><p>Autenticación y transmisión segura</p>
+</td>
+<td><p>Administrador</p>
+</td>
+<td><p>Alta</p>
+</td>
 </tr>
 <tr class="odd">
-<td><blockquote>
-<p>RNF-04</p>
-</blockquote></td>
-<td><blockquote>
-<p>Persistencia segura de fotos y metadatos</p>
-</blockquote></td>
-<td><blockquote>
-<p>Administrador</p>
-</blockquote></td>
-<td><blockquote>
-<p>Alta</p>
-</blockquote></td>
+<td><p>RNF-04</p>
+</td>
+<td><p>Persistencia segura de fotos y metadatos</p>
+</td>
+<td><p>Administrador</p>
+</td>
+<td><p>Alta</p>
+</td>
 </tr>
 </tbody>
 </table>
@@ -340,7 +315,9 @@ Nota. Este anexo conserva los requisitos con la codificación y la redacción co
 <td colspan="4">VI. REQUISITOS DE CALIDAD: DESCRIBIR LAS CONDICIONES O CRITERIOS NECESARIOS PARA VALIDAR EL ÉXITO DEL PROYECTO entregado, o el cumplimiento de otros requisitos del proyecto. Se puede incluir pruebas, certificaciones, validaciones, etc.</td>
 </tr>
 <tr>
-<td>Código del<br>REQUISITO<br>![](../media/image51.png)</td>
+<td>Código del<br>REQUISITO<br>![Logotipo «Dharma Consulting» (encabezado de las plantillas de gestión)](../media/image51.png)</td>
+
+> **Figura transcrita (image51.png):** Encabezado de las plantillas de gestión de proyectos (formatos tipo PMBOK de Dharma Consulting) usadas en varios anexos AP. No aporta información del proyecto. [Transcripción completa](../../06-figuras/informe-principal/img51-logotipo-dharma-consulting-encabezado-de-las-plantillas-de-g.md)
 <td>Descripción del Requisito</td>
 <td>Fuente</td>
 <td>Prioridad</td>

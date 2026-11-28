@@ -20,7 +20,7 @@ El alcance del proyecto comprende de forma detallada los siguientes elementos:
 
 - **Modelo de inteligencia artificial:** Entrenamiento e integración de un modelo YOLO de visión artificial para sugerir posibles indicios visuales de chanchito en racimos y hojas. La IA no emite diagnósticos definitivos ni activa tratamientos por sí sola; únicamente prioriza evidencia y genera indicios que deben ser revisados por el especialista fitosanitario.
 
-- **Plataforma Django centralizada:** Construcción de una plataforma en Python y Django que integra API REST para la app móvil, web de revisión para especialistas, paneles de supervisión, gestión de usuarios, catálogos, sesiones, capturas, casos y reportes. La web se implementa con plantillas Django, HTMX y Leaflet/OpenStreetMap dentro del mismo repositorio de plataforma.
+- **Plataforma Django centralizada:** Construcción de una plataforma en Python y Django que integra API REST para la app móvil, web de revisión para especialistas, paneles de supervisión, gestión de usuarios, catálogos, sesiones, capturas, casos y reportes. La web se implementa con plantillas Django, HTMX y Leaflet sobre teselas satelitales Esri y OpenStreetMap dentro del mismo repositorio de plataforma.
 
 - **Infraestructura, almacenamiento y notificaciones:** Uso de PostgreSQL gestionado en Supabase como base de datos central, Cloudinary para el almacenamiento seguro de fotografías, tabla ai_tasks como cola de análisis y Telegram Bot API para avisos oficiales (SC-02). Las notificaciones se generan cuando el especialista confirma un caso desde la plataforma web y, como alerta temprana, cuando la IA marca un caso como «Confirmado por IA», con el aviso señalado «falta la revisión del especialista» (SC-03).
 
@@ -100,7 +100,9 @@ equivalente a doce semanas de trabajo distribuidas en seis sprints. La secuencia
 
 El diagrama de Gantt organiza las actividades del proyecto de acuerdo con fases, responsables, duración estimada y sprints de ejecución. Su objetivo es mostrar la secuencia temporal del trabajo y evitar dependencias mal ubicadas; por ejemplo, la sincronización móvil debe validarse antes de la revisión web completa, y el envío de avisos por Telegram (SC-02) debe probarse después de confirmar el flujo de decisión del especialista.
 
-![](media/image11.jpeg)
+![Diagrama de Gantt del proyecto (6.7)](media/image11.jpeg)
+
+> **Figura transcrita (image11.jpeg):** Cronograma de 12 semanas en 6 sprints de 2 semanas (01/09/2026 a 20/11/2026): iniciación, prototipo físico y app, IA, plataforma web, integración (offline, sincronización, avisos) y piloto con cierre. Las marcas por semana son de lectura visual de la imagen. [Transcripción completa](../06-figuras/informe-principal/img11-diagrama-de-gantt-del-proyecto-6-7.md)
 
 Link del diagrama de Gantt:
 
@@ -128,7 +130,9 @@ Se definen las responsabilidades y perfiles requeridos para el proyecto: jefe de
 
 ## 6.12. Matriz RAM/RACI
 
-![](media/image12.jpeg)
+![Matriz RAM/RACI del proyecto (6.12)](media/image12.jpeg)
+
+> **Figura transcrita (image12.jpeg):** Asigna quién hace, aprueba, es consultado o informado en cada entregable. La Gerencia General aprueba el inicio y el cierre; el Jefe de Fundo aprueba requerimientos, pruebas y piloto. Lectura visual de la imagen (cada celda es un desplegable de color). [Transcripción completa](../06-figuras/informe-principal/img12-matriz-ram-raci-del-proyecto-6-12.md)
 
 Link de Matriz RAM/RACI:
 

@@ -22,7 +22,7 @@
 </tr>
 </table>
 
-![](../media/image62.png)
+INSTRUMENTOS DE INVESTIGACIÓN
 
 **Código y Nombre del Proyecto**
 
@@ -174,7 +174,7 @@
 </tr>
 <tr>
 <td>3.2</td>
-<td>Tiempo transcurrido para la emisión de la alerta oficial por WhatsApp</td>
+<td>Tiempo transcurrido para la emisión de la alerta oficial por Telegram</td>
 <td>24.0 horas</td>
 <td>8.5 segundos</td>
 </tr>
@@ -353,7 +353,7 @@
 </tr>
 <tr>
 <td>13</td>
-<td>El envío automático de alertas por WhatsApp agilizó la atención del foco detectado.</td>
+<td>El envío automático de alertas por Telegram agilizó la atención del foco detectado.</td>
 <td></td>
 <td></td>
 <td></td>

@@ -4,19 +4,27 @@ Nota de alcance. Las Tablas 33 a 36, los diagramas de las secciones 10.1 a 10.4 
 
 ## 10.1. Modelo conceptual
 
-![](media/image41.png)
+![Modelo conceptual de datos (10.1)](media/image41.png)
+
+> **Figura transcrita (image41.png):** Entidades principales y cómo se relacionan: un usuario hace sesiones; cada pasada pertenece a un lote y una sesión; cada captura genera evidencias y tareas de IA; cada tarea produce detecciones que el especialista revisa. [Transcripción completa](../06-figuras/informe-principal/img41-modelo-conceptual-de-datos-10-1.md)
 
 ## 10.2. Modelo lógico
 
-![](media/image42.png)
+![Modelo lógico de datos (10.2)](media/image42.png)
+
+> **Figura transcrita (image42.png):** Pasa el modelo conceptual a tablas con claves primarias (PK) y foráneas (FK). [Transcripción completa](../06-figuras/informe-principal/img42-modelo-logico-de-datos-10-2.md)
 
 ## 10.3. Modelo físico
 
-![](media/image43.png)
+![Modelo físico de datos (10.3)](media/image43.png)
+
+> **Figura transcrita (image43.png):** Define los tipos de datos para PostgreSQL: identificadores UUID, coordenadas con 6 decimales, resultados de la IA en JSONB y restricciones CHECK de estado. [Transcripción completa](../06-figuras/informe-principal/img43-modelo-fisico-de-datos-10-3.md)
 
 ## 10.4. Diagrama entidad-relación
 
-![](media/image44.jpeg)
+![Diagrama entidad-relación (10.4)](media/image44.jpeg)
+
+> **Figura transcrita (image44.jpeg):** Versión más completa del diseño de datos, con fechas de auditoría, versión del modelo de IA, cajas (bbox) y recortes de cada detección. Lectura de la imagen ampliada; algunos tipos pueden variar levemente. [Transcripción completa](../06-figuras/informe-principal/img44-diagrama-entidad-relacion-10-4.md)
 
 ## 10.5. Tablas
 
@@ -31,64 +39,48 @@ Nota de alcance. Las Tablas 33 a 36, los diagramas de las secciones 10.1 a 10.4 
 </colgroup>
 <thead>
 <tr class="header">
-<th><blockquote>
-<p><strong>Tabla</strong></p>
-</blockquote></th>
-<th><blockquote>
-<p><strong>Finalidad</strong></p>
-</blockquote></th>
-<th><blockquote>
-<p><strong>PK</strong></p>
-</blockquote></th>
-<th><blockquote>
-<p><strong>FK</strong></p>
+<th><p><strong>Tabla</strong></p>
+</th>
+<th><p><strong>Finalidad</strong></p>
+</th>
+<th><p><strong>PK</strong></p>
+</th>
+<th><p><strong>FK</strong></p>
 <p><strong>principales</strong></p>
-</blockquote></th>
+</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><blockquote>
-<p><strong>roles</strong></p>
-</blockquote></td>
-<td><blockquote>
-<p><strong>Catálogo de perfiles</strong></p>
-</blockquote></td>
-<td><blockquote>
-<p><strong>id_rol</strong></p>
-</blockquote></td>
-<td><blockquote>
-<p><strong>—</strong></p>
-</blockquote></td>
+<td><p><strong>roles</strong></p>
+</td>
+<td><p><strong>Catálogo de perfiles</strong></p>
+</td>
+<td><p><strong>id_rol</strong></p>
+</td>
+<td><p><strong>—</strong></p>
+</td>
 </tr>
 <tr class="even">
-<td><blockquote>
-<p><strong>usuarios</strong></p>
-</blockquote></td>
-<td><blockquote>
-<p><strong>Usuarios del sistema</strong></p>
-</blockquote></td>
-<td><blockquote>
-<p><strong>id_usuario</strong></p>
-</blockquote></td>
-<td><blockquote>
-<p><strong>id_rol</strong></p>
-</blockquote></td>
+<td><p><strong>usuarios</strong></p>
+</td>
+<td><p><strong>Usuarios del sistema</strong></p>
+</td>
+<td><p><strong>id_usuario</strong></p>
+</td>
+<td><p><strong>id_rol</strong></p>
+</td>
 </tr>
 <tr class="odd">
-<td><blockquote>
-<p><strong>sesiones</strong></p>
-</blockquote></td>
-<td><blockquote>
-<p><strong>Sesiones de</strong></p>
+<td><p><strong>sesiones</strong></p>
+</td>
+<td><p><strong>Sesiones de</strong></p>
 <p><strong>autenticación/monitoreo</strong></p>
-</blockquote></td>
-<td><blockquote>
-<p><strong>id_sesion</strong></p>
-</blockquote></td>
-<td><blockquote>
-<p><strong>id_usuario</strong></p>
-</blockquote></td>
+</td>
+<td><p><strong>id_sesion</strong></p>
+</td>
+<td><p><strong>id_usuario</strong></p>
+</td>
 </tr>
 </tbody>
 </table>
@@ -102,119 +94,87 @@ Nota de alcance. Las Tablas 33 a 36, los diagramas de las secciones 10.1 a 10.4 
 </colgroup>
 <thead>
 <tr class="header">
-<th><blockquote>
-<p><strong>lotes</strong></p>
-</blockquote></th>
-<th><blockquote>
-<p><strong>Lotes o ubicaciones del fundo</strong></p>
-</blockquote></th>
-<th><blockquote>
-<p><strong>id_lote</strong></p>
-</blockquote></th>
-<th><blockquote>
-<p><strong>—</strong></p>
-</blockquote></th>
+<th><p><strong>lotes</strong></p>
+</th>
+<th><p><strong>Lotes o ubicaciones del fundo</strong></p>
+</th>
+<th><p><strong>id_lote</strong></p>
+</th>
+<th><p><strong>—</strong></p>
+</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><blockquote>
-<p><strong>pasadas</strong></p>
-</blockquote></td>
-<td><blockquote>
-<p><strong>Recorridos/segmentos de monitoreo</strong></p>
-</blockquote></td>
-<td><blockquote>
-<p><strong>id_pasada</strong></p>
-</blockquote></td>
-<td><blockquote>
-<p><strong>id_lote, id_sesion</strong></p>
-</blockquote></td>
+<td><p><strong>pasadas</strong></p>
+</td>
+<td><p><strong>Recorridos/segmentos de monitoreo</strong></p>
+</td>
+<td><p><strong>id_pasada</strong></p>
+</td>
+<td><p><strong>id_lote, id_sesion</strong></p>
+</td>
 </tr>
 <tr class="even">
-<td><blockquote>
-<p><strong>capturas</strong></p>
-</blockquote></td>
-<td><blockquote>
-<p><strong>Registro de fotografías y contexto</strong></p>
-</blockquote></td>
-<td><blockquote>
-<p><strong>id_captura</strong></p>
-</blockquote></td>
-<td><blockquote>
-<p><strong>id_pasada</strong></p>
-</blockquote></td>
+<td><p><strong>capturas</strong></p>
+</td>
+<td><p><strong>Registro de fotografías y contexto</strong></p>
+</td>
+<td><p><strong>id_captura</strong></p>
+</td>
+<td><p><strong>id_pasada</strong></p>
+</td>
 </tr>
 <tr class="odd">
-<td><blockquote>
-<p><strong>evidencias</strong></p>
-</blockquote></td>
-<td><blockquote>
-<p><strong>Referencia y metadatos de archivos</strong></p>
-</blockquote></td>
-<td><blockquote>
-<p><strong>id_evidencia</strong></p>
-</blockquote></td>
-<td><blockquote>
-<p><strong>id_captura</strong></p>
-</blockquote></td>
+<td><p><strong>evidencias</strong></p>
+</td>
+<td><p><strong>Referencia y metadatos de archivos</strong></p>
+</td>
+<td><p><strong>id_evidencia</strong></p>
+</td>
+<td><p><strong>id_captura</strong></p>
+</td>
 </tr>
 <tr class="even">
-<td><blockquote>
-<p><strong>ai_tasks</strong></p>
-</blockquote></td>
-<td><blockquote>
-<p><strong>Tareas de</strong></p>
+<td><p><strong>ai_tasks</strong></p>
+</td>
+<td><p><strong>Tareas de</strong></p>
 <p><strong>procesamiento IA</strong></p>
-</blockquote></td>
-<td><blockquote>
-<p><strong>id_task</strong></p>
-</blockquote></td>
-<td><blockquote>
-<p><strong>id_captura</strong></p>
-</blockquote></td>
+</td>
+<td><p><strong>id_task</strong></p>
+</td>
+<td><p><strong>id_captura</strong></p>
+</td>
 </tr>
 <tr class="odd">
-<td><blockquote>
-<p><strong>detecciones</strong></p>
-</blockquote></td>
-<td><blockquote>
-<p><strong>Resultados de visión artificial</strong></p>
-</blockquote></td>
-<td><blockquote>
-<p><strong>id_deteccion</strong></p>
-</blockquote></td>
-<td><blockquote>
-<p><strong>id_task</strong></p>
-</blockquote></td>
+<td><p><strong>detecciones</strong></p>
+</td>
+<td><p><strong>Resultados de visión artificial</strong></p>
+</td>
+<td><p><strong>id_deteccion</strong></p>
+</td>
+<td><p><strong>id_task</strong></p>
+</td>
 </tr>
 <tr class="even">
-<td><blockquote>
-<p><strong>revisiones</strong></p>
-</blockquote></td>
-<td><blockquote>
-<p><strong>Validación del especialista</strong></p>
-</blockquote></td>
-<td><blockquote>
-<p><strong>id_revision</strong></p>
-</blockquote></td>
-<td><blockquote>
-<p><strong>id_deteccion, id_usuario</strong></p>
-</blockquote></td>
+<td><p><strong>revisiones</strong></p>
+</td>
+<td><p><strong>Validación del especialista</strong></p>
+</td>
+<td><p><strong>id_revision</strong></p>
+</td>
+<td><p><strong>id_deteccion, id_usuario</strong></p>
+</td>
 </tr>
 <tr class="odd">
-<td><blockquote>
-<p><strong>auditoria</strong></p>
-</blockquote></td>
-<td><blockquote>
-<p><strong>Registro de acciones</strong></p>
-</blockquote></td>
-<td><blockquote>
-<p><strong>id_auditoria</strong></p>
-</blockquote></td>
-<td><blockquote>
-<p><strong>id_usuario</strong></p>
-</blockquote></td>
+<td><p><strong>auditoria</strong></p>
+</td>
+<td><p><strong>Registro de acciones</strong></p>
+</td>
+<td><p><strong>id_auditoria</strong></p>
+</td>
+<td><p><strong>id_usuario</strong></p>
+</td>
 </tr>
 </tbody>
 </table>

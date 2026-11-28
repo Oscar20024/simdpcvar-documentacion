@@ -48,7 +48,7 @@ Juicio de Expertos: Procedimiento de validación de contenido en el cual metodó
 
 JWT (JSON Web Token): Estándar de seguridad utilizado para la autenticación y transmisión segura de información de identidad entre el cliente y el backend.
 
-Leaflet / OpenStreetMap: Herramientas de cartografía digital utilizadas en la plataforma web para representar interactivamente los mapas de hallazgos en los lotes.
+Leaflet sobre teselas satelitales Esri y OpenStreetMap: Herramientas de cartografía digital utilizadas en la plataforma web para representar interactivamente los mapas de hallazgos en los lotes.
 
 Lote: División territorial o parcela delimitada dentro del fundo agrícola destinada al cultivo de vid.
 

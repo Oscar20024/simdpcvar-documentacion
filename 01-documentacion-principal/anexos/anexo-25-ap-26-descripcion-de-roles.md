@@ -48,60 +48,46 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th colspan="11"><blockquote>
-<p><strong><span class="smallcaps">Nombre del Rol</span></strong></p>
-</blockquote></th>
+<th colspan="11"><p><strong><span class="smallcaps">Nombre del Rol</span></strong></p>
+</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td colspan="11"><blockquote>
-<p>Project Manager / Líder de Arquitectura</p>
-</blockquote></td>
+<td colspan="11"><p>Project Manager / Líder de Arquitectura</p>
+</td>
 </tr>
 <tr class="even">
-<td colspan="11"><blockquote>
-<p><strong>OBJETIVOS DEL ROL:</strong> <em>OBJETIVOS QUE DEBE LOGRAR EL ROL DENTRO DEL PROYECTO (¿PARA QUÉ SE HA CREADO EL ROL?).</em></p>
-</blockquote></td>
+<td colspan="11"><p><strong>OBJETIVOS DEL ROL:</strong> <em>OBJETIVOS QUE DEBE LOGRAR EL ROL DENTRO DEL PROYECTO (¿PARA QUÉ SE HA CREADO EL ROL?).</em></p>
+</td>
 </tr>
 <tr class="odd">
-<td colspan="11"><blockquote>
-<p>Dirigir, planificar, coordinar y controlar la ejecución integral del proyecto SIMDPCVAR bajo un enfoque híbrido, asegurando que los entregables se completen dentro de los límites de alcance, tiempo, costo y calidad definidos por la organización y la universidad.</p>
-</blockquote></td>
+<td colspan="11"><p>Dirigir, planificar, coordinar y controlar la ejecución integral del proyecto SIMDPCVAR bajo un enfoque híbrido, asegurando que los entregables se completen dentro de los límites de alcance, tiempo, costo y calidad definidos por la organización y la universidad.</p>
+</td>
 </tr>
 <tr class="even">
 <td><p><strong><span class="smallcaps">Responsabilidades:</span></strong></p>
 <p><em>RESPONSABLE?).</em></p></td>
-<td><blockquote>
-<p><em><span class="smallcaps">Temas</span></em></p>
-</blockquote></td>
-<td><blockquote>
-<p><em>PUNTUALES</em></p>
-</blockquote></td>
-<td><blockquote>
-<p><em>POR</em></p>
-</blockquote></td>
-<td><blockquote>
-<p><em>LOS</em></p>
-</blockquote></td>
-<td><blockquote>
-<p><em>CUALES</em></p>
-</blockquote></td>
-<td><blockquote>
-<p><em>ES</em></p>
-</blockquote></td>
-<td><blockquote>
-<p><em>RESPONSABLE</em></p>
-</blockquote></td>
-<td><blockquote>
-<p><em>(¿DE</em></p>
-</blockquote></td>
-<td><blockquote>
-<p><em>QUÉ</em></p>
-</blockquote></td>
-<td><blockquote>
-<p><em>ES</em></p>
-</blockquote></td>
+<td><p><em><span class="smallcaps">Temas</span></em></p>
+</td>
+<td><p><em>PUNTUALES</em></p>
+</td>
+<td><p><em>POR</em></p>
+</td>
+<td><p><em>LOS</em></p>
+</td>
+<td><p><em>CUALES</em></p>
+</td>
+<td><p><em>ES</em></p>
+</td>
+<td><p><em>RESPONSABLE</em></p>
+</td>
+<td><p><em>(¿DE</em></p>
+</td>
+<td><p><em>QUÉ</em></p>
+</td>
+<td><p><em>ES</em></p>
+</td>
 </tr>
 </tbody>
 </table>
@@ -245,7 +231,7 @@
 | OBJETIVOS DEL ROL: OBJETIVOS QUE DEBE LOGRAR EL ROL DENTRO DEL PROYECTO (¿PARA QUÉ SE HA CREADO EL ROL?). |
 | Diseñar, cotizar, ensamblar, calibrar y validar mecánicamente el prototipo físico vestible de captura bilateral, garantizando su durabilidad, estabilidad fotográfica y ergonomía para el operador de campo. |
 | RESPONSABILIDADES: TEMAS PUNTUALES POR LOS CUALES ES RESPONSABLE (¿DE QUÉ ES RESPONSABLE?). |
-| Selección y adquisición de materiales físicos para el soporte ergonómico (brazo/mochila, barra tipo T, abrazaderas, correas) |
+| Selección y adquisición de materiales físicos para el soporte ergonómico (brazo, barra tipo T, abrazaderas, correas) |
 | Ensamblaje estructural y ajuste mecánico del soporte vestible. |
 | Calibración de ángulos, distancia y estabilidad de enfoque de los dispositivos móviles. |
 | Verificación de la comodidad y reducción de fatiga física en los operadores durante las pruebas de campo. |
@@ -276,152 +262,120 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th colspan="11"><blockquote>
-<p><strong>SUPERVISA A:</strong> <em>A QUIÉNES SUPERVISA DENTRO DEL PROYECTO.</em></p>
-</blockquote></th>
+<th colspan="11"><p><strong>SUPERVISA A:</strong> <em>A QUIÉNES SUPERVISA DENTRO DEL PROYECTO.</em></p>
+</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td colspan="11"><blockquote>
-<p>Apoyo técnico de operadores durante las pruebas físicas en campo.</p>
-</blockquote></td>
+<td colspan="11"><p>Apoyo técnico de operadores durante las pruebas físicas en campo.</p>
+</td>
 </tr>
 <tr class="even">
-<td colspan="11"><blockquote>
-<p><strong>REQUISITOS DEL ROL:</strong> <em>QUÉ REQUISITOS DEBEN CUMPLIR LAS PERSONAS QUE ASUMAN EL ROL.</em></p>
-</blockquote></td>
+<td colspan="11"><p><strong>REQUISITOS DEL ROL:</strong> <em>QUÉ REQUISITOS DEBEN CUMPLIR LAS PERSONAS QUE ASUMAN EL ROL.</em></p>
+</td>
 </tr>
 <tr class="odd">
-<td colspan="2"><blockquote>
-<p><strong><span class="smallcaps">Conocimientos:</span></strong></p>
+<td colspan="2"><p><strong><span class="smallcaps">Conocimientos:</span></strong></p>
 <p><em><span class="smallcaps">Qué temas, materias, o especialidades debe conocer, manejar o dominar.</span></em></p>
-</blockquote></td>
-<td colspan="9"><blockquote>
-<p>Ensamble de prototipos físicos, física aplicada/mecánica ligera, ergonomía ocupacional, calibración óptica de dispositivos.</p>
-</blockquote></td>
+</td>
+<td colspan="9"><p>Ensamble de prototipos físicos, física aplicada/mecánica ligera, ergonomía ocupacional, calibración óptica de dispositivos.</p>
+</td>
 </tr>
 <tr class="even">
-<td colspan="2"><blockquote>
-<p><strong><span class="smallcaps">Habilidades:</span></strong></p>
+<td colspan="2"><p><strong><span class="smallcaps">Habilidades:</span></strong></p>
 <p><em><span class="smallcaps">Qué habilidades específicas debe poseer y en qué grado.</span></em></p>
-</blockquote></td>
-<td colspan="9"><blockquote>
-<p>Destreza manual, resolución de problemas mecánicos en entorno de campo, pragmatismo e innovación de hardware.</p>
-</blockquote></td>
+</td>
+<td colspan="9"><p>Destreza manual, resolución de problemas mecánicos en entorno de campo, pragmatismo e innovación de hardware.</p>
+</td>
 </tr>
 <tr class="odd">
-<td colspan="2"><blockquote>
-<p><strong><span class="smallcaps">Experiencia:</span></strong></p>
+<td colspan="2"><p><strong><span class="smallcaps">Experiencia:</span></strong></p>
 <p><em><span class="smallcaps">Qué experiencia debe tener, sobre qué temas o situaciones, y de qué nivel.</span></em></p>
-</blockquote></td>
+</td>
 <td colspan="9">Experiencia en proyectos de integración de hardware, electrónica básica o diseño de prototipos físicos.</td>
 </tr>
 <tr class="even">
 <td colspan="2"><p><strong><span class="smallcaps">Otros:</span></strong></p>
-<blockquote>
 <p><em><span class="smallcaps">Otros requisitos especiales tales como género, edad, nacionalidad, estado de salud, condiciones físicas,</span></em></p>
-</blockquote>
 <p><em>ETC.</em></p></td>
 <td colspan="9">Estudiante del último año de la carrera de Ingeniería de Sistemas.</td>
 </tr>
 <tr class="odd">
-<td colspan="11"><blockquote>
-<p><strong><span class="smallcaps">Nombre del Rol</span></strong></p>
-</blockquote></td>
+<td colspan="11"><p><strong><span class="smallcaps">Nombre del Rol</span></strong></p>
+</td>
 </tr>
 <tr class="even">
-<td colspan="11"><blockquote>
-<p>Desarrollador Backend, Plataforma Web e IA</p>
-</blockquote></td>
+<td colspan="11"><p>Desarrollador Backend, Plataforma Web e IA</p>
+</td>
 </tr>
 <tr class="odd">
-<td colspan="11"><blockquote>
-<p><strong>OBJETIVOS DEL ROL:</strong> <em>OBJETIVOS QUE DEBE LOGRAR EL ROL DENTRO DEL PROYECTO (¿PARA QUÉ SE HA CREADO EL ROL?).</em></p>
-</blockquote></td>
+<td colspan="11"><p><strong>OBJETIVOS DEL ROL:</strong> <em>OBJETIVOS QUE DEBE LOGRAR EL ROL DENTRO DEL PROYECTO (¿PARA QUÉ SE HA CREADO EL ROL?).</em></p>
+</td>
 </tr>
 <tr class="even">
-<td colspan="11"><blockquote>
-<p>Construir, integrar y desplegar los componentes de software de la solución: app móvil React Native, backend Django (Python), worker de IA en Django (YOLO exportado a ONNX) y plataforma web con Django Templates + HTMX.</p>
-</blockquote></td>
+<td colspan="11"><p>Construir, integrar y desplegar los componentes de software de la solución: app móvil React Native, backend Django (Python), worker de IA en Django (YOLO exportado a ONNX) y plataforma web con Django Templates + HTMX.</p>
+</td>
 </tr>
 <tr class="odd">
 <td><p><strong><span class="smallcaps">Responsabilidades:</span></strong></p>
 <p><em>RESPONSABLE?).</em></p></td>
-<td><blockquote>
-<p><em><span class="smallcaps">Temas</span></em></p>
-</blockquote></td>
-<td><blockquote>
-<p><em>PUNTUALES</em></p>
-</blockquote></td>
-<td><blockquote>
-<p><em>POR</em></p>
-</blockquote></td>
-<td><blockquote>
-<p><em>LOS</em></p>
-</blockquote></td>
-<td><blockquote>
-<p><em>CUALES</em></p>
-</blockquote></td>
-<td><blockquote>
-<p><em>ES</em></p>
-</blockquote></td>
-<td><blockquote>
-<p><em>RESPONSABLE</em></p>
-</blockquote></td>
-<td><blockquote>
-<p><em>(¿DE</em></p>
-</blockquote></td>
-<td><blockquote>
-<p><em>QUÉ</em></p>
-</blockquote></td>
-<td><blockquote>
-<p><em>ES</em></p>
-</blockquote></td>
+<td><p><em><span class="smallcaps">Temas</span></em></p>
+</td>
+<td><p><em>PUNTUALES</em></p>
+</td>
+<td><p><em>POR</em></p>
+</td>
+<td><p><em>LOS</em></p>
+</td>
+<td><p><em>CUALES</em></p>
+</td>
+<td><p><em>ES</em></p>
+</td>
+<td><p><em>RESPONSABLE</em></p>
+</td>
+<td><p><em>(¿DE</em></p>
+</td>
+<td><p><em>QUÉ</em></p>
+</td>
+<td><p><em>ES</em></p>
+</td>
 </tr>
 <tr class="even">
-<td colspan="11"><blockquote>
-<p>Desarrollo de la aplicación móvil offline-first y sus algoritmos locales de nitidez.</p>
-</blockquote></td>
+<td colspan="11"><p>Desarrollo de la aplicación móvil offline-first y sus algoritmos locales de nitidez.</p>
+</td>
 </tr>
 <tr class="odd">
-<td colspan="11"><blockquote>
-<p>Entrenamiento, validación y empaquetamiento del modelo de visión artificial en</p>
+<td colspan="11"><p>Entrenamiento, validación y empaquetamiento del modelo de visión artificial en</p>
 <p>Docker.</p>
-</blockquote></td>
+</td>
 </tr>
 <tr class="even">
-<td colspan="11"><blockquote>
-<p>Desarrollo de las APIs REST en Django y la persistencia en Supabase</p>
+<td colspan="11"><p>Desarrollo de las APIs REST en Django y la persistencia en Supabase</p>
 <p>(PostgreSQL) y Cloudinary.</p>
-</blockquote></td>
+</td>
 </tr>
 <tr class="odd">
-<td colspan="11"><blockquote>
-<p>Construcción de la plataforma web centralizada con Django Templates + HTMX y mapa interactivo Leaflet.</p>
-</blockquote></td>
+<td colspan="11"><p>Construcción de la plataforma web centralizada con Django Templates + HTMX y mapa interactivo Leaflet.</p>
+</td>
 </tr>
 <tr class="even">
-<td colspan="11"><blockquote>
-<p>Integración del canal oficial de notificaciones de Telegram Bot API (SC-02).</p>
-</blockquote></td>
+<td colspan="11"><p>Integración del canal oficial de notificaciones de Telegram Bot API (SC-02).</p>
+</td>
 </tr>
 <tr class="odd">
-<td colspan="11"><blockquote>
-<p><strong>FUNCIONES:</strong> <em>FUNCIONES ESPECÍFICAS QUE DEBE CUMPLIR (¿QUÉ DEBE REALIZAR PARA LOGRAR SUS OBJETIVOS Y CUBRIR SUS RESPONSABILIDADES?).</em></p>
-</blockquote></td>
+<td colspan="11"><p><strong>FUNCIONES:</strong> <em>FUNCIONES ESPECÍFICAS QUE DEBE CUMPLIR (¿QUÉ DEBE REALIZAR PARA LOGRAR SUS OBJETIVOS Y CUBRIR SUS RESPONSABILIDADES?).</em></p>
+</td>
 </tr>
 <tr class="even">
-<td colspan="11"><blockquote>
-<p>Programar la lógica de captura, almacenamiento local SQLite y sincronización</p>
+<td colspan="11"><p>Programar la lógica de captura, almacenamiento local SQLite y sincronización</p>
 <p>automática.</p>
-</blockquote></td>
+</td>
 </tr>
 <tr class="odd">
-<td colspan="11"><blockquote>
-<p>Curar, etiquetar y procesar el dataset de Planococcus ficus para entrenar la red</p>
+<td colspan="11"><p>Curar, etiquetar y procesar el dataset de Planococcus ficus para entrenar la red</p>
 <p>YOLO.</p>
-</blockquote></td>
+</td>
 </tr>
 </tbody>
 </table>

@@ -22,13 +22,17 @@ Nota de alcance. Los wireframes, mockups y capturas de este capítulo (Fig. 9.3 
 
 El operador recorre el viñedo capturando evidencia fotográfica de cada planta. El flujo contempla dos puntos de decisión críticos: la validación automática de calidad de cada fotografía y la disponibilidad de conexión a internet, que determina si la sincronización ocurre de inmediato o queda pendiente en el dispositivo.
 
-![](media/image20.png)
+![Flujo de usuario del operador de campo (9.2)](media/image20.png)
+
+> **Figura transcrita (image20.png):** Recorrido del operador en la app: elegir función, abrir sesión, capturar, repetir si la foto es mala, guardar sin internet, sincronizar y cerrar. [Transcripción completa](../06-figuras/informe-principal/img20-flujo-de-usuario-del-operador-de-campo-9-2.md)
 
 **Flujo del Especialista Fitosanitario / Encargado de Fundo**
 
 Desde el Dashboard, el especialista revisa los indicios detectados por la IA y decide si confirma o descarta cada hallazgo. Todo hallazgo confirmado deriva en el registro de la observación fitosanitaria y dispara automáticamente una alerta por Telegram al jefe de fundo y al supervisor de zona (SC-02); además, los casos «Confirmado por IA» generan una alerta temprana marcada «falta la revisión del especialista» (SC-03). El Dashboard también da acceso directo al Mapa Operativo y a los Reportes.
 
-![](media/image21.png)
+![Flujo de usuario del especialista fitosanitario / encargado de fundo (9.2)](media/image21.png)
+
+> **Figura transcrita (image21.png):** Recorrido del especialista en la web: ver indicadores, revisar casos de la IA, confirmar o descartar y consultar mapa y reportes. [Transcripción completa](../06-figuras/informe-principal/img21-flujo-de-usuario-del-especialista-fitosanitario-encargado-de.md)
 
 ## 9.3. Arquitectura de información
 
@@ -80,67 +84,99 @@ Plataforma web (especialista, jefe de fundo, administración) PLATAFORMA
 
 ## 9.4. Wireframes
 
-![](media/image22.jpeg)
+![Fig. 9.3 – Wireframe «Selección de rol» (app, prototipo inicial)](media/image22.jpeg)
+
+> **Figura transcrita (image22.jpeg):** Primera pantalla del prototipo: el celular elige si será el controlador o una de las dos cámaras. En el documento comparte espacio con la Fig. 9.4 «Listado de sesiones de captura» (imagen no extraída por separado). [Transcripción completa](../06-figuras/informe-principal/img22-fig-9-3-wireframe-seleccion-de-rol-app-prototipo-inicial.md)
 
 *Fig. 9.3 – Selección de rol Fig. 9.4 – Listado de sesiones de captura*
 
-![](media/image24.jpeg)![](media/image25.jpeg)
+![Fig. 9.5 – Wireframe «Recorrido activo» (app, prototipo inicial)](media/image24.jpeg)![Fig. 9.6 – Wireframe «Cambiar zona (lote, hilera, marcador)» (app, prototipo inicial)](media/image25.jpeg)
+
+> **Figura transcrita (image24.jpeg):** Pantalla principal durante la captura: muestra la ubicación actual (hilera, zona, marcador), cuántas fotos lleva cada cámara, los rechazos por calidad y las fotos pendientes de enviar. [Transcripción completa](../06-figuras/informe-principal/img24-fig-9-5-wireframe-recorrido-activo-app-prototipo-inicial.md)
+> **Figura transcrita (image25.jpeg):** Permite al operador avisar que pasó a otra zona o marcador sin cerrar el recorrido, para que las fotos siguientes queden con la ubicación correcta. [Transcripción completa](../06-figuras/informe-principal/img25-fig-9-6-wireframe-cambiar-zona-lote-hilera-marcador-app-prot.md)
 
 *Fig. 9.5 – Recorrido activo Fig. 9.6 – Cambiar zona (lote, hilera, marcador)*
 
-![](media/image26.jpeg)
+![Fig. 9.7 – Wireframe «Cierre» del recorrido (app, prototipo inicial)](media/image26.jpeg)
+
+> **Figura transcrita (image26.jpeg):** Resumen y confirmación antes de cerrar un recorrido. En el documento comparte espacio con la Fig. 9.8 «Modo sin conexión» (imagen no extraída por separado). [Transcripción completa](../06-figuras/informe-principal/img26-fig-9-7-wireframe-cierre-del-recorrido-app-prototipo-inicial.md)
 
 *Fig.9.7–Cierre Fig. 9.8 – Modo sin conexión*
 
-![](media/image28.jpeg)![](media/image29.jpeg)
+![Fig. 9.9 – Wireframe «Sincronización» (app, prototipo inicial)](media/image28.jpeg)![Fig. 9.10 – Wireframe «Sesión cerrada y sincronizada» (app, prototipo inicial)](media/image29.jpeg)
+
+> **Figura transcrita (image28.jpeg):** Muestra el avance del envío de fotos al servidor y el estado de cada archivo en la cola. [Transcripción completa](../06-figuras/informe-principal/img28-fig-9-9-wireframe-sincronizacion-app-prototipo-inicial.md)
+> **Figura transcrita (image29.jpeg):** Confirmación final de que el recorrido quedó cerrado y enviado al servidor. Los datos son de ejemplo. [Transcripción completa](../06-figuras/informe-principal/img29-fig-9-10-wireframe-sesion-cerrada-y-sincronizada-app-prototi.md)
 
 *Fig. 9.9 – Sincronización Fig. 9.10 – Sesión cerrada y sincronizada*
 
 ## 9.5. Mockups
 
-![](media/image30.jpeg)
+![Fig. 9.11 – Mockup «Dashboard Fitosanitario: indicadores clave del fundo» (web, prototipo inicial)](media/image30.jpeg)
+
+> **Figura transcrita (image30.jpeg):** Panel de indicadores del fundo para el especialista y la jefatura: volumen y calidad de capturas, detecciones de la IA, casos por estado y evolución diaria. Datos ficticios. [Transcripción completa](../06-figuras/informe-principal/img30-fig-9-11-mockup-dashboard-fitosanitario-indicadores-clave-de.md)
 
 *Fig. 9.11 – Dashboard Fitosanitario: indicadores clave del fundo*
 
-![](media/image31.jpeg)
+![Fig. 9.12 – Mockup «Sesiones de captura: listado y detalle por lote/hilera» (web, prototipo inicial)](media/image31.jpeg)
+
+> **Figura transcrita (image31.jpeg):** Lista de salidas de campo sincronizadas y el detalle de una: quién la hizo, cuánto duró, cuántas fotos se aceptaron y cuántas detecciones generó. Datos ficticios. [Transcripción completa](../06-figuras/informe-principal/img31-fig-9-12-mockup-sesiones-de-captura-listado-y-detalle-por-lo.md)
 
 *Fig. 9.12 – Sesiones de captura: listado y detalle por lote/hilera*
 
-![](media/image32.jpeg)
+![Fig. 9.13 – Mockup «Revisión de Detecciones: validación de hallazgos de IA» (web, prototipo inicial)](media/image32.jpeg)
+
+> **Figura transcrita (image32.jpeg):** Pantalla clave del especialista: revisa la foto y la caja que marcó la IA con su confianza y ubicación, y decide confirmar o descartar. Refleja la regla de que la IA no diagnostica. [Transcripción completa](../06-figuras/informe-principal/img32-fig-9-13-mockup-revision-de-detecciones-validacion-de-hallaz.md)
 
 *Fig. 9.13 – Revisión de Detecciones: validación de hallazgos de IA*
 
-![](media/image33.jpeg)
+![Fig. 9.14 – Mockup «Mapa Operativo: distribución geoespacial de hallazgos por lote» (web, prototipo inicial)](media/image33.jpeg)
+
+> **Figura transcrita (image33.jpeg):** Ubica los hallazgos sobre un esquema de los lotes, con colores por estado, para ver dónde se concentran. [Transcripción completa](../06-figuras/informe-principal/img33-fig-9-14-mockup-mapa-operativo-distribucion-geoespacial-de-h.md)
 
 *Fig. 9.14 – Mapa Operativo: distribución geoespacial de hallazgos por lote*
 
-![](media/image34.jpeg)
+![Fig. 9.15 – Mockup «Tratamientos: seguimiento del estado de aplicación» (web, prototipo inicial)](media/image34.jpeg)
+
+> **Figura transcrita (image34.jpeg):** Seguimiento de la aplicación de tratamientos después de confirmar un hallazgo. [Transcripción completa](../06-figuras/informe-principal/img34-fig-9-15-mockup-tratamientos-seguimiento-del-estado-de-aplic.md)
 
 *Fig. 9.15 – Tratamientos: seguimiento del estado de aplicación*
 
-![](media/image35.jpeg)
+![Fig. 9.16 – Mockup «Reportes: generación de documentos PDF del sistema» (web, prototipo inicial)](media/image35.jpeg)
+
+> **Figura transcrita (image35.jpeg):** Catálogo de reportes descargables que se planteó en el diseño inicial. [Transcripción completa](../06-figuras/informe-principal/img35-fig-9-16-mockup-reportes-generacion-de-documentos-pdf-del-si.md)
 
 *Fig. 9.16 – Reportes: generación de documentos PDF del sistema*
 
-![](media/image36.jpeg)
+![Fig. 9.17 – Mockup «Usuarios: gestión de roles y accesos» (web, prototipo inicial)](media/image36.jpeg)
+
+> **Figura transcrita (image36.jpeg):** Lista de cuentas con su rol y actividad. Personas y datos ficticios. [Transcripción completa](../06-figuras/informe-principal/img36-fig-9-17-mockup-usuarios-gestion-de-roles-y-accesos-web-prot.md)
 
 *Fig. 9.17 – Usuarios: gestión de roles y accesos*
 
-![](media/image37.jpeg)
+![Fig. 9.18 – Mockup «Alertas: configuración de eventos y destinatarios» (web, prototipo inicial)](media/image37.jpeg)
+
+> **Figura transcrita (image37.jpeg):** Configuración de qué eventos generan avisos y a quién le llegan. El pie del documento la titula «Alertas Telegram», pero la imagen conserva el texto original de WhatsApp. [Transcripción completa](../06-figuras/informe-principal/img37-fig-9-18-mockup-alertas-configuracion-de-eventos-y-destinata.md)
 
 *Fig. 9.18 – Alertas Telegram: configuración de eventos y destinatarios*
 
 ## 9.6. Prototipo interactivo
 
-![](media/image38.jpeg)
+![Fig. 9.19 – Prototipo «Simulador – Controlador: flujo de vinculación de cámaras del operador» (web, prototipo inicial)](media/image38.jpeg)
+
+> **Figura transcrita (image38.jpeg):** Prototipo navegable que simula las pantallas del celular controlador, empezando por vincular las dos cámaras en la red Wi-Fi local. [Transcripción completa](../06-figuras/informe-principal/img38-fig-9-19-prototipo-simulador-controlador-flujo-de-vinculacio.md)
 
 *Fig. 9.19 – Simulador – Controlador: flujo de vinculación de cámaras del operador*
 
-![](media/image39.jpeg)
+![Fig. 9.20 – Prototipo «Simulador – Cámaras: activación de la Cámara 1 y la Cámara 2» (web, prototipo inicial)](media/image39.jpeg)
+
+> **Figura transcrita (image39.jpeg):** Simulación de los dos celulares cámara con su estado, batería, espacio y número de capturas. [Transcripción completa](../06-figuras/informe-principal/img39-fig-9-20-prototipo-simulador-camaras-activacion-de-la-camara.md)
 
 *Fig. 9.20 – Simulador – Cámaras: activación de la Cámara 1 y la Cámara 2*
 
-![](media/image40.jpeg)
+![Fig. 9.21 – Prototipo «Simulador – Mapa operativo en modo offline, con hallazgos pendientes de sincronización» (web, prototipo inicial)](media/image40.jpeg)
+
+> **Figura transcrita (image40.jpeg):** Muestra cómo se vería la plataforma sin conexión: los hallazgos siguen visibles y se avisa cuántas fotos faltan sincronizar. [Transcripción completa](../06-figuras/informe-principal/img40-fig-9-21-prototipo-simulador-mapa-operativo-en-modo-offline.md)
 
 *Fig. 9.21 – Simulador – Mapa operativo en modo offline, con hallazgos pendientes de sincronización*
 

@@ -37,51 +37,43 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th colspan="4"><blockquote>
-<p><strong><span class="smallcaps">Tipo de Cambio Requerido</span></strong></p>
-</blockquote></th>
+<th colspan="4"><p><strong><span class="smallcaps">Tipo de Cambio Requerido</span></strong></p>
+</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><blockquote>
-<p><em><strong><span class="smallcaps">Generación de Acción Correctiva:</span></strong></em></p>
-</blockquote></td>
+<td><p><em><strong><span class="smallcaps">Generación de Acción Correctiva:</span></strong></em></p>
+</td>
 <td>X</td>
-<td><blockquote>
-<p><em><strong><span class="smallcaps">Reparación de Defecto:</span></strong></em></p>
-</blockquote></td>
+<td><p><em><strong><span class="smallcaps">Reparación de Defecto:</span></strong></em></p>
+</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><blockquote>
-<p><em><strong><span class="smallcaps">Generación de Acción Preventiva:</span></strong></em></p>
-</blockquote></td>
+<td><p><em><strong><span class="smallcaps">Generación de Acción Preventiva:</span></strong></em></p>
+</td>
 <td>X</td>
-<td><blockquote>
-<p><em><strong><span class="smallcaps">Actualizaciones:</span></strong></em></p>
-</blockquote></td>
-<td><blockquote>
-<p>X</p>
-</blockquote></td>
+<td><p><em><strong><span class="smallcaps">Actualizaciones:</span></strong></em></p>
+</td>
+<td><p>X</p>
+</td>
 </tr>
 <tr class="odd">
-<td colspan="4"><blockquote>
-<p><strong>DEFINICIÓN DEL PROBLEMA O SITUACIÓN ACTUAL:</strong> <em>DEFINA Y ACOTE EL PROBLEMA QUE SE VA A RESOLVER, DISTINGUIENDO EL PROBLEMA DE SUS CAUSAS, Y DE SUS CONSECUENCIAS.</em></p>
-</blockquote></td>
+<td colspan="4"><p><strong>DEFINICIÓN DEL PROBLEMA O SITUACIÓN ACTUAL:</strong> <em>DEFINA Y ACOTE EL PROBLEMA QUE SE VA A RESOLVER, DISTINGUIENDO EL PROBLEMA DE SUS CAUSAS, Y DE SUS CONSECUENCIAS.</em></p>
+</td>
 </tr>
 <tr class="even">
-<td colspan="4"><blockquote>
-<p>En la arquitectura inicial basada en Spring Boot (Java), cliente web en Angular, colas de trabajo en RabbitMQ, PostgreSQL administrado en VPS, Amazon S3 y un microservicio desacoplado de IA en Python, se identificó un problema crítico de rendimiento, latencia y sobrecarga administrativa. Al enviar una consulta o fotografía desde la plataforma web o la app móvil, la información realizaba múltiples saltos síncronos y asíncronos entre distintos servicios e infraestructuras, lo que incrementaba los tiempos de respuesta e introducía puntos de fallo innecesarios. Además, la instalación y administración manual de servicios en VPS elevaba la complejidad del mantenimiento, dificultaba la depuración de errores y ponía en riesgo el cumplimiento del requerimiento no funcional RNF04 (tiempo de respuesta de la API menor a 1,5 segundos). Para solucionar estas limitaciones, se reformuló la solución hacia una arquitectura unificada y simplificada donde un backend central en Django (Python) y Django REST Framework sustituye a Spring Boot para asumir el control único de las reglas de negocio, la API REST versionada, la gestión de usuarios y la comunicación directa con el modelo de IA (FastAPI + Python + YOLO), eliminando la cola RabbitMQ e intermediarios. Asimismo, Django Templates reemplaza a Angular para generar la plataforma web directamente desde el backend, Supabase (PostgreSQL administrado) sustituye la instalación manual</p>
+<td colspan="4"><p>En la arquitectura inicial basada en Spring Boot (Java), cliente web en Angular, colas de trabajo en RabbitMQ, PostgreSQL administrado en VPS, Amazon S3 y un microservicio desacoplado de IA en Python, se identificó un problema crítico de rendimiento, latencia y sobrecarga administrativa. Al enviar una consulta o fotografía desde la plataforma web o la app móvil, la información realizaba múltiples saltos síncronos y asíncronos entre distintos servicios e infraestructuras, lo que incrementaba los tiempos de respuesta e introducía puntos de fallo innecesarios. Además, la instalación y administración manual de servicios en VPS elevaba la complejidad del mantenimiento, dificultaba la depuración de errores y ponía en riesgo el cumplimiento del requerimiento no funcional RNF04 (tiempo de respuesta de la API menor a 1,5 segundos). Para solucionar estas limitaciones, se reformuló la solución hacia una arquitectura unificada y simplificada donde un backend central en Django (Python) y Django REST Framework sustituye a Spring Boot para asumir el control único de las reglas de negocio, la API REST versionada, la gestión de usuarios y la comunicación directa con el modelo de IA (FastAPI + Python + YOLO), eliminando la cola RabbitMQ e intermediarios. Asimismo, Django Templates reemplaza a Angular para generar la plataforma web directamente desde el backend, Supabase (PostgreSQL administrado) sustituye la instalación manual</p>
 <p>en VPS, y Cloudinary reemplaza a Amazon S3 para la gestión y almacenamiento</p>
-</blockquote></td>
+</td>
 </tr>
 </tbody>
 </table>
 
 <table>
 <tr>
-<th colspan="2">optimizado de fotografías. Por su parte, se mantuvieron los componentes con desempeño óptimo: el cliente móvil en React Native + Expo, la persistencia local offline-first con SQLite / FileSystem y el renderizado cartográfico con Leaflet / OpenStreetMap, logrando un flujo lineal que garantiza el cumplimiento de los tiempos de respuesta requeridos.</th>
+<th colspan="2">optimizado de fotografías. Por su parte, se mantuvieron los componentes con desempeño óptimo: el cliente móvil en React Native + Expo, la persistencia local offline-first con SQLite / FileSystem y el renderizado cartográfico con Leaflet sobre teselas satelitales Esri y OpenStreetMap, logrando un flujo lineal que garantiza el cumplimiento de los tiempos de respuesta requeridos.</th>
 </tr>
 <tr>
 <td colspan="2">DESCRIPCIÓN DETALLADA DEL CAMBIO SOLICITADO: ESPECIFIQUE CON CLARIDAD EL CAMBIO SOLICITADO, PRECISANDO EL QUÉ, QUIÉN, CÓMO, CUÁNDO Y DÓNDE.</td>
@@ -206,43 +198,35 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th colspan="4"><blockquote>
-<p><strong><span class="smallcaps">Tipo de Cambio Requerido</span></strong></p>
-</blockquote></th>
+<th colspan="4"><p><strong><span class="smallcaps">Tipo de Cambio Requerido</span></strong></p>
+</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><blockquote>
-<p><em><strong><span class="smallcaps">Generación de Acción Correctiva:</span></strong></em></p>
-</blockquote></td>
+<td><p><em><strong><span class="smallcaps">Generación de Acción Correctiva:</span></strong></em></p>
+</td>
 <td>X</td>
-<td><blockquote>
-<p><em><strong><span class="smallcaps">Reparación de Defecto:</span></strong></em></p>
-</blockquote></td>
+<td><p><em><strong><span class="smallcaps">Reparación de Defecto:</span></strong></em></p>
+</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><blockquote>
-<p><em><strong><span class="smallcaps">Generación de Acción Preventiva:</span></strong></em></p>
-</blockquote></td>
+<td><p><em><strong><span class="smallcaps">Generación de Acción Preventiva:</span></strong></em></p>
+</td>
 <td></td>
-<td><blockquote>
-<p><em><strong><span class="smallcaps">Actualizaciones:</span></strong></em></p>
-</blockquote></td>
-<td><blockquote>
-<p>X</p>
-</blockquote></td>
+<td><p><em><strong><span class="smallcaps">Actualizaciones:</span></strong></em></p>
+</td>
+<td><p>X</p>
+</td>
 </tr>
 <tr class="odd">
-<td colspan="4"><blockquote>
-<p><strong>DEFINICIÓN DEL PROBLEMA O SITUACIÓN ACTUAL:</strong> <em>DEFINA Y ACOTE EL PROBLEMA QUE SE VA A RESOLVER, DISTINGUIENDO EL PROBLEMA DE SUS CAUSAS, Y DE SUS CONSECUENCIAS.</em></p>
-</blockquote></td>
+<td colspan="4"><p><strong>DEFINICIÓN DEL PROBLEMA O SITUACIÓN ACTUAL:</strong> <em>DEFINA Y ACOTE EL PROBLEMA QUE SE VA A RESOLVER, DISTINGUIENDO EL PROBLEMA DE SUS CAUSAS, Y DE SUS CONSECUENCIAS.</em></p>
+</td>
 </tr>
 <tr class="even">
-<td colspan="4"><blockquote>
-<p>RF10 exige enviar la notificación «vía WhatsApp» al jefe de fundo y al supervisor de zona después de la confirmación del especialista. La integración con WhatsApp Cloud API requiere una cuenta de empresa en Meta, un número de teléfono verificado y plantillas de mensaje aprobadas. Por problemas de configuración esos trámites no avanzaron durante el piloto y los avisos quedaron en modo de prueba (consola), sin llegar a los responsables.</p>
-</blockquote></td>
+<td colspan="4"><p>RF10 exige enviar la notificación «vía WhatsApp» al jefe de fundo y al supervisor de zona después de la confirmación del especialista. La integración con WhatsApp Cloud API requiere una cuenta de empresa en Meta, un número de teléfono verificado y plantillas de mensaje aprobadas. Por problemas de configuración esos trámites no avanzaron durante el piloto y los avisos quedaron en modo de prueba (consola), sin llegar a los responsables.</p>
+</td>
 </tr>
 </tbody>
 </table>
@@ -359,43 +343,35 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th colspan="4"><blockquote>
-<p><strong><span class="smallcaps">Tipo de Cambio Requerido</span></strong></p>
-</blockquote></th>
+<th colspan="4"><p><strong><span class="smallcaps">Tipo de Cambio Requerido</span></strong></p>
+</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><blockquote>
-<p><em><strong><span class="smallcaps">Generación de Acción Correctiva:</span></strong></em></p>
-</blockquote></td>
+<td><p><em><strong><span class="smallcaps">Generación de Acción Correctiva:</span></strong></em></p>
+</td>
 <td></td>
-<td><blockquote>
-<p><em><strong><span class="smallcaps">Reparación de Defecto:</span></strong></em></p>
-</blockquote></td>
+<td><p><em><strong><span class="smallcaps">Reparación de Defecto:</span></strong></em></p>
+</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><blockquote>
-<p><em><strong><span class="smallcaps">Generación de Acción Preventiva:</span></strong></em></p>
-</blockquote></td>
+<td><p><em><strong><span class="smallcaps">Generación de Acción Preventiva:</span></strong></em></p>
+</td>
 <td>X</td>
-<td><blockquote>
-<p><em><strong><span class="smallcaps">Actualizaciones:</span></strong></em></p>
-</blockquote></td>
-<td><blockquote>
-<p>X</p>
-</blockquote></td>
+<td><p><em><strong><span class="smallcaps">Actualizaciones:</span></strong></em></p>
+</td>
+<td><p>X</p>
+</td>
 </tr>
 <tr class="odd">
-<td colspan="4"><blockquote>
-<p><strong>DEFINICIÓN DEL PROBLEMA O SITUACIÓN ACTUAL:</strong> <em>DEFINA Y ACOTE EL PROBLEMA QUE SE VA A RESOLVER, DISTINGUIENDO EL PROBLEMA DE SUS CAUSAS, Y DE SUS CONSECUENCIAS.</em></p>
-</blockquote></td>
+<td colspan="4"><p><strong>DEFINICIÓN DEL PROBLEMA O SITUACIÓN ACTUAL:</strong> <em>DEFINA Y ACOTE EL PROBLEMA QUE SE VA A RESOLVER, DISTINGUIENDO EL PROBLEMA DE SUS CAUSAS, Y DE SUS CONSECUENCIAS.</em></p>
+</td>
 </tr>
 <tr class="even">
-<td colspan="4"><blockquote>
-<p>En las primeras pruebas casi todas las fotos terminaban como «Pendiente de revisión» y el especialista no alcanzaba a revisarlas. Además, cuando la IA estaba muy segura, el aviso esperaba igualmente al especialista, y no existía una decisión para «no es seguro, hay que ir a mirar».</p>
-</blockquote></td>
+<td colspan="4"><p>En las primeras pruebas casi todas las fotos terminaban como «Pendiente de revisión» y el especialista no alcanzaba a revisarlas. Además, cuando la IA estaba muy segura, el aviso esperaba igualmente al especialista, y no existía una decisión para «no es seguro, hay que ir a mirar».</p>
+</td>
 </tr>
 </tbody>
 </table>
@@ -515,43 +491,35 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th colspan="4"><blockquote>
-<p><strong><span class="smallcaps">Tipo de Cambio Requerido</span></strong></p>
-</blockquote></th>
+<th colspan="4"><p><strong><span class="smallcaps">Tipo de Cambio Requerido</span></strong></p>
+</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><blockquote>
-<p><em><strong><span class="smallcaps">Generación de Acción Correctiva:</span></strong></em></p>
-</blockquote></td>
+<td><p><em><strong><span class="smallcaps">Generación de Acción Correctiva:</span></strong></em></p>
+</td>
 <td></td>
-<td><blockquote>
-<p><em><strong><span class="smallcaps">Reparación de Defecto:</span></strong></em></p>
-</blockquote></td>
+<td><p><em><strong><span class="smallcaps">Reparación de Defecto:</span></strong></em></p>
+</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><blockquote>
-<p><em><strong><span class="smallcaps">Generación de Acción Preventiva:</span></strong></em></p>
-</blockquote></td>
+<td><p><em><strong><span class="smallcaps">Generación de Acción Preventiva:</span></strong></em></p>
+</td>
 <td></td>
-<td><blockquote>
-<p><em><strong><span class="smallcaps">Actualizaciones:</span></strong></em></p>
-</blockquote></td>
-<td><blockquote>
-<p>X</p>
-</blockquote></td>
+<td><p><em><strong><span class="smallcaps">Actualizaciones:</span></strong></em></p>
+</td>
+<td><p>X</p>
+</td>
 </tr>
 <tr class="odd">
-<td colspan="4"><blockquote>
-<p><strong>DEFINICIÓN DEL PROBLEMA O SITUACIÓN ACTUAL:</strong> <em>DEFINA Y ACOTE EL PROBLEMA QUE SE VA A RESOLVER, DISTINGUIENDO EL PROBLEMA DE SUS CAUSAS, Y DE SUS CONSECUENCIAS.</em></p>
-</blockquote></td>
+<td colspan="4"><p><strong>DEFINICIÓN DEL PROBLEMA O SITUACIÓN ACTUAL:</strong> <em>DEFINA Y ACOTE EL PROBLEMA QUE SE VA A RESOLVER, DISTINGUIENDO EL PROBLEMA DE SUS CAUSAS, Y DE SUS CONSECUENCIAS.</em></p>
+</td>
 </tr>
 <tr class="even">
-<td colspan="4"><blockquote>
-<p>RF01 y la propuesta de mejora describen una cámara izquierda y una derecha que fotografían a la vez los dos lados de cada planta. En la vid conducida en espaldera, desde el pasillo solo se ve una cara de la hilera: con una sola pasada no es posible fotografiar los dos lados de la misma planta.</p>
-</blockquote></td>
+<td colspan="4"><p>RF01 y la propuesta de mejora describen una cámara A y una B que fotografían a la vez el lado de la hilera.</p>
+</td>
 </tr>
 </tbody>
 </table>
@@ -662,41 +630,34 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th colspan="4"><blockquote>
-<p><strong><span class="smallcaps">Tipo de Cambio Requerido</span></strong></p>
-</blockquote></th>
+<th colspan="4"><p><strong><span class="smallcaps">Tipo de Cambio Requerido</span></strong></p>
+</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><blockquote>
-<p><em><strong><span class="smallcaps">Generación de Acción Correctiva:</span></strong></em></p>
-</blockquote></td>
+<td><p><em><strong><span class="smallcaps">Generación de Acción Correctiva:</span></strong></em></p>
+</td>
 <td></td>
-<td><blockquote>
-<p><em><strong><span class="smallcaps">Reparación de Defecto:</span></strong></em></p>
-</blockquote></td>
+<td><p><em><strong><span class="smallcaps">Reparación de Defecto:</span></strong></em></p>
+</td>
 <td>X</td>
 </tr>
 <tr class="even">
-<td><blockquote>
-<p><em><strong><span class="smallcaps">Generación de Acción Preventiva:</span></strong></em></p>
-</blockquote></td>
+<td><p><em><strong><span class="smallcaps">Generación de Acción Preventiva:</span></strong></em></p>
+</td>
 <td>X</td>
-<td><blockquote>
-<p><em><strong><span class="smallcaps">Actualizaciones:</span></strong></em></p>
-</blockquote></td>
+<td><p><em><strong><span class="smallcaps">Actualizaciones:</span></strong></em></p>
+</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td colspan="4"><blockquote>
-<p><strong>DEFINICIÓN DEL PROBLEMA O SITUACIÓN ACTUAL:</strong> <em>DEFINA Y ACOTE EL PROBLEMA QUE SE VA A RESOLVER, DISTINGUIENDO EL PROBLEMA DE SUS CAUSAS, Y DE SUS CONSECUENCIAS.</em></p>
-</blockquote></td>
+<td colspan="4"><p><strong>DEFINICIÓN DEL PROBLEMA O SITUACIÓN ACTUAL:</strong> <em>DEFINA Y ACOTE EL PROBLEMA QUE SE VA A RESOLVER, DISTINGUIENDO EL PROBLEMA DE SUS CAUSAS, Y DE SUS CONSECUENCIAS.</em></p>
+</td>
 </tr>
 <tr class="even">
-<td colspan="4"><blockquote>
-<p>En campo, cuando una cámara fallaba una y otra vez (foto borrosa u oscura, celular en movimiento o sin respuesta), la repetición no terminaba nunca y bloqueaba el recorrido.</p>
-</blockquote></td>
+<td colspan="4"><p>En campo, cuando una cámara fallaba una y otra vez (foto borrosa u oscura, celular en movimiento o sin respuesta), la repetición no terminaba nunca y bloqueaba el recorrido.</p>
+</td>
 </tr>
 </tbody>
 </table>
@@ -807,43 +768,35 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th colspan="4"><blockquote>
-<p><strong><span class="smallcaps">Tipo de Cambio Requerido</span></strong></p>
-</blockquote></th>
+<th colspan="4"><p><strong><span class="smallcaps">Tipo de Cambio Requerido</span></strong></p>
+</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><blockquote>
-<p><em><strong><span class="smallcaps">Generación de Acción Correctiva:</span></strong></em></p>
-</blockquote></td>
+<td><p><em><strong><span class="smallcaps">Generación de Acción Correctiva:</span></strong></em></p>
+</td>
 <td></td>
-<td><blockquote>
-<p><em><strong><span class="smallcaps">Reparación de Defecto:</span></strong></em></p>
-</blockquote></td>
+<td><p><em><strong><span class="smallcaps">Reparación de Defecto:</span></strong></em></p>
+</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><blockquote>
-<p><em><strong><span class="smallcaps">Generación de Acción Preventiva:</span></strong></em></p>
-</blockquote></td>
+<td><p><em><strong><span class="smallcaps">Generación de Acción Preventiva:</span></strong></em></p>
+</td>
 <td></td>
-<td><blockquote>
-<p><em><strong><span class="smallcaps">Actualizaciones:</span></strong></em></p>
-</blockquote></td>
-<td><blockquote>
-<p>X</p>
-</blockquote></td>
+<td><p><em><strong><span class="smallcaps">Actualizaciones:</span></strong></em></p>
+</td>
+<td><p>X</p>
+</td>
 </tr>
 <tr class="odd">
-<td colspan="4"><blockquote>
-<p><strong>DEFINICIÓN DEL PROBLEMA O SITUACIÓN ACTUAL:</strong> <em>DEFINA Y ACOTE EL PROBLEMA QUE SE VA A RESOLVER, DISTINGUIENDO EL PROBLEMA DE SUS CAUSAS, Y DE SUS CONSECUENCIAS.</em></p>
-</blockquote></td>
+<td colspan="4"><p><strong>DEFINICIÓN DEL PROBLEMA O SITUACIÓN ACTUAL:</strong> <em>DEFINA Y ACOTE EL PROBLEMA QUE SE VA A RESOLVER, DISTINGUIENDO EL PROBLEMA DE SUS CAUSAS, Y DE SUS CONSECUENCIAS.</em></p>
+</td>
 </tr>
 <tr class="even">
-<td colspan="4"><blockquote>
-<p>Tres requerimientos admiten más de una lectura: «zona» en RF06, «menos de 3 pasos» en RNF03 y la mención a expo-secure-store para custodiar imágenes en RNF07 (expo-secure-store es un almacén de claves pequeñas, no de archivos).</p>
-</blockquote></td>
+<td colspan="4"><p>Tres requerimientos admiten más de una lectura: «zona» en RF06, «menos de 3 pasos» en RNF03 y la mención a expo-secure-store para custodiar imágenes en RNF07 (expo-secure-store es un almacén de claves pequeñas, no de archivos).</p>
+</td>
 </tr>
 </tbody>
 </table>
@@ -957,43 +910,35 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th colspan="4"><blockquote>
-<p><strong><span class="smallcaps">Tipo de Cambio Requerido</span></strong></p>
-</blockquote></th>
+<th colspan="4"><p><strong><span class="smallcaps">Tipo de Cambio Requerido</span></strong></p>
+</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><blockquote>
-<p><em><strong><span class="smallcaps">Generación de Acción Correctiva:</span></strong></em></p>
-</blockquote></td>
+<td><p><em><strong><span class="smallcaps">Generación de Acción Correctiva:</span></strong></em></p>
+</td>
 <td></td>
-<td><blockquote>
-<p><em><strong><span class="smallcaps">Reparación de Defecto:</span></strong></em></p>
-</blockquote></td>
+<td><p><em><strong><span class="smallcaps">Reparación de Defecto:</span></strong></em></p>
+</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><blockquote>
-<p><em><strong><span class="smallcaps">Generación de Acción Preventiva:</span></strong></em></p>
-</blockquote></td>
+<td><p><em><strong><span class="smallcaps">Generación de Acción Preventiva:</span></strong></em></p>
+</td>
 <td></td>
-<td><blockquote>
-<p><em><strong><span class="smallcaps">Actualizaciones:</span></strong></em></p>
-</blockquote></td>
-<td><blockquote>
-<p>X</p>
-</blockquote></td>
+<td><p><em><strong><span class="smallcaps">Actualizaciones:</span></strong></em></p>
+</td>
+<td><p>X</p>
+</td>
 </tr>
 <tr class="odd">
-<td colspan="4"><blockquote>
-<p><strong>DEFINICIÓN DEL PROBLEMA O SITUACIÓN ACTUAL:</strong> <em>DEFINA Y ACOTE EL PROBLEMA QUE SE VA A RESOLVER, DISTINGUIENDO EL PROBLEMA DE SUS CAUSAS, Y DE SUS CONSECUENCIAS.</em></p>
-</blockquote></td>
+<td colspan="4"><p><strong>DEFINICIÓN DEL PROBLEMA O SITUACIÓN ACTUAL:</strong> <em>DEFINA Y ACOTE EL PROBLEMA QUE SE VA A RESOLVER, DISTINGUIENDO EL PROBLEMA DE SUS CAUSAS, Y DE SUS CONSECUENCIAS.</em></p>
+</td>
 </tr>
 <tr class="even">
-<td colspan="4"><blockquote>
-<p>La Tabla 30 y algunos diagramas conservan elementos que no llegaron a implementarse después de la SC-01: Supabase Auth, PostGIS, un microservicio de IA con FastAPI, comunicación «React Native P2P» y celulares iPhone.</p>
-</blockquote></td>
+<td colspan="4"><p>La Tabla 30 y algunos diagramas conservan elementos que no llegaron a implementarse después de la SC-01: Supabase Auth, PostGIS, un microservicio de IA con FastAPI, comunicación «React Native P2P» y celulares iPhone.</p>
+</td>
 </tr>
 </tbody>
 </table>
@@ -1116,41 +1061,34 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th colspan="4"><blockquote>
-<p><strong><span class="smallcaps">Tipo de Cambio Requerido</span></strong></p>
-</blockquote></th>
+<th colspan="4"><p><strong><span class="smallcaps">Tipo de Cambio Requerido</span></strong></p>
+</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><blockquote>
-<p><em><strong><span class="smallcaps">Generación de Acción Correctiva:</span></strong></em></p>
-</blockquote></td>
+<td><p><em><strong><span class="smallcaps">Generación de Acción Correctiva:</span></strong></em></p>
+</td>
 <td></td>
-<td><blockquote>
-<p><em><strong><span class="smallcaps">Reparación de Defecto:</span></strong></em></p>
-</blockquote></td>
+<td><p><em><strong><span class="smallcaps">Reparación de Defecto:</span></strong></em></p>
+</td>
 <td>X</td>
 </tr>
 <tr class="even">
-<td><blockquote>
-<p><em><strong><span class="smallcaps">Generación de Acción Preventiva:</span></strong></em></p>
-</blockquote></td>
+<td><p><em><strong><span class="smallcaps">Generación de Acción Preventiva:</span></strong></em></p>
+</td>
 <td></td>
-<td><blockquote>
-<p><em><strong><span class="smallcaps">Actualizaciones:</span></strong></em></p>
-</blockquote></td>
+<td><p><em><strong><span class="smallcaps">Actualizaciones:</span></strong></em></p>
+</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td colspan="4"><blockquote>
-<p><strong>DEFINICIÓN DEL PROBLEMA O SITUACIÓN ACTUAL:</strong> <em>DEFINA Y ACOTE EL PROBLEMA QUE SE VA A RESOLVER, DISTINGUIENDO EL PROBLEMA DE SUS CAUSAS, Y DE SUS CONSECUENCIAS.</em></p>
-</blockquote></td>
+<td colspan="4"><p><strong>DEFINICIÓN DEL PROBLEMA O SITUACIÓN ACTUAL:</strong> <em>DEFINA Y ACOTE EL PROBLEMA QUE SE VA A RESOLVER, DISTINGUIENDO EL PROBLEMA DE SUS CAUSAS, Y DE SUS CONSECUENCIAS.</em></p>
+</td>
 </tr>
 <tr class="even">
-<td colspan="4"><blockquote>
-<p>Al aprobar en la web una cuenta pedida desde la app, la pantalla ofrecía los cuatro roles, incluidos los de la web (Administrador, Especialista fitosanitario y Supervisor). Un operador de campo podía quedar con un rol que no le corresponde.</p>
-</blockquote></td>
+<td colspan="4"><p>Al aprobar en la web una cuenta pedida desde la app, la pantalla ofrecía los cuatro roles, incluidos los de la web (Administrador, Especialista fitosanitario y Supervisor). Un operador de campo podía quedar con un rol que no le corresponde.</p>
+</td>
 </tr>
 </tbody>
 </table>
@@ -1261,43 +1199,35 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th colspan="4"><blockquote>
-<p><strong><span class="smallcaps">Tipo de Cambio Requerido</span></strong></p>
-</blockquote></th>
+<th colspan="4"><p><strong><span class="smallcaps">Tipo de Cambio Requerido</span></strong></p>
+</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><blockquote>
-<p><em><strong><span class="smallcaps">Generación de Acción Correctiva:</span></strong></em></p>
-</blockquote></td>
+<td><p><em><strong><span class="smallcaps">Generación de Acción Correctiva:</span></strong></em></p>
+</td>
 <td></td>
-<td><blockquote>
-<p><em><strong><span class="smallcaps">Reparación de Defecto:</span></strong></em></p>
-</blockquote></td>
+<td><p><em><strong><span class="smallcaps">Reparación de Defecto:</span></strong></em></p>
+</td>
 <td></td>
 </tr>
 <tr class="even">
-<td><blockquote>
-<p><em><strong><span class="smallcaps">Generación de Acción Preventiva:</span></strong></em></p>
-</blockquote></td>
+<td><p><em><strong><span class="smallcaps">Generación de Acción Preventiva:</span></strong></em></p>
+</td>
 <td></td>
-<td><blockquote>
-<p><em><strong><span class="smallcaps">Actualizaciones:</span></strong></em></p>
-</blockquote></td>
-<td><blockquote>
-<p>X</p>
-</blockquote></td>
+<td><p><em><strong><span class="smallcaps">Actualizaciones:</span></strong></em></p>
+</td>
+<td><p>X</p>
+</td>
 </tr>
 <tr class="odd">
-<td colspan="4"><blockquote>
-<p><strong>DEFINICIÓN DEL PROBLEMA O SITUACIÓN ACTUAL:</strong> <em>DEFINA Y ACOTE EL PROBLEMA QUE SE VA A RESOLVER, DISTINGUIENDO EL PROBLEMA DE SUS CAUSAS, Y DE SUS CONSECUENCIAS.</em></p>
-</blockquote></td>
+<td colspan="4"><p><strong>DEFINICIÓN DEL PROBLEMA O SITUACIÓN ACTUAL:</strong> <em>DEFINA Y ACOTE EL PROBLEMA QUE SE VA A RESOLVER, DISTINGUIENDO EL PROBLEMA DE SUS CAUSAS, Y DE SUS CONSECUENCIAS.</em></p>
+</td>
 </tr>
 <tr class="even">
-<td colspan="4"><blockquote>
-<p>Durante el piloto aparecieron necesidades no escritas como requerimiento: llegar a pie hasta la planta con plaga, quitar fotos de prueba o equivocadas, ubicar mejor cada foto en la hilera y ayudar a los usuarios y evaluadores.</p>
-</blockquote></td>
+<td colspan="4"><p>Durante el piloto aparecieron necesidades no escritas como requerimiento: llegar a pie hasta la planta con plaga, quitar fotos de prueba o equivocadas, ubicar mejor cada foto en la hilera y ayudar a los usuarios y evaluadores.</p>
+</td>
 </tr>
 </tbody>
 </table>

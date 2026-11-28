@@ -22,7 +22,7 @@
 </tr>
 </table>
 
-![](../media/image77.png)![](../media/image78.png)
+GRÁFICA DE TRABAJO PENDIENTE (BURNDOWNCHART)
 
 **Código y Nombre del Proyecto**
 
@@ -70,7 +70,9 @@ El Burndown Chart es la herramienta gráfica que muestra el progreso del trabajo
 </tr>
 </table>
 
-![](../media/image79.jpeg)
+![Burndown Chart – Sprint 4 (Migración y Despliegue Django/Supabase) (Anexo 60, AS-12)](../media/image79.jpeg)
+
+> **Figura transcrita (image79.jpeg):** Avance del Sprint 4: el equipo cerró los 21 puntos en 10 días. El trabajo real bajó en escalones (entregas cada dos días) y se mantuvo cerca de la línea ideal, por debajo de ella en los días 6 y 8. [Transcripción completa](../../06-figuras/informe-principal/img79-burndown-chart-sprint-4-migracion-y-despliegue-django-supaba.md)
 
 <table>
 <tr>

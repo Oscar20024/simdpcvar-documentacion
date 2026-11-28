@@ -26,7 +26,7 @@
 </tr>
 </table>
 
-![](../media/image68.png)
+ANEXO AI-08: RESULTADOS POSTEST (O₂)
 
 **Código y Nombre del Proyecto**
 
@@ -72,7 +72,7 @@
 <td>-97.59 % (Atención ágil)</td>
 </tr>
 <tr>
-<td>Tiempo de emisión de alerta por<br>WhatsApp</td>
+<td>Tiempo de emisión de alerta por<br>Telegram</td>
 <td>31.20 horas</td>
 <td>8.50 segundos</td>
 <td>-31.20 horas</td>
@@ -104,7 +104,7 @@
 </tr>
 <tr>
 <td>Tiempo de Respuesta<br>Fitosanitaria</td>
-<td colspan="4">La API REST v1 centralizada en Django y las notificaciones automáticas por WhatsApp Cloud API redujeron el ciclo de validación de 2 días a solo 1.23 horas.</td>
+<td colspan="4">La API REST v1 centralizada en Django y las notificaciones automáticas por Telegram redujeron el ciclo de validación de 2 días a solo 1.23 horas.</td>
 </tr>
 <tr>
 <td>Precisión y Calidad de<br>Evidencias</td>

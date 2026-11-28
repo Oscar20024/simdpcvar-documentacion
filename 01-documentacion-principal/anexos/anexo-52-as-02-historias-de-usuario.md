@@ -22,7 +22,7 @@
 </tr>
 </table>
 
-![](../media/image70.png)
+HISTORIAS DE USUARIO
 
 **CÓDIGO Y NOMBRE DEL PROYECTO**
 

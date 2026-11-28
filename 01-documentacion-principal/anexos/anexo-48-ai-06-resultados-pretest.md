@@ -25,7 +25,7 @@
 |  | Scru m |  | Dulio<br>Gonzales |  |  |
 |---|---|---|---|---|---|
 
-![](../media/image66.png)
+RESULTADOS PRETEST
 
 **Código y Nombre del Proyecto**
 
@@ -60,151 +60,115 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th colspan="7"><blockquote>
-<p><strong><span class="smallcaps">2. Resultados Estadísticos Descriptivos de lasVariables</span></strong></p>
-</blockquote></th>
+<th colspan="7"><p><strong><span class="smallcaps">2. Resultados Estadísticos Descriptivos de lasVariables</span></strong></p>
+</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td colspan="7"><blockquote>
-<p><em><strong><span class="smallcaps">Tabla 1: Indicadores del Proceso Tradicional (Línea Base / Pretest)</span></strong></em></p>
-</blockquote></td>
+<td colspan="7"><p><em><strong><span class="smallcaps">Tabla 1: Indicadores del Proceso Tradicional (Línea Base / Pretest)</span></strong></em></p>
+</td>
 </tr>
 <tr class="even">
-<td><blockquote>
-<p><em><strong>Variable / Indicador</strong></em></p>
-</blockquote></td>
+<td><p><em><strong>Variable / Indicador</strong></em></p>
+</td>
 <td><p><em><strong>Unidad de</strong></em></p>
 <p><em><strong>Medida</strong></em></p></td>
 <td><p><em><strong>Media</strong></em></p>
 <p><em><strong>(μ</strong></em></p>
 <p><em><strong>)</strong></em></p></td>
-<td><blockquote>
-<p><em><strong>Desviación</strong></em></p>
+<td><p><em><strong>Desviación</strong></em></p>
 <p><em><strong>Estánd ar (σ)</strong></em></p>
-</blockquote></td>
+</td>
 <td><p><em><strong>Mínim</strong></em></p>
 <p><em><strong>o</strong></em></p></td>
 <td><p><em><strong>Máxim</strong></em></p>
 <p><em><strong>o</strong></em></p></td>
-<td><blockquote>
-<p><em><strong>Estado de Desempe</strong></em></p>
+<td><p><em><strong>Estado de Desempe</strong></em></p>
 <p><em><strong>ño</strong></em></p>
-</blockquote></td>
+</td>
 </tr>
 <tr class="odd">
-<td><blockquote>
-<p><strong>Tiempo de</strong></p>
+<td><p><strong>Tiempo de</strong></p>
 <p><strong>respuesta / confirmación fitosanitaria</strong></p>
-</blockquote></td>
-<td><blockquote>
-<p>Horas</p>
-</blockquote></td>
-<td><blockquote>
-<p>51.06</p>
-</blockquote></td>
-<td><blockquote>
-<p>7.12</p>
-</blockquote></td>
-<td><blockquote>
-<p>44.0</p>
-</blockquote></td>
-<td><blockquote>
-<p>72.0</p>
-</blockquote></td>
-<td><blockquote>
-<p>Crítico / Lento</p>
-</blockquote></td>
+</td>
+<td><p>Horas</p>
+</td>
+<td><p>51.06</p>
+</td>
+<td><p>7.12</p>
+</td>
+<td><p>44.0</p>
+</td>
+<td><p>72.0</p>
+</td>
+<td><p>Crítico / Lento</p>
+</td>
 </tr>
 <tr class="even">
-<td><blockquote>
-<p><strong>Tiempo para emisión de alerta oficial por foco</strong></p>
-</blockquote></td>
-<td><blockquote>
-<p>Horas</p>
-</blockquote></td>
-<td><blockquote>
-<p>31.20</p>
-</blockquote></td>
-<td><blockquote>
-<p>8.45</p>
-</blockquote></td>
-<td><blockquote>
-<p>24.0</p>
-</blockquote></td>
-<td><blockquote>
-<p>48.0</p>
-</blockquote></td>
-<td><blockquote>
-<p>Ineficiente</p>
-</blockquote></td>
+<td><p><strong>Tiempo para emisión de alerta oficial por foco</strong></p>
+</td>
+<td><p>Horas</p>
+</td>
+<td><p>31.20</p>
+</td>
+<td><p>8.45</p>
+</td>
+<td><p>24.0</p>
+</td>
+<td><p>48.0</p>
+</td>
+<td><p>Ineficiente</p>
+</td>
 </tr>
 <tr class="odd">
-<td><blockquote>
-<p><strong>Cobertura de monitoreo por jornada</strong></p>
-</blockquote></td>
-<td><blockquote>
-<p>Plantas/operador/</p>
+<td><p><strong>Cobertura de monitoreo por jornada</strong></p>
+</td>
+<td><p>Plantas/operador/</p>
 <p>día</p>
-</blockquote></td>
-<td><blockquote>
-<p>339.33</p>
-</blockquote></td>
-<td><blockquote>
-<p>22.82</p>
-</blockquote></td>
-<td><blockquote>
-<p>300.0</p>
-</blockquote></td>
-<td><blockquote>
-<p>380.0</p>
-</blockquote></td>
-<td><blockquote>
-<p>Limitada</p>
-</blockquote></td>
+</td>
+<td><p>339.33</p>
+</td>
+<td><p>22.82</p>
+</td>
+<td><p>300.0</p>
+</td>
+<td><p>380.0</p>
+</td>
+<td><p>Limitada</p>
+</td>
 </tr>
 <tr class="even">
-<td><blockquote>
-<p><strong>Tasa de error en el registro de ubicación (Lote/Hilera/G PS)</strong></p>
-</blockquote></td>
-<td><blockquote>
-<p>% de registros</p>
-</blockquote></td>
+<td><p><strong>Tasa de error en el registro de ubicación (Lote/Hilera/G PS)</strong></p>
+</td>
+<td><p>% de registros</p>
+</td>
 <td><p>66.67</p>
 <p>%</p></td>
-<td><blockquote>
-<p>12.30</p>
-</blockquote></td>
+<td><p>12.30</p>
+</td>
 <td><p>40.0</p>
 <p>%</p></td>
-<td><blockquote>
-<p>85.0 %</p>
-</blockquote></td>
-<td><blockquote>
-<p>Muy Alta</p>
-</blockquote></td>
+<td><p>85.0 %</p>
+</td>
+<td><p>Muy Alta</p>
+</td>
 </tr>
 <tr class="odd">
-<td><blockquote>
-<p><strong>Porcentaje de evidencias fotográficas no utilizables (desenfoque/lu z)</strong></p>
-</blockquote></td>
-<td><blockquote>
-<p>% de fotos</p>
-</blockquote></td>
+<td><p><strong>Porcentaje de evidencias fotográficas no utilizables (desenfoque/lu z)</strong></p>
+</td>
+<td><p>% de fotos</p>
+</td>
 <td><p>41.33</p>
 <p>%</p></td>
-<td><blockquote>
-<p>9.80</p>
-</blockquote></td>
+<td><p>9.80</p>
+</td>
 <td><p>25.0</p>
 <p>%</p></td>
-<td><blockquote>
-<p>60.0 %</p>
-</blockquote></td>
-<td><blockquote>
-<p>Muy Alta</p>
-</blockquote></td>
+<td><p>60.0 %</p>
+</td>
+<td><p>Muy Alta</p>
+</td>
 </tr>
 </tbody>
 </table>

@@ -26,7 +26,7 @@
 </tr>
 </table>
 
-![](../media/image67.png)
+ANEXO AI-07: BASE DE DATOS POSTEST (O₂)
 
 **Código y Nombre del Proyecto**
 

@@ -107,7 +107,7 @@ El incidente se registrará y clasificará primero conforme al AT-19. Se evaluar
 | Grace Lucia Peña Reyes (QA Lead) | Registrar evidencia, seguimiento y verificación de calidad |
 | Project Manager / jefe de fundo /<br>Product Owner | Evaluar activación, impacto operativo y decisiones excepcionales |
 
-Los avisos se canalizarán mediante el grupo WhatsApp del piloto, correo del equipo y Jira. La comunicación no incluirá contraseñas, tokens ni archivos sensibles.
+Los avisos se canalizarán mediante el grupo Telegram del piloto, correo del equipo y Jira. La comunicación no incluirá contraseñas, tokens ni archivos sensibles.
 
 **8. Pruebas y registro de evidencias**
 

@@ -26,7 +26,9 @@ Sus objetivos empresariales son:
 
 ## 4.4. Organigrama
 
-![](media/image6.jpeg)
+![Figura 5. Organigrama de Agrícola Riachuelo S.A.C.](media/image6.jpeg)
+
+> **Figura transcrita (image6.jpeg):** Estructura de la empresa cliente. Los usuarios del sistema están en la Gerencia de Operaciones de Campo: jefe de fundo (recibe avisos), supervisores de zona, especialista fitosanitario (decide los casos) y operadores de monitoreo (capturan con la app). [Transcripción completa](../06-figuras/informe-principal/img06-figura-5-organigrama-de-agricola-riachuelo-s-a-c.md)
 
 *Figura 5. Organigrama de Agrícola Riachuelo S.A.C.*
 
@@ -36,7 +38,9 @@ Sus objetivos empresariales son:
 
 *Figura 6. Matriz de poder e interés de los stakeholders de Agrícola Riachuelo S.A.C.*
 
-![](media/image7.jpeg)
+![Figura 6. Matriz de poder e interés de los stakeholders de Agrícola Riachuelo S.A.C.](media/image7.jpeg)
+
+> **Figura transcrita (image7.jpeg):** Clasifica a los interesados: gestionar de cerca a Gerencia General, jefe de fundo y especialista (poder e interés altos); mantener satisfechos a SENASA, certificadoras y clientes; mantener informados a supervisores y operadores; monitorear a los proveedores. [Transcripción completa](../06-figuras/informe-principal/img07-figura-6-matriz-de-poder-e-interes-de-los-stakeholders-de-ag.md)
 
 *Fuente: Elaboración propia.*
 
@@ -251,7 +255,9 @@ Sus objetivos empresariales son:
 
 *Figura 7. Mapa de procesos de Agrícola Riachuelo S.A.C.*
 
-![](media/image8.jpeg)
+![Figura 7. Mapa de procesos de Agrícola Riachuelo S.A.C.](media/image8.jpeg)
+
+> **Figura transcrita (image8.jpeg):** Ubica el proceso que mejora el proyecto: «Monitoreo fitosanitario» es un proceso operativo, entre el manejo del cultivo y la cosecha; TI y sistemas lo soporta. [Transcripción completa](../06-figuras/informe-principal/img08-figura-7-mapa-de-procesos-de-agricola-riachuelo-s-a-c.md)
 
 *Fuente: Elaboración propia.*
 
@@ -269,7 +275,9 @@ Se considera crítico porque:
 
 ## 4.8. Modelo AS-IS
 
-**![](media/image9.jpeg) 8. Modelo AS-IS del proceso de monitoreo y detección de plagas en Agrícola Riachuelo S.A.C.**
+**![Figura 8. Modelo AS-IS del proceso de monitoreo y detección de plagas](media/image9.jpeg) 8. Modelo AS-IS del proceso de monitoreo y detección de plagas en Agrícola Riachuelo S.A.C.**
+
+> **Figura transcrita (image9.jpeg):** Proceso actual, totalmente manual y secuencial: el hallazgo viaja en archivos Excel del operador al supervisor y al especialista, sin foto ni ubicación precisa, y el especialista decide tarde, sobre reportes ya consolidados. Es la base para medir el pretest… [Transcripción completa](../06-figuras/informe-principal/img09-figura-8-modelo-as-is-del-proceso-de-monitoreo-y-deteccion-d.md)
 
 *Fuente: Elaboración propia.*
 
@@ -311,7 +319,9 @@ Es importante precisar que esta propuesta no tiene como finalidad detectar plaga
 
 *Figura 9. Modelo TO-BE del proceso de monitoreo y detección de plagas en Agrícola Riachuelo S.A.C.*
 
-![](media/image10.jpeg)
+![Figura 9. Modelo TO-BE del proceso de monitoreo y detección de plagas asistido por dispositivo móvil e IA (también usada como diagrama de actividades, 8.6)](media/image10.jpeg)
+
+> **Figura transcrita (image10.jpeg):** Proceso propuesto con el sistema: captura con tres celulares, control de calidad en el celular, guardado sin internet, sincronización, análisis de IA y decisión del especialista con aviso automático. Es la misma imagen que se usa como diagrama de actividades… [Transcripción completa](../06-figuras/informe-principal/img10-figura-9-modelo-to-be-del-proceso-de-monitoreo-y-deteccion-d.md)
 
 *Fuente: Elaboración propia.*
 

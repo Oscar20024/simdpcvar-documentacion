@@ -68,7 +68,9 @@ Por último, Planococcus ficus puede tener relevancia fitosanitaria debido a que
 
 El archivo de mapeo que se utiliza actualmente para extrapolar el control del chanchito blanco en las viñas constituye la principal justificación de la evidencia documental; se describe a través de hojas que se consideran los lotes, plantas y hileras y una hoja para la síntesis total, a través de dicha hoja se categoriza la información. En dicha síntesis se reportan 52 903 plantas analizadas de las cuales 1 729 tienen antecedentes de chanchito blanco, lo que supone alrededor del 3,27 % global.
 
-![](media/image2.jpeg)
+![Figura 1. Resumen general del registro de plantas y presencia de chanchito blanco](media/image2.jpeg)
+
+> **Figura transcrita (image2.jpeg):** Es la evidencia principal del problema (AS-IS): el registro manual en Excel del fundo. Muestra 52,903 plantas en 8 lotes y 1,729 plantas con chanchito blanco (≈3,3 %). El lote con mayor incidencia es SWG 5 (12 %) y SWG 2 (7 %). Estos números justifican el… [Transcripción completa](../06-figuras/informe-principal/img02-figura-1-resumen-general-del-registro-de-plantas-y-presencia.md)
 
 *Figura 1. Resumen general del registro de plantas y presencia de chanchito blanco.*
 
@@ -78,7 +80,9 @@ El registro muestra también que no hay una distribución equitativa de la prese
 
 Igualmente, las hojas del archivo contienen extensas matrices para visualizar cada planta de forma independiente, utilizando letras y formatos gráficos para comunicar distintos estados. En algunos ficheros las matrices contienen, incluso más de 400 columnas, lo que refleja la gran cantidad de información a la que hay que prestar atención y revisar manualmente durante el seguimiento fitosanitario.
 
-![](media/image3.jpeg)
+![Figura 2. Matriz utilizada actualmente para el registro de plantas por lote e hilera](media/image3.jpeg)
+
+> **Figura transcrita (image3.jpeg):** Muestra cómo el fundo registra hoy cada planta: un plano del lote dibujado en Excel, hilera por hilera, donde se marca a mano la planta con plaga. El texto de las celdas es muy pequeño en la imagen original; lo importante es el método: registro manual, sin… [Transcripción completa](../06-figuras/informe-principal/img03-figura-2-matriz-utilizada-actualmente-para-el-registro-de-pl.md)
 
 *Figura 2. Matriz utilizada actualmente para el registro de plantas por lote e hilera.*
 
@@ -88,7 +92,9 @@ Se encontraron diferencias durante la revisión del archivo que necesitan ser va
 
 en el Lote 2 se descubrieron 376 celdas con relleno rojo, en comparación con las 331 plantas mencionadas en el resumen. Como la empresa debe verificar el significado preciso de todos los colores, estos datos no pueden ser considerados errores de forma automática; no obstante, muestran las dificultades que se presentan para confirmar y consolidar información cuando una parte del registro depende de códigos visuales en matrices grandes.
 
-![](media/image4.jpeg)
+![Figura 3. Ejemplo de codificación visual utilizada en el registro actual del fundo](media/image4.jpeg)
+
+> **Figura transcrita (image4.jpeg):** Ejemplo de la codificación por colores y letras que usa el registro manual (P = planta, E = espacio vacío) y de los totales que se calculan por lote. Coincide con la fila «LOTE 7» de la Figura 1 (1,645 plantas, 0 con chanchito). Algunas cifras son de lectura… [Transcripción completa](../06-figuras/informe-principal/img04-figura-3-ejemplo-de-codificacion-visual-utilizada-en-el-regi.md)
 
 *Figura 3. Ejemplo de codificación visual utilizada en el registro actual del*
 
@@ -98,7 +104,9 @@ en el Lote 2 se descubrieron 376 celdas con relleno rojo, en comparación con la
 
 Otra evidencia corresponde al procedimiento realizado directamente en campo. Según el levantamiento preliminar del proceso, el monitoreo actual puede involucrar entre **10 y 20 personas**, quienes realizan recorridos por los lotes e hileras para inspeccionar las plantas y registrar los hallazgos encontrados. Esta actividad permite comprobar que una parte importante del proceso depende actualmente de la inspección presencial y del trabajo manual de los evaluadores.
 
-![](media/image5.jpeg)
+![Figura 4. Personal realizando actividades de monitoreo fitosanitario en las hileras](media/image5.jpeg)
+
+> **Figura transcrita (image5.jpeg):** Fotografía en el viñedo: un trabajador con sombrero y polo celeste revisa a mano las hojas y racimos de una planta de vid conducida en espaldera, entre hileras con follaje denso. Ilustra el monitoreo manual actual (AS-IS) que el sistema busca apoyar. [Transcripción completa](../06-figuras/informe-principal/img05-figura-4-personal-realizando-actividades-de-monitoreo-fitosa.md)
 
 *Figura 4. Personal realizando actividades de monitoreo fitosanitario en las hileras*
 

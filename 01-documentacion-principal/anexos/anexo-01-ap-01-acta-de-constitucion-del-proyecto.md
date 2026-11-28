@@ -50,7 +50,9 @@
 <td>Entrega de prototipo verificable y evidencia de pruebas de campo</td>
 </tr>
 <tr>
-<td>Cronograma<br>![](../media/image51.png)</td>
+<td>Cronograma<br>![Logotipo «Dharma Consulting» (encabezado de las plantillas de gestión)](../media/image51.png)</td>
+
+> **Figura transcrita (image51.png):** Encabezado de las plantillas de gestión de proyectos (formatos tipo PMBOK de Dharma Consulting) usadas en varios anexos AP. No aporta información del proyecto. [Transcripción completa](../../06-figuras/informe-principal/img51-logotipo-dharma-consulting-encabezado-de-las-plantillas-de-g.md)
 <td colspan="2">01/09/2026 a 20/11/2026 (seis sprints; el cronograma original contiene las fechas detalladas).</td>
 <td>Hitos contrastados con cronograma original y cierre de sprints</td>
 </tr>
@@ -142,112 +144,87 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th colspan="5"><blockquote>
-<p>Gerencia General, Jefe de Fundo, especialista fitosanitario, supervisores, operadores de campo y equipo UTP de cuatro integrantes.</p>
-</blockquote></th>
+<th colspan="5"><p>Gerencia General, Jefe de Fundo, especialista fitosanitario, supervisores, operadores de campo y equipo UTP de cuatro integrantes.</p>
+</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td colspan="5"><blockquote>
-<p>REQUISITOS DE APROBACIÓN DEL PROYECTO: <em><span class="smallcaps">Describir en qué consiste el éxito del proyecto, quién decide si el</span></em></p>
+<td colspan="5"><p>REQUISITOS DE APROBACIÓN DEL PROYECTO: <em><span class="smallcaps">Describir en qué consiste el éxito del proyecto, quién decide si el</span></em></p>
 <p><em>PROYECTO TIENE ÉXITO Y QUIÉN FIRMA LA APROBACIÓN DEL PROYECTO.</em></p>
-</blockquote></td>
+</td>
 </tr>
 <tr class="even">
-<td colspan="5"><blockquote>
-<p>La aceptación exige funcionamiento de captura y sincronización, evidencia de validación humana, pruebas de trazabilidad y revisión del piloto por Jefe de Fundo y especialista; la conformidad formal se documentará en acta.</p>
-</blockquote></td>
+<td colspan="5"><p>La aceptación exige funcionamiento de captura y sincronización, evidencia de validación humana, pruebas de trazabilidad y revisión del piloto por Jefe de Fundo y especialista; la conformidad formal se documentará en acta.</p>
+</td>
 </tr>
 <tr class="odd">
-<td colspan="5"><blockquote>
-<p>CRITERIOS DE CULMINACIÓN DEL PROYECTO: <em>MENCIONAR LAS CONDICIONES QUE SE DEBEN CUMPLIR PARA CERRAR O CANCELAR EL PROYECTO O FASE.</em></p>
-</blockquote></td>
+<td colspan="5"><p>CRITERIOS DE CULMINACIÓN DEL PROYECTO: <em>MENCIONAR LAS CONDICIONES QUE SE DEBEN CUMPLIR PARA CERRAR O CANCELAR EL PROYECTO O FASE.</em></p>
+</td>
 </tr>
 <tr class="even">
-<td colspan="5"><blockquote>
-<p>Cierre con entregables y código versionados, casos críticos probados y documentación técnica entregada.</p>
-</blockquote></td>
+<td colspan="5"><p>Cierre con entregables y código versionados, casos críticos probados y documentación técnica entregada.</p>
+</td>
 </tr>
 <tr class="odd">
-<td colspan="5"><blockquote>
-<p>Reporte de indicadores pretest/postest y estado de incidencias y cambios.</p>
-</blockquote></td>
+<td colspan="5"><p>Reporte de indicadores pretest/postest y estado de incidencias y cambios.</p>
+</td>
 </tr>
 <tr class="even">
-<td colspan="5"><blockquote>
-<p>Validación de resultados por especialista y conformidad del Jefe de Fundo.</p>
-</blockquote></td>
+<td colspan="5"><p>Validación de resultados por especialista y conformidad del Jefe de Fundo.</p>
+</td>
 </tr>
 <tr class="odd">
-<td colspan="5"><blockquote>
-<p>DESIGNACIÓN DEL DIRECTOR DE PROYECTO: <em>ESCRIBIR EL NOMBRE DEL DIRECTOR DE PROYECTO (PROJECT MANAGER)</em></p>
+<td colspan="5"><p>DESIGNACIÓN DEL DIRECTOR DE PROYECTO: <em>ESCRIBIR EL NOMBRE DEL DIRECTOR DE PROYECTO (PROJECT MANAGER)</em></p>
 <p><em>ASIGNADO, SU RESPONSABILIDAD Y SU NIVEL DE AUTORIDAD.</em></p>
-</blockquote></td>
+</td>
 </tr>
 <tr class="even">
-<td><blockquote>
-<p>Nombre</p>
-</blockquote></td>
-<td colspan="2"><blockquote>
-<p>Oscar Antonio Gutiérrez Rojas</p>
-</blockquote></td>
-<td colspan="2"><blockquote>
-<p>Nivel de autoridad: coordina y propone; cambios de línea base sujetos a aprobación</p>
-</blockquote></td>
+<td><p>Nombre</p>
+</td>
+<td colspan="2"><p>Oscar Antonio Gutiérrez Rojas</p>
+</td>
+<td colspan="2"><p>Nivel de autoridad: coordina y propone; cambios de línea base sujetos a aprobación</p>
+</td>
 </tr>
 <tr class="odd">
-<td><blockquote>
-<p>Reporta a</p>
-</blockquote></td>
-<td colspan="2"><blockquote>
-<p>Jefe de Fundo / docente supervisor</p>
-</blockquote></td>
-<td colspan="2"><blockquote>
-<p>Dirección del proyecto</p>
-</blockquote></td>
+<td><p>Reporta a</p>
+</td>
+<td colspan="2"><p>Jefe de Fundo / docente supervisor</p>
+</td>
+<td colspan="2"><p>Dirección del proyecto</p>
+</td>
 </tr>
 <tr class="even">
-<td><blockquote>
-<p>Supervisa a</p>
-</blockquote></td>
-<td colspan="4"><blockquote>
-<p>Equipo técnico y funcional del proyecto</p>
-</blockquote></td>
+<td><p>Supervisa a</p>
+</td>
+<td colspan="4"><p>Equipo técnico y funcional del proyecto</p>
+</td>
 </tr>
 <tr class="odd">
-<td colspan="5"><blockquote>
-<p>PATROCINADOR QUE AUTORIZA EL PROYECTO<em><strong>:</strong> MENCIONAR AL PATROCINADOR DEL PROYECTO, ASÍ COMO LA ENTIDAD A LA</em></p>
+<td colspan="5"><p>PATROCINADOR QUE AUTORIZA EL PROYECTO<em><strong>:</strong> MENCIONAR AL PATROCINADOR DEL PROYECTO, ASÍ COMO LA ENTIDAD A LA</em></p>
 <p><em>QUE PERTENECE, EL CARGO QUE OCUPA Y LA FECHA DE ELABORACIÓN DEL ACTA DE CONSTITUCIÓN DEL PROYECTO.</em></p>
-</blockquote></td>
+</td>
 </tr>
 <tr class="even">
-<td colspan="2"><blockquote>
-<p><span class="smallcaps">Nombre</span></p>
-</blockquote></td>
-<td><blockquote>
-<p><span class="smallcaps">Empresa</span></p>
-</blockquote></td>
-<td><blockquote>
-<p><span class="smallcaps">Cargo</span></p>
-</blockquote></td>
-<td><blockquote>
-<p><span class="smallcaps">Fecha</span></p>
-</blockquote></td>
+<td colspan="2"><p><span class="smallcaps">Nombre</span></p>
+</td>
+<td><p><span class="smallcaps">Empresa</span></p>
+</td>
+<td><p><span class="smallcaps">Cargo</span></p>
+</td>
+<td><p><span class="smallcaps">Fecha</span></p>
+</td>
 </tr>
 <tr class="odd">
-<td colspan="2"><blockquote>
-<p>Pedro Jesús Palacios Chanco (Jefe de Fundo)</p>
-</blockquote></td>
-<td><blockquote>
-<p>Agrícola Riachuelo S.A.C.</p>
-</blockquote></td>
-<td><blockquote>
-<p>Patrocinador operativo</p>
-</blockquote></td>
-<td><blockquote>
-<p>01/09/2026</p>
-</blockquote></td>
+<td colspan="2"><p>Pedro Jesús Palacios Chanco (Jefe de Fundo)</p>
+</td>
+<td><p>Agrícola Riachuelo S.A.C.</p>
+</td>
+<td><p>Patrocinador operativo</p>
+</td>
+<td><p>01/09/2026</p>
+</td>
 </tr>
 <tr class="even">
 <td colspan="2"></td>

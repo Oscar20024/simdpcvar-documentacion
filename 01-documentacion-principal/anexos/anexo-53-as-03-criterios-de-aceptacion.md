@@ -3,7 +3,7 @@
 | 2.0 | Grace<br>Peña<br>/ Equip o Scru m | Scrum Master | Product<br>Owner | 06/10/2 026 | Actualización por reformulación de arquitectura a Django + Supabase y definición de criterios de aceptación verificables. |
 |---|---|---|---|---|---|
 
-![](../media/image71.png)
+CRITERIOS DE ACEPTACIÓN
 
 **Código y Nombre del Proyecto**
 

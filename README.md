@@ -3,7 +3,7 @@
 **Sistema inteligente para el monitoreo y detección de plagas en cultivos de vid en Agrícola Riachuelo S.A.C. (Ica, Perú).**
 Proyecto del curso *Curso Integrador II: Sistemas* (Facultad de Ingeniería de Sistemas e Informática, Universidad Tecnológica del Perú, Ica, 2026).
 
-Este repositorio **no contiene código ejecutable**. Reúne en Markdown toda la documentación del proyecto (el informe principal de ~350 páginas, la documentación del sistema, los manuales, los archivos maestros de la web y de la app y la documentación técnica de los dos repositorios de código) más un conjunto de documentos de contexto escritos para que **otra IA o una persona nueva** entienda el proyecto sin haber participado en él.
+Este repositorio **no contiene código ejecutable**. Reúne en Markdown toda la documentación del proyecto (el informe principal de 353 páginas, la documentación del sistema, los manuales, los archivos maestros de la web y de la app y la documentación técnica de los dos repositorios de código) más un conjunto de documentos de contexto escritos para que **otra IA o una persona nueva** entienda el proyecto sin haber participado en él.
 
 > **Si eres un agente de IA:** empieza por [`AGENTS.md`](AGENTS.md). Ahí está el orden de lectura, las reglas que no se pueden romper y un índice «tema → archivo».
 
@@ -35,7 +35,7 @@ simdpcvar-documentacion/
 │   ├── 07-inteligencia-artificial-yolo.md
 │   ├── 08-estado-versiones-y-pendientes.md
 │   └── 09-glosario-rapido.md
-├── 01-documentacion-principal/   ← el informe completo (≈350 págs.) partido en capítulos y anexos
+├── 01-documentacion-principal/   ← el informe completo (353 págs.) partido en capítulos y anexos
 │   ├── README.md                 ← índice detallado de capítulos y anexos
 │   ├── 00-preliminares.md, 00-glosario.md
 │   ├── capitulo-01-…md … capitulo-14-…md
@@ -48,6 +48,10 @@ simdpcvar-documentacion/
 │   ├── manual-de-usuario-plataforma-web.md
 │   ├── manual-de-usuario-app-movil.md
 │   └── media/                    ← capturas de pantalla de los manuales
+├── 06-figuras/                   ← cada imagen transcrita a texto (qué muestra + todo su texto)
+│   ├── informe-principal/        ← 51 figuras del informe (diagramas, mockups, tablas en imagen, capturas)
+│   ├── manual-web/               ← 32 capturas del manual de la plataforma web
+│   └── manual-app/               ← 35 capturas del manual de la app móvil
 ├── 04-maestros/
 │   ├── MAESTRO_WEB.md            ← especificación con la que se construyó la web (reglas W-01…W-24)
 │   └── MAESTRO_APP_MOVIL.md      ← especificación de la app, la API /api/v1 (§15) y la arquitectura (§28)
@@ -67,9 +71,10 @@ simdpcvar-documentacion/
 
 | Carpeta | De dónde sale | Cómo se convirtió |
 |---|---|---|
-| `01-documentacion-principal/` | `Documentacion_Actual_19-11-26_revisada.docx` (348 págs., versión revisada del 19/11/2026) | pandoc a GFM, con la numeración automática de Word convertida en texto (para conservar «14.7.10», etc.), tablas simplificadas y partido por capítulo y anexo. |
+| `01-documentacion-principal/` | `Documentacion_Actual_19-11-26_revisada.docx` (348 págs.) convertido con pandoc, y actualizado a mano con los cambios de la versión PDF de 353 págs. (`Documentacion_principal.pdf`, noviembre 2026) | pandoc a GFM, con la numeración automática de Word convertida en texto (para conservar «14.7.10», etc.), tablas simplificadas y partido por capítulo y anexo. Cambios de la versión de 353 págs.: Leaflet sobre teselas Esri y OpenStreetMap; prototipo descrito como «soporte» (ya no «vestible» ni «mochila»); cámaras A y B que fotografían la hilera; avisos por Telegram en RF10, acta, canales de soporte e instrumentos. |
 | `02-documentacion-del-sistema-y-pruebas/` | Fuente HTML del PDF «Documentación del sistema y guía de pruebas» v1.6.1 | pandoc HTML → GFM. Los diagramas SVG no se incluyen. |
 | `03-manuales/` | PDF «Manual de usuario · Plataforma web» (43 págs.) y «· App móvil» (35 págs.), v1.6.1 | Texto extraído del PDF con PyMuPDF (sin el texto viejo tapado por las correcciones) + capturas. Las tablas del PDF quedan como texto. |
+| `06-figuras/` | Las imágenes de las carpetas 01 y 03 | Cada figura se miró y se transcribió a mano: qué muestra, todo su texto y, en el informe, si sigue vigente frente al sistema actual. En las capturas de los manuales se agrega el texto reconocido por OCR. El capítulo o manual enlaza cada transcripción justo debajo de la imagen. |
 | `04-maestros/` | Archivos maestros en Markdown (MAESTRO_WEB v1.0, MAESTRO_APP_MOVIL v2.0) | Copia directa. |
 | `05-repositorios-de-codigo/` | Repositorios `agricola-riachuelo-platform` (commit `97575dc`) y `riachuelo-mobile` (commit `7a95da6` + trabajo local) | `git ls-files` + comentario de cabecera de cada archivo; copias de su documentación. |
 

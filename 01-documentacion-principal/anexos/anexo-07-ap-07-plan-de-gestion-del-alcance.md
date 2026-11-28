@@ -12,50 +12,38 @@
 </colgroup>
 <thead>
 <tr class="header">
-<th colspan="7"><blockquote>
-<p>CONTROL DE VERSIONES</p>
-</blockquote></th>
+<th colspan="7"><p>CONTROL DE VERSIONES</p>
+</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><blockquote>
-<p><em><strong>Versió n</strong></em></p>
-</blockquote></td>
-<td><blockquote>
-<p><em><strong>Hecha por</strong></em></p>
-</blockquote></td>
-<td><blockquote>
-<p><em><strong>Revisada por</strong></em></p>
-</blockquote></td>
-<td><blockquote>
-<p><em><strong>Aprobada por</strong></em></p>
-</blockquote></td>
-<td><blockquote>
-<p><em><strong>Fecha</strong></em></p>
-</blockquote></td>
-<td colspan="2"><blockquote>
-<p><em><strong>Motivo</strong></em></p>
-</blockquote></td>
+<td><p><em><strong>Versió n</strong></em></p>
+</td>
+<td><p><em><strong>Hecha por</strong></em></p>
+</td>
+<td><p><em><strong>Revisada por</strong></em></p>
+</td>
+<td><p><em><strong>Aprobada por</strong></em></p>
+</td>
+<td><p><em><strong>Fecha</strong></em></p>
+</td>
+<td colspan="2"><p><em><strong>Motivo</strong></em></p>
+</td>
 </tr>
 <tr class="even">
-<td><blockquote>
-<p>1.1</p>
-</blockquote></td>
-<td><blockquote>
-<p>Equipo del proyecto</p>
-</blockquote></td>
-<td><blockquote>
-<p>Oscar Antonio Gutiérrez Rojas</p>
-</blockquote></td>
-<td><blockquote>
-<p>Pendiente de aprobación formal</p>
-</blockquote></td>
+<td><p>1.1</p>
+</td>
+<td><p>Equipo del proyecto</p>
+</td>
+<td><p>Oscar Antonio Gutiérrez Rojas</p>
+</td>
+<td><p>Pendiente de aprobación formal</p>
+</td>
 <td><p>30/10/20</p>
 <p>26</p></td>
-<td><blockquote>
-<p>Desarrollo del anexo a partir del informe del curso</p>
-</blockquote></td>
+<td><p>Desarrollo del anexo a partir del informe del curso</p>
+</td>
 <td></td>
 </tr>
 </tbody>

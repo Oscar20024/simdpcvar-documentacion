@@ -1,12 +1,12 @@
 # Estado actual, versiones y pendientes
 
-Corte de este repositorio: **19/11/2026, 23:00 (hora de Lima)**.
+Corte de este repositorio: **27/11/2026** (estado del sistema al 19/11/2026; el 27/11 se actualizó el informe a la versión de 353 págs. y se transcribieron todas las figuras).
 
 ## Qué está ejecutándose ahora
 
 | Pieza | Dónde | Versión / estado |
 |---|---|---|
-| Web + API `/api/v1` | VPS Hostinger (Docker: contenedores `web` y `worker`, Traefik con HTTPS) en <https://monitoreo.agricolariachuelo.org> | En marcha (`/api/v1/health` → UP). GitHub tiene hasta **v1.6** (`97575dc`); v1.6.1 y v1.6.2 están en la PC del responsable **sin subir**, así que en el servidor corre como máximo la v1.6, salvo que se haya copiado a mano |
+| Web + API `/api/v1` | VPS Hostinger (Docker: contenedores `web` y `worker`, Traefik con HTTPS) en <https://monitoreo.agricolariachuelo.org> | En marcha (`/api/v1/health` → UP). GitHub tiene la **v1.6.2** (`630e4c5`); falta confirmar que el VPS se actualizó con `deploy/actualizar.sh` (si no, corre la v1.6) |
 | Worker de IA | Mismo VPS, contenedor `worker` | Modelo **2026.10-v2** (provisional) con triage 2 cajas ≥ 0,70 o 3 ≥ 0,50 |
 | Base de datos | Supabase PostgreSQL (proyecto del piloto, plan Free) | En uso; solo Django se conecta |
 | Fotos | Cloudinary (plan Free, fotos privadas) | En uso |
@@ -21,11 +21,18 @@ Corte de este repositorio: **19/11/2026, 23:00 (hora de Lima)**.
 
 | Componente | Versión | Notas |
 |---|---|---|
-| Plataforma web + API | **v1.6.2** en código (19/11/2026) | v1.6.1 (14/11): aprobar cuentas de la app sin rol (SC-08), manuales con cuentas de prueba. v1.6.2 (19/11): botón «Reportar un problema» al portal de Jira en Ayuda y pie de página (`SOPORTE_URL`). 309 pruebas OK. **Pendiente:** commit, push y `deploy/actualizar.sh` en el VPS |
+| Plataforma web + API | **v1.6.2** en código (19/11/2026) | v1.6.1 (14/11): aprobar cuentas de la app sin rol (SC-08), manuales con cuentas de prueba. v1.6.2 (19/11): botón «Reportar un problema» al portal de Jira en Ayuda y pie de página (`SOPORTE_URL`). 309 pruebas OK. Subida a GitHub (`630e4c5`). **Pendiente:** confirmar `deploy/actualizar.sh` en el VPS |
 | App móvil | **0.6.1** | Último commit en GitHub: `7a95da6` (30/10/2026). CFG-11; SQLite con migraciones 001–005. Sin cambios por v1.6.2 |
 | Modelo IA | **2026.10-v2** (provisional) | Activo desde el 21/10/2026 |
-| Informe principal | 19/11/2026 revisado | 348 págs.; incluye 14.7.10 (Jira) y SC-02 a SC-09. Aún no menciona UptimeRobot ni las reglas automáticas |
+| Informe principal | Noviembre 2026 | 353 págs. (PDF); incluye 14.7.10 (Jira) y SC-02 a SC-09, Esri + OpenStreetMap, «soporte» en vez de «prototipo vestible», cámaras A/B y Telegram en RF10. Aún no menciona UptimeRobot ni las reglas automáticas |
 | Doc. del sistema y manuales | v1.6.1 | Con cuentas de prueba |
+
+## Cambios del 27/11/2026 (solo documentación)
+
+- **Informe principal** actualizado a la versión de 353 págs.: Leaflet sobre teselas Esri y OpenStreetMap (glosario, cap. 6, 7, 8, 11, 14 y SC del anexo 37); acta y presupuesto con «soporte» en lugar de «prototipo vestible»/«mochila»; RF10 por Telegram; RF11 con cámara A y B; SC-04 reformulada; canales de soporte por Telegram (cap. 14, anexos 79 y 81); instrumentos y resultados con «alerta por Telegram» (anexos 45 y 50); matriz de trazabilidad (anexo 11).
+- **Nueva carpeta `06-figuras/`:** 51 figuras del informe y 67 capturas de los manuales transcritas a texto, enlazadas debajo de cada imagen.
+- **Manuales:** se quitaron 112 imágenes vacías que dejó la conversión del PDF (sombras de marco, bandas de cabecera, fondo de portada).
+- **Filtro de Gmail** de UptimeRobot ya reenvía «Monitor is DOWN» y «Monitor is UP» a Jira (verificado).
 
 ## Cambios del 19/11/2026
 
@@ -56,8 +63,8 @@ Bitácoras completas: `05-repositorios-de-codigo/plataforma-web/docs/REPORTE_AVA
 
 ## Pendientes conocidos
 
-1. **Subir y desplegar la web v1.6.1 + v1.6.2:** `git add -A`, `git commit`, `git push` en la PC y `git pull && bash deploy/actualizar.sh` en el VPS.
-2. **Filtro de Gmail** para que también reenvíe «Monitor is UP» a Jira (sin esto los incidentes no se cierran solos).
+1. **Desplegar la web v1.6.2** (ya en GitHub, `630e4c5`): `git pull && bash deploy/actualizar.sh` en el VPS.
+2. **Corregir el Word del informe:** el reemplazo de «WhatsApp» por «Telegram» también cambió textos históricos que deben conservar «WhatsApp» (en SC-02: «vía Telgram», «Telegram Bot API requiere una cuenta de empresa en Meta», «Se retira el cliente de Telegram»; en 14.7.5: «reemplazó a Telegram Bot API»; en la retrospectiva: «Telegram Cloud API, luego reemplazado por Telegram»). En este repo se dejaron con «WhatsApp».
 3. **Aprobación de SC-02 a SC-09** por el Comité de Control de Cambios.
 4. **Modelo IA v3** con 150–200 fotos propias (100+ con chanchito, incluir sanas); medir falsas alarmas.
 5. **Marcadores reales con coordenadas** y contornos de lotes, para que «Ubicar plaga» y el mapa sean exactos.

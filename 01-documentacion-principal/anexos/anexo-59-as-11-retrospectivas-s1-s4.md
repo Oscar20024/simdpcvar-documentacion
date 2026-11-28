@@ -22,7 +22,7 @@
 </tr>
 </table>
 
-![](../media/image76.png)
+LOG DE RETROSPECTIVA DEL SPRINT
 
 | Código y Nombre del Proyecto | Sprints Cubiertos |
 |---|---|

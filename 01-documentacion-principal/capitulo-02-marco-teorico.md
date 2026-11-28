@@ -168,56 +168,44 @@ Sus indicadores serán:
 </colgroup>
 <thead>
 <tr class="header">
-<th><blockquote>
-<p>Indicador</p>
-</blockquote></th>
-<th><blockquote>
-<p>Qué permitirá evaluar</p>
-</blockquote></th>
-<th><blockquote>
-<p>Unidad de</p>
+<th><p>Indicador</p>
+</th>
+<th><p>Qué permitirá evaluar</p>
+</th>
+<th><p>Unidad de</p>
 <p>medida</p>
-</blockquote></th>
+</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><blockquote>
-<p>Tiempo total de</p>
+<td><p>Tiempo total de</p>
 <p>monitoreo</p>
-</blockquote></td>
-<td><blockquote>
-<p>Duración necesaria para completar el</p>
+</td>
+<td><p>Duración necesaria para completar el</p>
 <p>recorrido o área establecida.</p>
-</blockquote></td>
-<td><blockquote>
-<p>Minutos u horas</p>
-</blockquote></td>
+</td>
+<td><p>Minutos u horas</p>
+</td>
 </tr>
 <tr class="even">
-<td><blockquote>
-<p>Personas-hora</p>
+<td><p>Personas-hora</p>
 <p>empleadas</p>
-</blockquote></td>
-<td><blockquote>
-<p>Cantidad total de trabajo humano utilizado</p>
+</td>
+<td><p>Cantidad total de trabajo humano utilizado</p>
 <p>durante el monitoreo.</p>
-</blockquote></td>
-<td><blockquote>
-<p>Personas-hora</p>
-</blockquote></td>
+</td>
+<td><p>Personas-hora</p>
+</td>
 </tr>
 <tr class="odd">
-<td><blockquote>
-<p>Plantas o segmentos inspeccionados por</p>
+<td><p>Plantas o segmentos inspeccionados por</p>
 <p>hora</p>
-</blockquote></td>
-<td><blockquote>
-<p>Capacidad de inspección alcanzada durante el proceso.</p>
-</blockquote></td>
-<td><blockquote>
-<p>Plantas/hora o segmentos/hora</p>
-</blockquote></td>
+</td>
+<td><p>Capacidad de inspección alcanzada durante el proceso.</p>
+</td>
+<td><p>Plantas/hora o segmentos/hora</p>
+</td>
 </tr>
 </tbody>
 </table>

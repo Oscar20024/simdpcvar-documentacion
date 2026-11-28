@@ -22,7 +22,7 @@
 </tr>
 </table>
 
-![](../media/image74.png)
+BACKLOG DEL SPRINT
 
 | Código y Nombre del Proyecto | Sprint Número |
 |---|---|

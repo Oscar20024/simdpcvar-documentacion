@@ -108,8 +108,16 @@ datos es inmediato, delegando el procesamiento de IA de forma totalmente asíncr
 
 ## 13.7. Evidencias
 
-![](media/image45.jpeg) ![](media/image46.jpeg)
+![Evidencia de despliegue (13.7): app — pantalla «Iniciar sesión»](media/image45.jpeg) ![Evidencia de despliegue (13.7): app — pantalla «Función del celular»](media/image46.jpeg)
 
-![](media/image47.jpeg)
+> **Figura transcrita (image45.jpeg):** Pantalla de ingreso (PANT-02) con cuentas de demostración del entorno de desarrollo. [Transcripción completa](../06-figuras/informe-principal/img45-evidencia-de-despliegue-13-7-app-pantalla-iniciar-sesion.md)
+> **Figura transcrita (image46.jpeg):** Elección de la función del celular después de cada ingreso (PANT-08). [Transcripción completa](../06-figuras/informe-principal/img46-evidencia-de-despliegue-13-7-app-pantalla-funcion-del-celula.md)
 
-![](media/image49.jpeg)![](media/image50.jpeg)
+![Evidencia de despliegue (13.7): app — panel del «Controlador»](media/image47.jpeg)
+
+> **Figura transcrita (image47.jpeg):** Panel del controlador (PANT-10): revisa si el celular está listo (catálogos, batería, espacio, GPS) antes de crear una sesión. [Transcripción completa](../06-figuras/informe-principal/img47-evidencia-de-despliegue-13-7-app-panel-del-controlador.md)
+
+![Evidencia de despliegue (13.7): app — «Nueva sesión» en modo automático](media/image49.jpeg)![Evidencia de despliegue (13.7): app — «Nueva sesión» en modo manual con aviso de batería](media/image50.jpeg)
+
+> **Figura transcrita (image49.jpeg):** Creación de una sesión (PANT-12) en modo automático: el controlador ordena una captura cada 2 segundos (solo con el celular quieto). [Transcripción completa](../06-figuras/informe-principal/img49-evidencia-de-despliegue-13-7-app-nueva-sesion-en-modo-automa.md)
+> **Figura transcrita (image50.jpeg):** Misma pantalla en modo manual (cada captura con un botón) y el aviso de batería baja, que no bloquea el trabajo. [Transcripción completa](../06-figuras/informe-principal/img50-evidencia-de-despliegue-13-7-app-nueva-sesion-en-modo-manual.md)

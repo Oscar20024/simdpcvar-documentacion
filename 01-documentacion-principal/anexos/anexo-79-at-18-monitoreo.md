@@ -95,7 +95,7 @@ Se propone clasificar las mediciones como NORMAL (cumple meta), ADVERTENCIA (des
 
 ↓
 
-Los canales de seguimiento previstos son WhatsApp del piloto, correo y Jira. No se transmitirán secretos, tokens ni evidencias fotográficas sensibles mediante alertas.
+Los canales de seguimiento previstos son Telegram del piloto, correo y Jira. No se transmitirán secretos, tokens ni evidencias fotográficas sensibles mediante alertas.
 
 **8. Registro editable de mediciones**
 

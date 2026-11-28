@@ -15,8 +15,8 @@
 | RF07 | El sistema debe analizar las imágenes sincronizadas mediante un modelo de<br>IA y señalar posibles indicios de plaga |
 | RF08 | El sistema debe permitir al especialista fitosanitario visualizar los indicios en la plataforma |
 | RF09 | El sistema debe permitir al especialista confirmar o descartar los hallazgos |
-| RF10 | El sistema debe enviar una notificación automática vía WhatsApp al jefe de fundo y supervisor de zona inmediatamente después de que el especialista confirme un hallazgo fitosanitario. |
-| RF11 | El sistema debe exigir la vinculación exitosa de los tres dispositivos (controlador, cámara izquierda, cámara derecha) antes de habilitar el inicio del recorrido |
+| RF10 | El sistema debe enviar una notificación automática vía Telegram al jefe de fundo y supervisor de zona inmediatamente después de que el especialista confirme un hallazgo fitosanitario. |
+| RF11 | El sistema debe exigir la vinculación exitosa de los tres dispositivos (controlador, cámara A, cámara B) antes de habilitar el inicio del recorrido |
 
 *Fuente: Elaboración propia.*
 
@@ -53,7 +53,9 @@
 
 ## 8.4. Diagrama de casos de uso
 
-![](media/image13.jpeg)
+![Diagrama de casos de uso (8.4)](media/image13.jpeg)
+
+> **Figura transcrita (image13.jpeg):** Representa los nueve casos de uso CU1 a CU9 del capítulo 8 y qué actor participa en cada uno. [Transcripción completa](../06-figuras/informe-principal/img13-diagrama-de-casos-de-uso-8-4.md)
 
 ## 8.5. Especificación de casos de uso
 
@@ -113,27 +115,37 @@ CU9: Consultar dashboard y mapa de hallazgos
 
 - Actor: jefe de fundo / Supervisor / Especialista fitosanitario
 
-- Descripción: Permite a la jefatura de fundo y a los supervisores consultar el avance global de los recorridos de monitoreo en campo, visualizar la ubicación georreferenciada de los hallazgos en el viñedo mediante el mapa interactivo (Leaflet/OpenStreetMap), y revisar el estado de las revisiones realizadas y las notificaciones emitidas.
+- Descripción: Permite a la jefatura de fundo y a los supervisores consultar el avance global de los recorridos de monitoreo en campo, visualizar la ubicación georreferenciada de los hallazgos en el viñedo mediante el mapa interactivo (Leaflet sobre teselas satelitales Esri y OpenStreetMap), y revisar el estado de las revisiones realizadas y las notificaciones emitidas.
 
 ## 8.6. Diagrama de actividades
 
-![](media/image10.jpeg)
+![Figura 9. Modelo TO-BE del proceso de monitoreo y detección de plagas asistido por dispositivo móvil e IA (también usada como diagrama de actividades, 8.6)](media/image10.jpeg)
+
+> **Figura transcrita (image10.jpeg):** Proceso propuesto con el sistema: captura con tres celulares, control de calidad en el celular, guardado sin internet, sincronización, análisis de IA y decisión del especialista con aviso automático. Es la misma imagen que se usa como diagrama de actividades… [Transcripción completa](../06-figuras/informe-principal/img10-figura-9-modelo-to-be-del-proceso-de-monitoreo-y-deteccion-d.md)
 
 ## 8.7. Diagrama de secuencia
 
-![](media/image14.jpeg)
+![Diagrama de secuencia «Registro, validación y alerta de hallazgos fitosanitarios» (8.7)](media/image14.jpeg)
+
+> **Figura transcrita (image14.jpeg):** Orden de los mensajes desde la captura hasta el aviso. La alerta solo se envía si el hallazgo queda confirmado. [Transcripción completa](../06-figuras/informe-principal/img14-diagrama-de-secuencia-registro-validacion-y-alerta-de-hallaz.md)
 
 ## 8.8. Diagrama de clases
 
-![](media/image15.jpeg)
+![Diagrama de clases (8.8)](media/image15.jpeg)
+
+> **Figura transcrita (image15.jpeg):** Modelo conceptual simplificado del dominio: una foto pertenece a una planta, puede generar un hallazgo, que el especialista confirma y que puede generar una alerta. [Transcripción completa](../06-figuras/informe-principal/img15-diagrama-de-clases-8-8.md)
 
 ## 8.9. Arquitectura lógica
 
-![](media/image16.jpeg)
+![Arquitectura lógica en capas (8.9)](media/image16.jpeg)
+
+> **Figura transcrita (image16.jpeg):** Tres capas: lo que ven los usuarios, la lógica del backend Django (incluye IA y alertas) y los datos (base de datos y fotos). [Transcripción completa](../06-figuras/informe-principal/img16-arquitectura-logica-en-capas-8-9.md)
 
 ## 8.10. Arquitectura física
 
-![](media/image17.jpeg)
+![Arquitectura física (8.10)](media/image17.jpeg)
+
+> **Figura transcrita (image17.jpeg):** Dónde corre cada pieza y cómo se comunican: los celulares y el navegador hablan con el backend Django por HTTPS; el backend usa la base de datos, el almacenamiento de fotos, el servicio de IA y el canal de alertas. [Transcripción completa](../06-figuras/informe-principal/img17-arquitectura-fisica-8-10.md)
 
 ## 8.11. Arquitectura tecnológica
 
@@ -392,8 +404,12 @@ CU9: Consultar dashboard y mapa de hallazgos
 
 ## 8.12. Diagrama de componentes
 
-![](media/image18.jpeg)
+![Diagrama de componentes (8.12)](media/image18.jpeg)
+
+> **Figura transcrita (image18.jpeg):** Muestra los componentes y las interfaces que los unen (sincronización, consulta, persistencia, almacenamiento, inferencia, mapa y mensajería). [Transcripción completa](../06-figuras/informe-principal/img18-diagrama-de-componentes-8-12.md)
 
 ## 8.13. Diagrama de despliegue
 
-![](media/image19.jpeg)
+![Diagrama de despliegue (8.13)](media/image19.jpeg)
+
+> **Figura transcrita (image19.jpeg):** Dónde se instala cada artefacto en el diseño inicial. [Transcripción completa](../06-figuras/informe-principal/img19-diagrama-de-despliegue-8-13.md)

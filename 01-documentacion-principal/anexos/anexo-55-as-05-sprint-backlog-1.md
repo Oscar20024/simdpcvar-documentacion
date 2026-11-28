@@ -4,7 +4,7 @@
 |---|---|---|---|---|---|
 | 2.0 | Equipo<br>Scru m | Scrum Master | Product<br>Owner | 06/10/2 026 | Aprobación inicial del Backlog del Sprint para el desarrollo del incremento funcional del proyecto. |
 
-![](../media/image74.png)
+BACKLOG DEL SPRINT
 
 | Código y Nombre del Proyecto | Sprint Número |
 |---|---|

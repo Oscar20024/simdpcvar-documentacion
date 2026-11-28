@@ -2,9 +2,7 @@
 
 <!-- página 1 -->
 
-![Captura · página 1](media/web/p01-01.png)
-
-![Captura · página 1](media/web/p01-02.png)
+![Logo de Agrícola Riachuelo](media/web/p01-02.png)
 
 M O N I TO R E O F I TO S A N I TA R I O D E L A V I D
 
@@ -144,8 +142,6 @@ Problemas frecuentes
 
 43
 
-![Captura · página 2](media/web/p02-03.png)
-
 ### Contenido
 
 <!-- página 3 -->
@@ -243,8 +239,6 @@ Una persona puede tener varios roles Por ejemplo, Administrador y Especialista. 
 ### 3 Los colores indican el estado de revisión
 
 En toda la web los colores dicen en qué etapa de revisión está un caso, nunca qué tan grave es. Siempre van acompañados de texto.
-
-![Captura · página 3](media/web/p03-04.png)
 
 ## Conoce la plataforma
 
@@ -360,17 +354,15 @@ Pulsa «Ingresar»
 
 Pantalla de ingreso.
 
-![Captura · página 5](media/web/p05-05.png)
-
 ## Ingresar, cambiar la contraseña y salir
 
 CAPÍTULO 2
 
 acceso
 
-![Captura · página 5](media/web/p05-06.jpeg)
+![Inicio de sesión de la web](media/web/p05-07.jpeg)
 
-![Captura · página 5](media/web/p05-07.jpeg)
+> **Captura transcrita:** Pantalla de ingreso de la plataforma web: una tarjeta blanca sobre fondo claro con franja verde a la izquierda. [Transcripción completa](../06-figuras/manual-web/01-inicio-de-sesion-de-la-web.md)
 
 1
 
@@ -460,15 +452,15 @@ Si algo no funciona
 
 Pulsa el botón dorado Salir (arriba a la derecha). La sesión también se cierra sola al cerrar el navegador o tras una jornada (8 horas).
 
-![Captura · página 6](media/web/p06-08.jpeg)
+![Inicio de sesión con error](media/web/p06-09.jpeg)
 
-![Captura · página 6](media/web/p06-09.jpeg)
+> **Captura transcrita:** El mismo formulario después de un intento fallido: aparece el aviso rojo «Correo o contraseña incorrectos.» sin indicar cuál de los dos falló. [Transcripción completa](../06-figuras/manual-web/02-inicio-de-sesion-con-error.md)
 
 1
 
-![Captura · página 6](media/web/p06-10.jpeg)
+![Cambiar contraseña](media/web/p06-11.jpeg)
 
-![Captura · página 6](media/web/p06-11.jpeg)
+> **Captura transcrita:** Formulario para cambiar la contraseña (obligatorio en el primer ingreso con contraseña temporal). [Transcripción completa](../06-figuras/manual-web/03-cambiar-contrasena.md)
 
 1
 
@@ -558,17 +550,15 @@ Salir
 
 Cerrar tu sesión.
 
-![Captura · página 7](media/web/p07-12.png)
-
 ## La pantalla y la ayuda de cada página
 
 CAPÍTULO 3
 
 orientación
 
-![Captura · página 7](media/web/p07-13.jpeg)
+![Panel del fundo (vista completa con menú)](media/web/p07-14.jpeg)
 
-![Captura · página 7](media/web/p07-14.jpeg)
+> **Captura transcrita:** Vista completa de la web con el menú lateral verde (logo, sección PLATAFORMA y sección ADMINISTRACIÓN), la barra superior con el estado «En vivo», notificaciones, sonido, contraseña, el usuario y «Salir», y el Panel del fundo con el saludo, el filtro de periodo y las tarjetas de indicadores. [Transcripción completa](../06-figuras/manual-web/04-panel-del-fundo-vista-completa-con-menu.md)
 
 1
 
@@ -608,9 +598,9 @@ Al tocarlo se abre con los pasos y qué hacer si algo falla.
 
 Ayuda completa En el menú, Ayuda y manuales reúne este manual, el de la app móvil, la documentación del sistema y todas las guías rápidas (capítulo 18).
 
-![Captura · página 8](media/web/p08-15.jpeg)
+![Guía «Cómo se usa esta página» abierta (Panel)](media/web/p08-16.jpeg)
 
-![Captura · página 8](media/web/p08-16.jpeg)
+> **Captura transcrita:** La guía plegable del Panel desplegada: tres pasos numerados, un recuadro amarillo «Si algo no funciona» y el enlace a los manuales. [Transcripción completa](../06-figuras/manual-web/05-guia-como-se-usa-esta-pagina-abierta-panel.md)
 
 1
 
@@ -640,17 +630,15 @@ Panel con sus indicadores.
 
 Pasos
 
-![Captura · página 9](media/web/p09-17.png)
-
 ## Panel del fundo
 
 CAPÍTULO 4
 
 todos
 
-![Captura · página 9](media/web/p09-18.jpeg)
+![Panel del fundo: indicadores](media/web/p09-19.jpeg)
 
-![Captura · página 9](media/web/p09-19.jpeg)
+> **Captura transcrita:** Detalle del Panel: encabezado verde con saludo, accesos y filtro de periodo, y doce tarjetas de indicadores con una línea de contexto debajo de cada número (por ejemplo, el caso más antiguo, el porcentaje rechazado por calidad o los avisos con error). [Transcripción completa](../06-figuras/manual-web/06-panel-del-fundo-indicadores.md)
 
 1
 
@@ -742,17 +730,15 @@ Bandeja de casos (vista del administrador).
 
 Pasos
 
-![Captura · página 11](media/web/p11-20.png)
-
 ## Bandeja de casos
 
 CAPÍTULO 5
 
 todos
 
-![Captura · página 11](media/web/p11-21.jpeg)
+![Bandeja de casos](media/web/p11-22.jpeg)
 
-![Captura · página 11](media/web/p11-22.jpeg)
+> **Captura transcrita:** Bandeja del especialista con las pestañas «Casos» y «Descartadas por la IA», el aviso fijo de que la IA solo sugiere, los filtros (estado, lote, origen, fechas, orden) y la tabla de casos con miniatura, estado, ubicación, fecha de captura, cajas de la IA con su confianza máxima, antigüedad, aviso y botón de papelera. [Transcripción completa](../06-figuras/manual-web/07-bandeja-de-casos.md)
 
 1
 
@@ -846,17 +832,15 @@ Guardar y pasar al siguiente
 
 Caso abierto por el especialista: foto, ubicación y panel de decisión.
 
-![Captura · página 13](media/web/p13-23.png)
-
 ## Revisar y decidir un caso
 
 CAPÍTULO 6
 
 especialista
 
-![Captura · página 13](media/web/p13-24.jpeg)
+![Revisar un caso](media/web/p13-25.jpeg)
 
-![Captura · página 13](media/web/p13-25.jpeg)
+> **Captura transcrita:** Ficha de un caso pendiente. [Transcripción completa](../06-figuras/manual-web/08-revisar-un-caso.md)
 
 1
 
@@ -938,9 +922,9 @@ Guarda
 
 5
 
-![Captura · página 14](media/web/p14-26.jpeg)
+![Decisión del especialista (detalle)](media/web/p14-27.jpeg)
 
-![Captura · página 14](media/web/p14-27.jpeg)
+> **Captura transcrita:** Bloque de decisión ampliado: cuatro opciones con su efecto y su tecla de atajo, la observación, la clase confirmada opcional, la marca de cajas incorrectas de la IA y los botones para guardar. [Transcripción completa](../06-figuras/manual-web/09-decision-del-especialista-detalle.md)
 
 1
 
@@ -1020,9 +1004,9 @@ Si algo no funciona
 
 ¿No ves los botones de decisión? Solo el rol Especialista fitosanitario decide. «Este caso ya fue decidido»: otra persona decidió antes; se muestra la decisión vigente. Solo «Confirmado» genera avisos por Telegram.
 
-![Captura · página 16](media/web/p16-28.jpeg)
+![Caso visto por un usuario sin permiso para decidir](media/web/p16-29.jpeg)
 
-![Captura · página 16](media/web/p16-29.jpeg)
+> **Captura transcrita:** La misma ficha de caso, pero el bloque de decisión está bloqueado (candado): solo el especialista fitosanitario puede decidir. [Transcripción completa](../06-figuras/manual-web/10-caso-visto-por-un-usuario-sin-permiso-para-decidir.md)
 
 1
 
@@ -1060,17 +1044,15 @@ Una foto rescatada sale de esta lista y aparece en la bandeja.
 
 Rescatar una foto Abre la foto con «Ver foto». Si hay plaga, el especialista pulsa «Abrir caso para revisión»: la foto pasa a la bandeja como caso manual y sale de esta lista.
 
-![Captura · página 17](media/web/p17-30.png)
-
 ## Descartadas por la IA
 
 CAPÍTULO 7
 
 todos
 
-![Captura · página 17](media/web/p17-31.jpeg)
+![Descartadas por la IA](media/web/p17-32.jpeg)
 
-![Captura · página 17](media/web/p17-32.jpeg)
+> **Captura transcrita:** Pestaña con las fotos que la IA descartó (no abrieron caso ni generaron aviso). [Transcripción completa](../06-figuras/manual-web/11-descartadas-por-la-ia.md)
 
 1
 
@@ -1114,17 +1096,15 @@ Mapa del fundo. En esta captura de demostración no cargó la imagen satelital (
 
 Pasos
 
-![Captura · página 18](media/web/p18-33.png)
-
 ## Mapa y plano de hileras
 
 CAPÍTULO 8
 
 todos
 
-![Captura · página 18](media/web/p18-34.jpeg)
+![Mapa del fundo](media/web/p18-35.jpeg)
 
-![Captura · página 18](media/web/p18-35.jpeg)
+> **Captura transcrita:** Mapa satelital del fundo. [Transcripción completa](../06-figuras/manual-web/12-mapa-del-fundo.md)
 
 1
 
@@ -1180,9 +1160,9 @@ Si algo no funciona
 
 «n / m hileras cubiertas» cuenta solo las hileras recorridas por los dos lados (A y B).
 
-![Captura · página 19](media/web/p19-36.jpeg)
+![Plano de hileras](media/web/p19-37.jpeg)
 
-![Captura · página 19](media/web/p19-37.jpeg)
+> **Captura transcrita:** Plano esquemático de un lote: cada hilera es una barra proporcional a su número de plantas y los recuadros son los segmentos con casos, coloreados por estado. [Transcripción completa](../06-figuras/manual-web/13-plano-de-hileras.md)
 
 1
 
@@ -1214,17 +1194,15 @@ Una salida al campo
 
 Lista de sesiones.
 
-![Captura · página 20](media/web/p20-38.png)
-
 ## Sesiones y fotos
 
 CAPÍTULO 9
 
 todos
 
-![Captura · página 20](media/web/p20-39.jpeg)
+![Sesiones de monitoreo](media/web/p20-40.jpeg)
 
-![Captura · página 20](media/web/p20-40.jpeg)
+> **Captura transcrita:** Lista de sesiones sincronizadas desde el controlador de la app (solo lectura), con operador, modo, estado, número de pasadas y fotos, celular controlador y versión de la app. [Transcripción completa](../06-figuras/manual-web/14-sesiones-de-monitoreo.md)
 
 1
 
@@ -1254,9 +1232,9 @@ Si algo no funciona
 
 Para quitar solo algunas fotos usa la papelera desde cada foto: se puede deshacer.
 
-![Captura · página 21](media/web/p21-41.jpeg)
+![Detalle de una sesión](media/web/p21-42.jpeg)
 
-![Captura · página 21](media/web/p21-42.jpeg)
+> **Captura transcrita:** Detalle de la sesión del 04/11/2026: tarjetas de operador, duración, versiones y calidad de fotos; tablas de cámaras vinculadas, incidencias y pasadas (lote-hilera, lateral, orden, estado, secuencias e intervalo horario). [Transcripción completa](../06-figuras/manual-web/15-detalle-de-una-sesion.md)
 
 1
 
@@ -1304,9 +1282,9 @@ Si algo no funciona
 
 Una foto en la papelera no se analiza ni se puede decidir hasta restaurarla.
 
-![Captura · página 22](media/web/p22-43.jpeg)
+![Detalle de una foto](media/web/p22-44.jpeg)
 
-![Captura · página 22](media/web/p22-44.jpeg)
+> **Captura transcrita:** Ficha de una foto individual: imagen a la izquierda y, a la derecha, los datos de captura (lote, hilera, lateral, secuencia, cámara, usuario, hora, tamaño, calidad) y el resultado del análisis de la IA. [Transcripción completa](../06-figuras/manual-web/16-detalle-de-una-foto.md)
 
 1
 
@@ -1348,17 +1326,15 @@ Si algo no funciona
 
 Cada exportación queda registrada en la auditoría.
 
-![Captura · página 23](media/web/p23-45.png)
-
 ## Reportes
 
 CAPÍTULO 10
 
 todos
 
-![Captura · página 23](media/web/p23-46.jpeg)
+![Reportes y exportaciones](media/web/p23-47.jpeg)
 
-![Captura · página 23](media/web/p23-47.jpeg)
+> **Captura transcrita:** Pantalla de reportes: descarga del CSV de casos y decisiones con filtros y explicación de cómo obtener el informe en PDF imprimiendo desde el navegador. [Transcripción completa](../06-figuras/manual-web/17-reportes-y-exportaciones.md)
 
 1
 
@@ -1418,17 +1394,15 @@ El error, si hubo
 
 Página Avisos: estado, intentos y error de cada envío.
 
-![Captura · página 24](media/web/p24-48.png)
-
 ## Avisos por Telegram
 
 CAPÍTULO 11
 
 todos
 
-![Captura · página 24](media/web/p24-49.jpeg)
+![Avisos por Telegram](media/web/p24-50.jpeg)
 
-![Captura · página 24](media/web/p24-50.jpeg)
+> **Captura transcrita:** Registro de avisos generados: fecha, caso, destinatario, estado (Enviado o Error de envío), intentos, hora de envío y error. [Transcripción completa](../06-figuras/manual-web/18-avisos-por-telegram.md)
 
 1
 
@@ -1443,8 +1417,6 @@ Pasos
 Si algo no funciona
 
 «chat not found»: el número de chat está mal o la persona no pulsó «Iniciar» en el bot. «bot was blocked» o «kicked»: la persona bloqueó el bot o lo sacaron del grupo. Corrige en Destinatarios y usa «Enviar prueba» antes de esperar el próximo caso.
-
-![Captura · página 25](media/web/p25-51.jpeg)
 
 Caso confirmado por el especialista Lote SWG 5 · hilera 8 · Lateral A Segmento SWG 5-S1 · marcador M1 Foto del 02/11/2026 07:28 IA: 3 caja(s) · máx. 0,69
 
@@ -1490,8 +1462,6 @@ Filtra por estado para ver solo los errores.
 
 3
 
-![Captura · página 25](media/web/p25-52.png)
-
 foto con las cajas de la IA
 
 <!-- página 26 -->
@@ -1524,17 +1494,15 @@ Ninguna caja ≥ 0,40, o menos de 2 cajas ≥ 0,40
 
 Descartada por la IA (sin caso)
 
-![Captura · página 26](media/web/p26-53.png)
-
 ## Estado de la IA
 
 CAPÍTULO 12
 
 administrador · especialista
 
-![Captura · página 26](media/web/p26-54.jpeg)
+![Estado del análisis con IA](media/web/p26-55.jpeg)
 
-![Captura · página 26](media/web/p26-55.jpeg)
+> **Captura transcrita:** Estado del worker de IA: el modelo activo con sus parámetros, contadores por resultado de análisis y la tabla de errores recientes con el botón «Reencolar». [Transcripción completa](../06-figuras/manual-web/19-estado-del-analisis-con-ia.md)
 
 1
 
@@ -1606,17 +1574,15 @@ Usuarios: solicitudes, nueva cuenta y todas las cuentas.
 
 Pasos
 
-![Captura · página 28](media/web/p28-56.png)
-
 ## Usuarios y celulares
 
 CAPÍTULO 13
 
 administrador
 
-![Captura · página 28](media/web/p28-57.jpeg)
+![Usuarios](media/web/p28-58.jpeg)
 
-![Captura · página 28](media/web/p28-58.jpeg)
+> **Captura transcrita:** Administración de cuentas: formulario para crear una cuenta web o de app con roles, panel con las reglas de las cuentas, solicitudes pendientes que llegan desde la app (aprobar o rechazar asignando rol) y pedidos de restablecimiento de contraseña. [Transcripción completa](../06-figuras/manual-web/20-usuarios.md)
 
 1
 
@@ -1684,9 +1650,9 @@ La contraseña aparece una sola vez: anótala y entrégala en persona. La person
 
 3
 
-![Captura · página 29](media/web/p29-59.jpeg)
+![Celulares (instalaciones de la app)](media/web/p29-60.jpeg)
 
-![Captura · página 29](media/web/p29-60.jpeg)
+> **Captura transcrita:** Lista de celulares donde se instaló e inició sesión la app: modelo e identificador corto, plataforma, versión, último usuario, última vez y estado, con el botón rojo «Revocar» (irreversible para esa versión). [Transcripción completa](../06-figuras/manual-web/21-celulares-instalaciones-de-la-app.md)
 
 1
 
@@ -1738,17 +1704,15 @@ Destinatarios: lista, pasos, «Buscar chats» y formulario.
 
 ### Agregar una persona o un grupo
 
-![Captura · página 31](media/web/p31-61.png)
-
 ## Destinatarios de avisos
 
 CAPÍTULO 14
 
 administrador
 
-![Captura · página 31](media/web/p31-62.jpeg)
+![Destinatarios de avisos](media/web/p31-63.jpeg)
 
-![Captura · página 31](media/web/p31-63.jpeg)
+> **Captura transcrita:** Lista de personas o grupos de Telegram que reciben los avisos: función, chat, lotes, consentimiento y estado. [Transcripción completa](../06-figuras/manual-web/22-destinatarios-de-avisos.md)
 
 1
 
@@ -1832,9 +1796,9 @@ En su fila pulsa Enviar prueba: debe llegarle un mensaje en Telegram.
 
 5
 
-![Captura · página 32](media/web/p32-64.jpeg)
+![Cómo agregar un destinatario y Buscar chats](media/web/p32-65.jpeg)
 
-![Captura · página 32](media/web/p32-65.jpeg)
+> **Captura transcrita:** Panel lateral ampliado: los cuatro pasos para dar de alta a alguien en Telegram y el resultado de «Buscar chats». [Transcripción completa](../06-figuras/manual-web/23-como-agregar-un-destinatario-y-buscar-chats.md)
 
 1
 
@@ -1842,9 +1806,9 @@ En su fila pulsa Enviar prueba: debe llegarle un mensaje en Telegram.
 
 3
 
-![Captura · página 32](media/web/p32-66.jpeg)
+![Nuevo destinatario (formulario)](media/web/p32-67.jpeg)
 
-![Captura · página 32](media/web/p32-67.jpeg)
+> **Captura transcrita:** Formulario de alta llenado con el chat simulado. [Transcripción completa](../06-figuras/manual-web/24-nuevo-destinatario-formulario.md)
 
 1
 
@@ -1912,17 +1876,15 @@ Catálogos: lotes y «Nuevo lote».
 
 Pasos
 
-![Captura · página 34](media/web/p34-68.png)
-
 ## Catálogos del fundo
 
 CAPÍTULO 15
 
 administrador · supervisor
 
-![Captura · página 34](media/web/p34-69.jpeg)
+![Catálogos del fundo (lotes)](media/web/p34-70.jpeg)
 
-![Captura · página 34](media/web/p34-70.jpeg)
+> **Captura transcrita:** Lista de lotes del fundo con su conteo de hileras, segmentos y marcadores, y el formulario para crear un lote nuevo. [Transcripción completa](../06-figuras/manual-web/25-catalogos-del-fundo-lotes.md)
 
 1
 
@@ -1966,9 +1928,9 @@ Dentro de un lote: agregar hileras, aplicar segmentos y abrir cada hilera.
 
 Nada se borra «Desactivar» oculta un elemento para la app sin borrar su historia. Los celulares reciben los cambios cuando el controlador pulsa Catálogos → Actualizar.
 
-![Captura · página 35](media/web/p35-71.jpeg)
+![Detalle de un lote (hileras)](media/web/p35-72.jpeg)
 
-![Captura · página 35](media/web/p35-72.jpeg)
+> **Captura transcrita:** Ficha del lote SWG 1: aviso amarillo de hileras fuera del estándar de 10 segmentos con el botón «Aplicar 10 segmentos», tabla de hileras (plantas, largo, segmentos, marcadores, estado, editar/desactivar) y formularios para agregar hileras y editar los datos del lote. [Transcripción completa](../06-figuras/manual-web/26-detalle-de-un-lote-hileras.md)
 
 1
 
@@ -2002,17 +1964,15 @@ Vaciar (escribe ELIMINAR)
 
 Papelera: restaurar o borrar para siempre.
 
-![Captura · página 36](media/web/p36-73.png)
-
 ## Papelera y limpieza de fotos
 
 CAPÍTULO 16
 
 administrador
 
-![Captura · página 36](media/web/p36-74.jpeg)
+![Papelera](media/web/p36-75.jpeg)
 
-![Captura · página 36](media/web/p36-75.jpeg)
+> **Captura transcrita:** Fotos quitadas a mano por el administrador. [Transcripción completa](../06-figuras/manual-web/27-papelera.md)
 
 1
 
@@ -2052,9 +2012,9 @@ Aquí llegan las fotos que el administrador quitó desde la foto, el caso, la se
 
 3
 
-![Captura · página 37](media/web/p37-76.jpeg)
+![Limpieza de fotos](media/web/p37-77.jpeg)
 
-![Captura · página 37](media/web/p37-77.jpeg)
+> **Captura transcrita:** Herramienta para borrar fotos sin valor (sin indicios o descartadas por la IA) pasado cierto número de días, para ahorrar espacio. [Transcripción completa](../06-figuras/manual-web/28-limpieza-de-fotos.md)
 
 1
 
@@ -2126,17 +2086,15 @@ Toda la historia de ese registro
 
 Auditoría con su explicación, filtros por tipo y el significado de cada acción.
 
-![Captura · página 39](media/web/p39-78.png)
-
 ## Auditoría
 
 CAPÍTULO 17
 
 administrador
 
-![Captura · página 39](media/web/p39-79.jpeg)
+![Auditoría](media/web/p39-80.jpeg)
 
-![Captura · página 39](media/web/p39-80.jpeg)
+> **Captura transcrita:** Registro de solo lectura de las acciones importantes del sistema. [Transcripción completa](../06-figuras/manual-web/29-auditoria.md)
 
 1
 
@@ -2208,17 +2166,15 @@ Guías de cada pantalla
 
 Ayuda y manuales.
 
-![Captura · página 41](media/web/p41-81.png)
-
 ## Ayuda, manuales y uso en el celular
 
 CAPÍTULO 18
 
 todos
 
-![Captura · página 41](media/web/p41-82.jpeg)
+![Ayuda y manuales](media/web/p41-83.jpeg)
 
-![Captura · página 41](media/web/p41-83.jpeg)
+> **Captura transcrita:** Pantalla de ayuda con los tres documentos (manual web, manual de la app y documentación del sistema y guía de pruebas, aún sin publicar en la captura), un aviso para quien vaya a probar el sistema, los primeros pasos por rol y la lista de guías rápidas de cada pantalla. [Transcripción completa](../06-figuras/manual-web/30-ayuda-y-manuales.md)
 
 1
 
@@ -2238,13 +2194,13 @@ Caso en el celular (abierto desde el aviso de Telegram).
 
 Al tocar «Ver caso» en un aviso de Telegram, la web pide iniciar sesión y luego abre directamente ese caso.
 
-![Captura · página 42](media/web/p42-84.jpeg)
+![Bandeja de casos en celular](media/web/p42-85.jpeg)
 
-![Captura · página 42](media/web/p42-85.jpeg)
+> **Captura transcrita:** La bandeja vista en un navegador de celular: el menú pasa a una barra horizontal superior con logo, Panel, Casos (36) y Mapa; los filtros se acomodan en dos columnas. [Transcripción completa](../06-figuras/manual-web/31-bandeja-de-casos-en-celular.md)
 
-![Captura · página 42](media/web/p42-86.jpeg)
+![Revisar un caso en celular](media/web/p42-87.jpeg)
 
-![Captura · página 42](media/web/p42-87.jpeg)
+> **Captura transcrita:** La ficha del caso en celular: miga de pan «Casos › SWG 5 · H8 · Lateral A», el estado, el aviso de la IA y la foto a todo el ancho con sus herramientas y las cajas numeradas. [Transcripción completa](../06-figuras/manual-web/32-revisar-un-caso-en-celular.md)
 
 <!-- página 43 -->
 
@@ -2329,8 +2285,6 @@ Una sesión no aparece
 El controlador no sincronizó
 
 Sincroniza desde la app con internet.
-
-![Captura · página 43](media/web/p43-88.png)
 
 ## Problemas frecuentes
 

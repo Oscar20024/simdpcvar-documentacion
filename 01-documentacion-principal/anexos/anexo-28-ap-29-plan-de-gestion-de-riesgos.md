@@ -449,7 +449,9 @@
 
 **MATRIZ DE PROBABILIDAD E IMPACTO**
 
-**![](../media/image53.jpeg)**
+**![Matriz de probabilidad e impacto (Anexo 28, AP-29)](../media/image53.jpeg)**
+
+> **Figura transcrita (image53.jpeg):** Herramienta para priorizar riesgos: el puntaje de cada riesgo es probabilidad × impacto. Los umbrales de nivel (Muy Alto > 0.50; Alto 0.30–0.50; Moderado 0.10–0.30; Bajo 0.05–0.10; Muy Bajo < 0.05) están en el plan de riesgos. [Transcripción completa](../../06-figuras/informe-principal/img53-matriz-de-probabilidad-e-impacto-anexo-28-ap-29.md)
 
 <table>
 <tr>

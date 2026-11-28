@@ -22,7 +22,7 @@
 </tr>
 </table>
 
-![](../media/image63.png)![](../media/image64.png)
+VALIDACIÓN DEL INSTRUMENTO (JUICIO DEEXPERTOS)
 
 **Título del Proyecto**
 

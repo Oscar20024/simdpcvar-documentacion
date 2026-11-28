@@ -50,7 +50,9 @@
 <td colspan="2">Oscar Manuel Guerrero Figari; colaboradores técnicos del prototipo</td>
 </tr>
 <tr>
-<td>DE PORTAFOLIOS<br>![](../media/image51.png)</td>
+<td>DE PORTAFOLIOS<br>![Logotipo «Dharma Consulting» (encabezado de las plantillas de gestión)](../media/image51.png)</td>
+
+> **Figura transcrita (image51.png):** Encabezado de las plantillas de gestión de proyectos (formatos tipo PMBOK de Dharma Consulting) usadas en varios anexos AP. No aporta información del proyecto. [Transcripción completa](../../06-figuras/informe-principal/img51-logotipo-dharma-consulting-encabezado-de-las-plantillas-de-g.md)
 <td colspan="2">No se identifica director de portafolios específico</td>
 </tr>
 <tr>

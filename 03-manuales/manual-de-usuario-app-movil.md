@@ -2,9 +2,7 @@
 
 <!-- página 1 -->
 
-![Captura · página 1](media/app/p01-01.png)
-
-![Captura · página 1](media/app/p01-02.png)
+![Logo de Agrícola Riachuelo](media/app/p01-02.png)
 
 M O N I TO R E O F I TO S A N I TA R I O D E L A V I D
 
@@ -150,8 +148,6 @@ Resumen de la jornada
 
 35
 
-![Captura · página 2](media/app/p02-03.png)
-
 ### Contenido
 
 <!-- página 3 -->
@@ -223,8 +219,6 @@ router o hotspot
 (sin internet)
 
 Las dos cámaras van en la barra y fotografían el mismo lado de la hilera al mismo tiempo. El controlador las une por Wi-Fi local. Cada hilera se recorre dos veces: lado A de ida y lado B de vuelta.
-
-![Captura · página 3](media/app/p03-04.png)
 
 ## Conoce la app
 
@@ -304,8 +298,6 @@ En el campo
 
 El router no debe aislar a los celulares Algunos routers no dejan que los equipos se vean entre sí. Si las cámaras no se vinculan, prueba con el hotspot de otro celular.
 
-![Captura · página 5](media/app/p05-05.png)
-
 ## Antes de salir al campo
 
 CAPÍTULO 2
@@ -354,17 +346,15 @@ Ingreso.
 
 ¿No tienes cuenta? Pulsa «Crear cuenta». Queda pendiente hasta que el administrador la apruebe en la web. «¿Olvidaste tu contraseña?» envía un pedido al administrador.
 
-![Captura · página 6](media/app/p06-06.png)
-
 ## Instalar e ingresar
 
 CAPÍTULO 3
 
 todos
 
-![Captura · página 6](media/app/p06-07.jpeg)
+![Inicio de sesión de la app](media/app/p06-08.jpeg)
 
-![Captura · página 6](media/app/p06-08.jpeg)
+> **Captura transcrita:** Pantalla de entrada de la app 0.6.1. [Transcripción completa](../06-figuras/manual-app/01-inicio-de-sesion-de-la-app.md)
 
 1
 
@@ -416,13 +406,13 @@ Pedir una contraseña nueva.
 
 Sin internet Si fallas 5 veces la contraseña sin internet, el ingreso se bloquea 15 minutos. En celulares de gama baja el ingreso sin internet puede tardar unos segundos.
 
-![Captura · página 7](media/app/p07-09.jpeg)
+![Crear cuenta (registro del operador)](media/app/p07-10.jpeg)
 
-![Captura · página 7](media/app/p07-10.jpeg)
+> **Captura transcrita:** Formulario de solicitud de cuenta que llena el propio operador de campo desde la app. [Transcripción completa](../06-figuras/manual-app/02-crear-cuenta-registro-del-operador.md)
 
-![Captura · página 7](media/app/p07-11.jpeg)
+![Recuperar contraseña](media/app/p07-12.jpeg)
 
-![Captura · página 7](media/app/p07-12.jpeg)
+> **Captura transcrita:** Pantalla para pedir una contraseña nueva: solo pide el correo y envía la solicitud al administrador. [Transcripción completa](../06-figuras/manual-app/03-recuperar-contrasena.md)
 
 <!-- página 8 -->
 
@@ -458,17 +448,15 @@ Confirmar la función
 
 Confirma con «Usar como…».
 
-![Captura · página 8](media/app/p08-13.png)
-
 ## Elegir la función del celular
 
 CAPÍTULO 4
 
 operador
 
-![Captura · página 8](media/app/p08-14.jpeg)
+![Función del celular (sin elegir)](media/app/p08-15.jpeg)
 
-![Captura · página 8](media/app/p08-15.jpeg)
+> **Captura transcrita:** Después de ingresar, la app pregunta qué papel cumplirá el equipo en la sesión: Controlador, Cámara 1 o Cámara 2. [Transcripción completa](../06-figuras/manual-app/04-funcion-del-celular-sin-elegir.md)
 
 1
 
@@ -480,9 +468,9 @@ operador
 
 5
 
-![Captura · página 8](media/app/p08-16.jpeg)
+![Función del celular (Controlador elegido)](media/app/p08-17.jpeg)
 
-![Captura · página 8](media/app/p08-17.jpeg)
+> **Captura transcrita:** La misma pantalla con «Controlador» marcado (tarjeta en verde con check). [Transcripción completa](../06-figuras/manual-app/05-funcion-del-celular-controlador-elegido.md)
 
 1
 
@@ -536,17 +524,15 @@ Regla de 10 segmentos
 
 Catálogos descargados.
 
-![Captura · página 10](media/app/p10-18.png)
-
 ## Controlador: panel y catálogos
 
 CAPÍTULO 5
 
 controlador
 
-![Captura · página 10](media/app/p10-19.jpeg)
+![Panel del controlador sin catálogos](media/app/p10-20.jpeg)
 
-![Captura · página 10](media/app/p10-20.jpeg)
+> **Captura transcrita:** Panel principal del controlador antes de descargar los catálogos. [Transcripción completa](../06-figuras/manual-app/06-panel-del-controlador-sin-catalogos.md)
 
 1
 
@@ -554,9 +540,9 @@ controlador
 
 3
 
-![Captura · página 10](media/app/p10-21.jpeg)
+![Catálogos descargados](media/app/p10-22.jpeg)
 
-![Captura · página 10](media/app/p10-22.jpeg)
+> **Captura transcrita:** Pantalla «Catálogos» con la versión descargada y el resumen de lo que trae: lotes, hileras, segmentos y marcadores. [Transcripción completa](../06-figuras/manual-app/07-catalogos-descargados.md)
 
 1
 
@@ -616,9 +602,9 @@ La fila «Catálogos» muestra la fecha de la última descarga.
 
 3
 
-![Captura · página 11](media/app/p11-23.jpeg)
+![Panel del controlador listo](media/app/p11-24.jpeg)
 
-![Captura · página 11](media/app/p11-24.jpeg)
+> **Captura transcrita:** Panel del controlador con los catálogos al día (fecha en verde). [Transcripción completa](../06-figuras/manual-app/08-panel-del-controlador-listo.md)
 
 1
 
@@ -658,17 +644,15 @@ Crear la sesión
 
 Modo de captura e intervalo.
 
-![Captura · página 12](media/app/p12-25.png)
-
 ## Nueva sesión y vincular las cámaras
 
 CAPÍTULO 6
 
 controlador + cámaras
 
-![Captura · página 12](media/app/p12-26.jpeg)
+![Nueva sesión: modo de captura](media/app/p12-27.jpeg)
 
-![Captura · página 12](media/app/p12-27.jpeg)
+> **Captura transcrita:** Al crear la sesión se elige el modo de captura. [Transcripción completa](../06-figuras/manual-app/09-nueva-sesion-modo-de-captura.md)
 
 1
 
@@ -734,9 +718,9 @@ Si una cámara no conecta
 
 Revisa que los 3 estén en la misma red Wi-Fi. «Regenerar QR» y vuelve a escanear. Si la red no detecta la IP, usa «IP manual».
 
-![Captura · página 13](media/app/p13-28.jpeg)
+![Vincular cámaras (QR del controlador)](media/app/p13-29.jpeg)
 
-![Captura · página 13](media/app/p13-29.jpeg)
+> **Captura transcrita:** El controlador muestra un código QR con su IP y puertos para que las dos cámaras se vinculen por Wi-Fi local. [Transcripción completa](../06-figuras/manual-app/10-vincular-camaras-qr-del-controlador.md)
 
 1
 
@@ -748,9 +732,9 @@ Revisa que los 3 estén en la misma red Wi-Fi. «Regenerar QR» y vuelve a escan
 
 5
 
-![Captura · página 13](media/app/p13-30.jpeg)
+![Escanear QR desde la cámara](media/app/p13-31.jpeg)
 
-![Captura · página 13](media/app/p13-31.jpeg)
+> **Captura transcrita:** Vista del celular que hará de Cámara 1: la cámara apunta al QR del controlador (en la imagen se ve un viñedo simulado). [Transcripción completa](../06-figuras/manual-app/11-escanear-qr-desde-la-camara.md)
 
 1
 
@@ -816,23 +800,21 @@ Reprobada por tiempo o conexión
 
 Acerca los celulares al router, revisa el Wi-Fi y pulsa «Repetir».
 
-![Captura · página 14](media/app/p14-32.png)
-
 ## Prueba corta
 
 CAPÍTULO 7
 
 controlador
 
-![Captura · página 14](media/app/p14-33.jpeg)
+![Prueba corta (antes de ejecutar)](media/app/p14-34.jpeg)
 
-![Captura · página 14](media/app/p14-34.jpeg)
+> **Captura transcrita:** Prueba de conexión y calidad con las dos cámaras antes de salir al campo. [Transcripción completa](../06-figuras/manual-app/12-prueba-corta-antes-de-ejecutar.md)
 
 1
 
-![Captura · página 14](media/app/p14-35.jpeg)
+![Prueba corta aprobada](media/app/p14-36.jpeg)
 
-![Captura · página 14](media/app/p14-36.jpeg)
+> **Captura transcrita:** Resultado de la prueba: las dos cámaras respondieron CAPTURE_OK, la foto salió UTILIZABLE, la transferencia fue correcta y tardó menos de 2 s. [Transcripción completa](../06-figuras/manual-app/13-prueba-corta-aprobada.md)
 
 1
 
@@ -890,17 +872,15 @@ Nueva pasada con el recorrido propuesto.
 
 Aviso de segmentos Si una hilera no tiene sus 10 segmentos, la app lo avisa: se puede trabajar, pero la ubicación será menos precisa.
 
-![Captura · página 16](media/app/p16-37.png)
-
 ## Nueva pasada
 
 CAPÍTULO 8
 
 controlador
 
-![Captura · página 16](media/app/p16-38.jpeg)
+![Nueva pasada (Lateral A)](media/app/p16-39.jpeg)
 
-![Captura · página 16](media/app/p16-39.jpeg)
+> **Captura transcrita:** Configuración de una pasada: con las dos cámaras conectadas se elige lote, hilera, lateral y segmento inicial. [Transcripción completa](../06-figuras/manual-app/14-nueva-pasada-lateral-a.md)
 
 1
 
@@ -1006,17 +986,15 @@ Ninguna foto válida.
 
 Mantén la app en pantalla Si el controlador pasa a segundo plano o se apaga la pantalla, Android pausa la app y las cámaras se desconectan. Una cámara desconectada pausa la pasada.
 
-![Captura · página 17](media/app/p17-40.png)
-
 ## Pasada activa: capturar
 
 CAPÍTULO 9
 
 controlador
 
-![Captura · página 17](media/app/p17-41.jpeg)
+![Pasada activa: capturar](media/app/p17-42.jpeg)
 
-![Captura · página 17](media/app/p17-42.jpeg)
+> **Captura transcrita:** Pantalla de trabajo durante la pasada. [Transcripción completa](../06-figuras/manual-app/15-pasada-activa-capturar.md)
 
 1
 
@@ -1086,17 +1064,15 @@ La secuencia quedó completa
 
 Repetida: la secuencia vuelve a estar completa.
 
-![Captura · página 18](media/app/p18-43.png)
-
 ## Si una foto sale mal: repetir
 
 CAPÍTULO 10
 
 controlador · v0.6.1
 
-![Captura · página 18](media/app/p18-44.jpeg)
+![Repetir cámara (intento 1 de 2)](media/app/p18-45.jpeg)
 
-![Captura · página 18](media/app/p18-45.jpeg)
+> **Captura transcrita:** Cuando una cámara entrega una foto mala, la app bloquea nuevas capturas y pide repetir. [Transcripción completa](../06-figuras/manual-app/16-repetir-camara-intento-1-de-2.md)
 
 1
 
@@ -1104,9 +1080,9 @@ controlador · v0.6.1
 
 3
 
-![Captura · página 18](media/app/p18-46.jpeg)
+![Repetir cámara (intento 2 de 2)](media/app/p18-47.jpeg)
 
-![Captura · página 18](media/app/p18-47.jpeg)
+> **Captura transcrita:** Segundo y último intento. [Transcripción completa](../06-figuras/manual-app/17-repetir-camara-intento-2-de-2.md)
 
 1
 
@@ -1164,17 +1140,15 @@ Seguir capturando
 
 Pasada en pausa.
 
-![Captura · página 20](media/app/p20-48.png)
-
 ## Cambiar marcador y pausar
 
 CAPÍTULO 11
 
 controlador
 
-![Captura · página 20](media/app/p20-49.jpeg)
+![Cambiar marcador](media/app/p20-50.jpeg)
 
-![Captura · página 20](media/app/p20-50.jpeg)
+> **Captura transcrita:** Hoja inferior que se abre con «CAMBIAR MARCADOR». [Transcripción completa](../06-figuras/manual-app/18-cambiar-marcador.md)
 
 1
 
@@ -1182,9 +1156,9 @@ controlador
 
 3
 
-![Captura · página 20](media/app/p20-51.jpeg)
+![Pasada en pausa](media/app/p20-52.jpeg)
 
-![Captura · página 20](media/app/p20-52.jpeg)
+> **Captura transcrita:** Pasada pausada en el marcador SWG1-H05-S2-I (segmento 2 de 3). [Transcripción completa](../06-figuras/manual-app/19-pasada-en-pausa.md)
 
 1
 
@@ -1242,17 +1216,15 @@ Terminar el día
 
 Qué hacer después.
 
-![Captura · página 22](media/app/p22-53.png)
-
 ## Terminar la pasada y seguir
 
 CAPÍTULO 12
 
 controlador
 
-![Captura · página 22](media/app/p22-54.jpeg)
+![Terminar pasada (resumen)](media/app/p22-55.jpeg)
 
-![Captura · página 22](media/app/p22-55.jpeg)
+> **Captura transcrita:** Resumen antes de cerrar la pasada: contadores, duración, repeticiones, fotos por llegar, incidencias y avance por segmento. [Transcripción completa](../06-figuras/manual-app/20-terminar-pasada-resumen.md)
 
 1
 
@@ -1260,9 +1232,9 @@ controlador
 
 3
 
-![Captura · página 22](media/app/p22-56.jpeg)
+![Pasada cerrada: qué sigue](media/app/p22-57.jpeg)
 
-![Captura · página 22](media/app/p22-57.jpeg)
+> **Captura transcrita:** Confirmación de pasada cerrada. [Transcripción completa](../06-figuras/manual-app/21-pasada-cerrada-que-sigue.md)
 
 1
 
@@ -1300,9 +1272,9 @@ De vuelta: de la última planta a la 1
 
 Lateral B: el recorrido es de vuelta.
 
-![Captura · página 23](media/app/p23-58.jpeg)
+![Nueva pasada (Lateral B, de vuelta)](media/app/p23-59.jpeg)
 
-![Captura · página 23](media/app/p23-59.jpeg)
+> **Captura transcrita:** Pasada del Lateral B de la misma hilera. [Transcripción completa](../06-figuras/manual-app/22-nueva-pasada-lateral-b-de-vuelta.md)
 
 1
 
@@ -1332,25 +1304,23 @@ La app recuerda que falta sincronizar.
 
 Fotos que faltan llegar Si una cámara aún tiene fotos pendientes, la app ofrece «Esperar» o «Cerrar igual». «Cerrar igual» registra una incidencia.
 
-![Captura · página 24](media/app/p24-60.png)
-
 ## Cerrar la sesión de monitoreo
 
 CAPÍTULO 13
 
 controlador
 
-![Captura · página 24](media/app/p24-61.jpeg)
+![Cerrar sesión de monitoreo](media/app/p24-62.jpeg)
 
-![Captura · página 24](media/app/p24-62.jpeg)
+> **Captura transcrita:** Resumen final de la sesión: las pasadas hechas con su estado, las fotos de cada cámara que faltan llegar al controlador y el número de incidencias. [Transcripción completa](../06-figuras/manual-app/23-cerrar-sesion-de-monitoreo.md)
 
 1
 
 2
 
-![Captura · página 24](media/app/p24-63.jpeg)
+![Sesión cerrada con datos sin sincronizar](media/app/p24-64.jpeg)
 
-![Captura · página 24](media/app/p24-64.jpeg)
+> **Captura transcrita:** Tras cerrar la sesión vuelve a «Función del celular». [Transcripción completa](../06-figuras/manual-app/24-sesion-cerrada-con-datos-sin-sincronizar.md)
 
 1
 
@@ -1384,25 +1354,23 @@ Detener (retoma después)
 
 Durante el envío: progreso, enviados y «Detener».
 
-![Captura · página 25](media/app/p25-65.png)
-
 ## Sincronizar
 
 CAPÍTULO 14
 
 controlador
 
-![Captura · página 25](media/app/p25-66.jpeg)
+![Sincronización pendiente](media/app/p25-67.jpeg)
 
-![Captura · página 25](media/app/p25-67.jpeg)
+> **Captura transcrita:** Pantalla de sincronización con el servidor (aquí simulado). [Transcripción completa](../06-figuras/manual-app/25-sincronizacion-pendiente.md)
 
 1
 
 2
 
-![Captura · página 25](media/app/p25-68.jpeg)
+![Sincronización en curso](media/app/p25-69.jpeg)
 
-![Captura · página 25](media/app/p25-69.jpeg)
+> **Captura transcrita:** Subida en progreso: barra «Sincronizando 8 de 22», 8 enviados y 14 pendientes, 27 MB por subir. [Transcripción completa](../06-figuras/manual-app/26-sincronizacion-en-curso.md)
 
 1
 
@@ -1478,17 +1446,15 @@ La incidencia queda en la lista de la sesión.
 
 Cuándo se puede «Agregar incidencia» se activa solo con una sesión abierta. La app también registra sola algunas incidencias (por ejemplo, una foto rechazada por calidad). Todas llegan a la web al sincronizar, en la página de la sesión.
 
-![Captura · página 27](media/app/p27-70.png)
-
 ## Incidencias, fotos guardadas y ajustes
 
 CAPÍTULO 15
 
 todos
 
-![Captura · página 27](media/app/p27-71.jpeg)
+![Agregar incidencia](media/app/p27-72.jpeg)
 
-![Captura · página 27](media/app/p27-72.jpeg)
+> **Captura transcrita:** Formulario para registrar una incidencia de campo. [Transcripción completa](../06-figuras/manual-app/27-agregar-incidencia.md)
 
 1
 
@@ -1498,9 +1464,9 @@ todos
 
 4
 
-![Captura · página 27](media/app/p27-73.jpeg)
+![Incidencias registradas](media/app/p27-74.jpeg)
 
-![Captura · página 27](media/app/p27-74.jpeg)
+> **Captura transcrita:** Lista de incidencias de la sesión: la que acaba de registrar el operador (AVISO) y la generada por el sistema (INFO). [Transcripción completa](../06-figuras/manual-app/28-incidencias-registradas.md)
 
 1
 
@@ -1556,15 +1522,15 @@ Sonidos y vibración
 
 Ayudas de la interfaz.
 
-![Captura · página 28](media/app/p28-75.jpeg)
+![Fotos guardadas](media/app/p28-76.jpeg)
 
-![Captura · página 28](media/app/p28-76.jpeg)
+> **Captura transcrita:** Galería de fotos guardadas en el celular, con filtros Todas, Sesión, Prueba y Corta. [Transcripción completa](../06-figuras/manual-app/29-fotos-guardadas.md)
 
 1
 
-![Captura · página 28](media/app/p28-77.jpeg)
+![Ajustes](media/app/p28-78.jpeg)
 
-![Captura · página 28](media/app/p28-78.jpeg)
+> **Captura transcrita:** Pantalla de ajustes con los datos del usuario y la vigencia del acceso sin internet, más las acciones de mantenimiento del equipo. [Transcripción completa](../06-figuras/manual-app/30-ajustes.md)
 
 1
 
@@ -1596,23 +1562,21 @@ Métricas y tiempo
 
 Resultado: Utilizable, con sus métricas y el tiempo.
 
-![Captura · página 29](media/app/p29-79.png)
-
 ## Funciones de cámara
 
 CAPÍTULO 16
 
 Cámara 1 · Cámara 2
 
-![Captura · página 29](media/app/p29-80.jpeg)
+![Prueba de cámara (antes de tomar la foto)](media/app/p29-81.jpeg)
 
-![Captura · página 29](media/app/p29-81.jpeg)
+> **Captura transcrita:** Modo prueba de una cámara (Cámara 1). [Transcripción completa](../06-figuras/manual-app/31-prueba-de-camara-antes-de-tomar-la-foto.md)
 
 1
 
-![Captura · página 29](media/app/p29-82.jpeg)
+![Prueba de cámara con resultado](media/app/p29-83.jpeg)
 
-![Captura · página 29](media/app/p29-83.jpeg)
+> **Captura transcrita:** Resultado de la foto de prueba: la validación local la marca UTILIZABLE y muestra las métricas que usa (luminancia, oscuros, saturados, nitidez y tiempo), con la miniatura de la foto. [Transcripción completa](../06-figuras/manual-app/32-prueba-de-camara-con-resultado.md)
 
 1
 
@@ -1664,23 +1628,21 @@ Distancia y dirección desde ti
 
 Vista de lista.
 
-![Captura · página 31](media/app/p31-84.png)
-
 ## Ubicar plaga
 
 CAPÍTULO 17
 
 operador · especialista
 
-![Captura · página 31](media/app/p31-85.jpeg)
+![Ubicar plaga: mapa (especialista)](media/app/p31-86.jpeg)
 
-![Captura · página 31](media/app/p31-86.jpeg)
+> **Captura transcrita:** Vista «Ubicar plaga» con usuario de especialista. [Transcripción completa](../06-figuras/manual-app/33-ubicar-plaga-mapa-especialista.md)
 
 1
 
-![Captura · página 31](media/app/p31-87.jpeg)
+![Ubicar plaga: lista](media/app/p31-88.jpeg)
 
-![Captura · página 31](media/app/p31-88.jpeg)
+> **Captura transcrita:** La misma información en modo lista. [Transcripción completa](../06-figuras/manual-app/34-ubicar-plaga-lista.md)
 
 1
 
@@ -1732,9 +1694,9 @@ Con internet se actualiza sola cada 2 minutos; sin internet usa la última copia
 
 5
 
-![Captura · página 32](media/app/p32-89.jpeg)
+![Detalle de una alerta](media/app/p32-90.jpeg)
 
-![Captura · página 32](media/app/p32-90.jpeg)
+> **Captura transcrita:** Detalle de la alerta de chanchito blanco confirmada por la IA (93 %). [Transcripción completa](../06-figuras/manual-app/35-detalle-de-una-alerta.md)
 
 1
 
@@ -1771,8 +1733,6 @@ Ver fotos en «Ubicar plaga»
 «Ubicar plaga» con la última copia y la distancia
 
 Navegar con Google Maps (salvo mapa sin conexión descargado)
-
-![Captura · página 33](media/app/p33-91.png)
 
 ## Sin internet: qué funciona
 
@@ -1830,8 +1790,6 @@ Batería baja
 
 Conecta el power bank; la app no se detiene.
 
-![Captura · página 34](media/app/p34-92.png)
-
 ## Problemas frecuentes
 
 CAPÍTULO 19
@@ -1843,8 +1801,6 @@ todos
 EN POCAS PALABRAS
 
 La jornada completa en una página.
-
-![Captura · página 35](media/app/p35-93.png)
 
 ## Resumen de la jornada
 

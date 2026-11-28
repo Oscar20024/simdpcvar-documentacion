@@ -49,6 +49,7 @@ Orden mínimo para cualquier tarea:
 | Por qué se decidió algo | ADR: `05-…/plataforma-web/docs/adr/` (ADR-W-001…014) y `05-…/app-movil/docs/adr/` (0001…0012) |
 | Qué cambió en cada versión | `05-…/plataforma-web/docs/REPORTE_AVANCE.md`, `05-…/app-movil/docs/CAMBIOS.md` |
 | Cómo se usa cada pantalla | `03-manuales/manual-de-usuario-plataforma-web.md`, `03-manuales/manual-de-usuario-app-movil.md` |
+| Qué dice o muestra una figura o captura (sin abrir la imagen) | `06-figuras/` — `informe-principal/`, `manual-web/`, `manual-app/`; cada carpeta tiene un `README.md` con el índice. Debajo de cada imagen de los capítulos y manuales hay un enlace «Transcripción completa» |
 | Términos (pasada, secuencia, marcador, triage…) | `00-contexto/09-glosario-rapido.md`, `01-documentacion-principal/00-glosario.md` |
 
 ## 4. Códigos que vas a encontrar
@@ -76,6 +77,7 @@ Ojo: «RN-01» del informe y «RN-01» del maestro de la app **no son la misma r
 
 - **No inventes.** Si un dato no está aquí (una IP, un número de teléfono, una contraseña, una cifra del piloto), dilo y pide la fuente. Los datos personales y secretos se omitieron a propósito.
 - **Cita la fuente** con la ruta del archivo y la sección (por ejemplo «14.7.5 en `capitulo-14-gestion-del-servicio.md`»).
+- **No necesitas abrir las imágenes.** Toda figura tiene su texto en `06-figuras/`. En las del informe, la sección «Vigencia» dice si el diagrama o mockup quedó desactualizado (por ejemplo, wireframes con WhatsApp o nombres antiguos de la app).
 - **Distingue informe vs. sistema real.** El informe describe lo planificado y lo aprobado; el sistema real puede diferir y esas diferencias están en las SC.
 - Si vas a **modificar código**, no lo hagas aquí: este repo solo documenta. En los repos de código lee su `AGENTS.md` (copias en `05-repositorios-de-codigo/*/AGENTS_del_repositorio.md`) y respeta sus validaciones:
   - Web: `python manage.py check`, `python manage.py makemigrations --check --dry-run`, `python manage.py test` y el reporte en `docs/REPORTE_AVANCE.md` (W-24).

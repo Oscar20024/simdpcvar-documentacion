@@ -24,7 +24,7 @@ El Product Backlog es el repositorio dinámico de requisitos del producto, orden
 
 - **Épica 3: Inteligencia artificial y georreferenciación.** Implementación de API REST, Supabase PostgreSQL, Cloudinary, tabla ai_tasks y worker YOLO para procesar capturas y registrar indicios preliminares.
 
-- **Épica 4: Plataforma web, mapas y revisión de casos.** Creación de la web con Django Templates, HTMX y Leaflet/OpenStreetMap para bandeja de casos, revisión de evidencia, decisión del especialista, reportes y envío de avisos por Telegram tras confirmación (SC-02).
+- **Épica 4: Plataforma web, mapas y revisión de casos.** Creación de la web con Django Templates, HTMX y Leaflet sobre teselas satelitales Esri y OpenStreetMap para bandeja de casos, revisión de evidencia, decisión del especialista, reportes y envío de avisos por Telegram tras confirmación (SC-02).
 
 ## 7.4. Historias de usuario
 
@@ -102,7 +102,7 @@ El Product Backlog es el repositorio dinámico de requisitos del producto, orden
 
 1\. Desarrollo de la plataforma Django: modelos, migraciones, API REST, autenticación y permisos.
 
-2\. Construcción de la web de revisión con plantillas Django, HTMX y Leaflet/OpenStreetMap.
+2\. Construcción de la web de revisión con plantillas Django, HTMX y Leaflet sobre teselas satelitales Esri y OpenStreetMap.
 
 3\. Creación de la bandeja de casos y la interfaz donde el especialista confirma, descarta o solicita nueva evidencia.
 

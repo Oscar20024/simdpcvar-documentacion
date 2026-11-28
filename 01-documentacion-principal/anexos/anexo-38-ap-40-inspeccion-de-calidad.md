@@ -67,10 +67,10 @@
 <td colspan="14">Objetivos de la Inspección</td>
 </tr>
 <tr>
-<td colspan="14">Verificar que el tiempo de respuesta de la API REST v1 en Django sea inferior a en la devolución de indicios e información fitosanitaria.<br>![](../media/image57.png)</td>
+<td colspan="14">Verificar que el tiempo de respuesta de la API REST v1 en Django sea inferior a en la devolución de indicios e información fitosanitaria.<br>1.5 segundos</td>
 </tr>
 <tr>
-<td colspan="14">Comprobar que la regla estricta de arquitectura se cumpla al (clientes acceden exclusivamente mediante Django REST Framework con tokens JWT).<br>![](../media/image58.png)</td>
+<td colspan="14">Comprobar que la regla estricta de arquitectura se cumpla al (clientes acceden exclusivamente mediante Django REST Framework con tokens JWT).<br>100%</td>
 </tr>
 <tr>
 <td colspan="14">Validar la persistencia relacional en Supabase (PostgreSQL) y el almacenamiento optimizado de fotografías en Cloudinary con URLs seguras.</td>
@@ -179,7 +179,7 @@
 <td colspan="4">OBSERVACIONES</td>
 </tr>
 <tr>
-<td colspan="4">Ajuste de expiración de token JWT: Extender la validez del token de sesión local a para evitar cierres involuntarios durante jornadas largas de campo.<br>![](../media/image59.png)</td>
+<td colspan="4">Ajuste de expiración de token JWT: Extender la validez del token de sesión local a para evitar cierres involuntarios durante jornadas largas de campo.<br>12 horas</td>
 <td>Oscar<br>Manuel Guerrer o</td>
 <td colspan="3">05/10/2026</td>
 <td colspan="3">Mejora de experiencia usuario (UX) para operadores.</td>
@@ -196,7 +196,7 @@
 <td colspan="12">Observaciones complementarias</td>
 </tr>
 <tr>
-<td colspan="12">Se constató que el tiempo promedio de respuesta de la API REST v1 fue de , superando el requerimiento no funcional RNF04 ().<br>![](../media/image60.png)<br>![](../media/image61.png)</td>
+<td colspan="12">Se constató que el tiempo promedio de respuesta de la API REST v1 fue de , superando el requerimiento no funcional RNF04 ().<br>1.18 segundos<br>≤ 1.5 s</td>
 </tr>
 <tr>
 <td colspan="12">Quedó verificado que ni la app móvil ni la web acceden directamente a las credenciales de<br>Supabase o Cloudinary, cumpliendo la regla de seguridad del proyecto.</td>

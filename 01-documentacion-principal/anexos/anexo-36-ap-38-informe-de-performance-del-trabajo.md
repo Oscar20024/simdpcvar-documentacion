@@ -249,41 +249,32 @@
 <th colspan="2"></th>
 <th></th>
 <th></th>
-<th><blockquote>
-<p><em>o c c u s f i c u</em></p>
+<th><p><em>o c c u s f i c u</em></p>
 <p><em>s</em></p>
-</blockquote></th>
+</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><blockquote>
-<p>3.1</p>
+<td><p>3.1</p>
 <p>App Móvil</p>
-</blockquote></td>
-<td colspan="2"><blockquote>
-<p>Regla de</p>
+</td>
+<td colspan="2"><p>Regla de</p>
 <p>repetición de foto unilateral para la app React Native</p>
-</blockquote></td>
-<td><blockquote>
-<p>23/09</p>
+</td>
+<td><p>23/09</p>
 <p>/2026</p>
-</blockquote></td>
-<td colspan="2"><blockquote>
-<p>29/09/2026</p>
-</blockquote></td>
-<td><blockquote>
-<p>20h</p>
-</blockquote></td>
-<td><blockquote>
-<p>20h 5</p>
+</td>
+<td colspan="2"><p>29/09/2026</p>
+</td>
+<td><p>20h</p>
+</td>
+<td><p>20h 5</p>
 <p>días</p>
-</blockquote></td>
-<td colspan="2"><blockquote>
-<p>Grace Peña / Oscar Guerrero</p>
-</blockquote></td>
-<td><blockquote>
-<p>2</p>
+</td>
+<td colspan="2"><p>Grace Peña / Oscar Guerrero</p>
+</td>
+<td><p>2</p>
 <p>9</p>
 <p>/ 0</p>
 <p>9</p>
@@ -291,39 +282,32 @@
 <p>0</p>
 <p>2</p>
 <p>6</p>
-</blockquote></td>
-<td><blockquote>
-<p>5 días</p>
-</blockquote></td>
-<td><blockquote>
-<p>P</p>
+</td>
+<td><p>5 días</p>
+</td>
+<td><p>P</p>
 <p>e r m i t e r e p e t i r s o l o l a c a p t u r a d e l</p>
 <p>l</p>
 <p>a d o a f e c t a d o</p>
 <p>.</p>
-</blockquote></td>
+</td>
 </tr>
 <tr class="even">
-<td colspan="13"><blockquote>
-<p><strong><span class="smallcaps">Métricas de Calidad en el Periodo</span></strong></p>
-</blockquote></td>
+<td colspan="13"><p><strong><span class="smallcaps">Métricas de Calidad en el Periodo</span></strong></p>
+</td>
 </tr>
 <tr class="odd">
-<td colspan="2"><blockquote>
-<p><em><strong><span class="smallcaps">Factor Relevant</span></strong></em></p>
+<td colspan="2"><p><em><strong><span class="smallcaps">Factor Relevant</span></strong></em></p>
 <p><em><strong>E DE</strong></em></p>
 <p><em><strong><span class="smallcaps">Calidad</span></strong></em></p>
-</blockquote></td>
-<td colspan="3"><blockquote>
-<p><em><strong><span class="smallcaps">Objetivo de</span></strong></em></p>
+</td>
+<td colspan="3"><p><em><strong><span class="smallcaps">Objetivo de</span></strong></em></p>
 <p><em><strong><span class="smallcaps">Calidad</span></strong></em></p>
-</blockquote></td>
-<td colspan="4"><blockquote>
-<p><em><strong><span class="smallcaps">Medición de Métrica</span></strong></em></p>
-</blockquote></td>
-<td colspan="3"><blockquote>
-<p><em><strong><span class="smallcaps">Observaciones</span></strong></em></p>
-</blockquote></td>
+</td>
+<td colspan="4"><p><em><strong><span class="smallcaps">Medición de Métrica</span></strong></em></p>
+</td>
+<td colspan="3"><p><em><strong><span class="smallcaps">Observaciones</span></strong></em></p>
+</td>
 <td></td>
 </tr>
 </tbody>
@@ -351,262 +335,200 @@
 <tr class="header">
 <th colspan="2"></th>
 <th colspan="3"></th>
-<th colspan="3"><blockquote>
-<p><em><strong><span class="smallcaps">Fecha</span></strong></em></p>
-</blockquote></th>
-<th colspan="3"><blockquote>
-<p><em><strong><span class="smallcaps">Resultado</span></strong></em></p>
+<th colspan="3"><p><em><strong><span class="smallcaps">Fecha</span></strong></em></p>
+</th>
+<th colspan="3"><p><em><strong><span class="smallcaps">Resultado</span></strong></em></p>
 <p><em><strong><span class="smallcaps">Obtenido</span></strong></em></p>
-</blockquote></th>
+</th>
 <th colspan="3"></th>
 <th></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td colspan="3"><blockquote>
-<p><span class="smallcaps">Tiempo de respuesta de</span></p>
+<td colspan="3"><p><span class="smallcaps">Tiempo de respuesta de</span></p>
 <p>API REST</p>
-</blockquote></td>
-<td colspan="3"><blockquote>
-<p>EN CONSULTAS WEB</p>
-</blockquote></td>
-<td colspan="2"><blockquote>
-<p>01/10/2026</p>
-</blockquote></td>
-<td colspan="4"><blockquote>
-<p>1.18s</p>
-</blockquote></td>
-<td colspan="3"><blockquote>
-<p><span class="smallcaps">Optimizado</span></p>
+</td>
+<td colspan="3"><p>EN CONSULTAS WEB</p>
+</td>
+<td colspan="2"><p>01/10/2026</p>
+</td>
+<td colspan="4"><p>1.18s</p>
+</td>
+<td colspan="3"><p><span class="smallcaps">Optimizado</span></p>
 <p>GRACIAS AL BACKEND UNIFICADO EN</p>
 <p><span class="smallcaps">Django y</span></p>
 <p><span class="smallcaps">Supabase.</span></p>
-</blockquote></td>
+</td>
 </tr>
 <tr class="even">
-<td colspan="3"><blockquote>
-<p><span class="smallcaps">Precisión del Modelo de IA (mAP)</span></p>
-</blockquote></td>
-<td colspan="3"><blockquote>
-<p>EN DETECCIÓN DE PLAGA</p>
-</blockquote></td>
-<td colspan="2"><blockquote>
-<p>26/09/2026</p>
-</blockquote></td>
-<td colspan="4"><blockquote>
-<p>87.5%</p>
-</blockquote></td>
-<td colspan="3"><blockquote>
-<p><span class="smallcaps">Cumple con el estándar esperado para</span></p>
+<td colspan="3"><p><span class="smallcaps">Precisión del Modelo de IA (mAP)</span></p>
+</td>
+<td colspan="3"><p>EN DETECCIÓN DE PLAGA</p>
+</td>
+<td colspan="2"><p>26/09/2026</p>
+</td>
+<td colspan="4"><p>87.5%</p>
+</td>
+<td colspan="3"><p><span class="smallcaps">Cumple con el estándar esperado para</span></p>
 <p>"INDICIO</p>
 <p>SUGERIDO".</p>
-</blockquote></td>
+</td>
 </tr>
 <tr class="odd">
-<td colspan="3"><blockquote>
-<p><span class="smallcaps">Tiempo de validación de nitidez</span></p>
+<td colspan="3"><p><span class="smallcaps">Tiempo de validación de nitidez</span></p>
 <p>LOCAL</p>
-</blockquote></td>
-<td colspan="3"><blockquote>
-<p>EN DISPOSITIVO MÓVIL</p>
-</blockquote></td>
-<td colspan="2"><blockquote>
-<p>20/09/2026</p>
-</blockquote></td>
-<td colspan="4"><blockquote>
-<p>1.45s</p>
-</blockquote></td>
-<td colspan="3"><blockquote>
-<p><span class="smallcaps">Evaluación con algoritmo local sobre SQLite en</span></p>
+</td>
+<td colspan="3"><p>EN DISPOSITIVO MÓVIL</p>
+</td>
+<td colspan="2"><p>20/09/2026</p>
+</td>
+<td colspan="4"><p>1.45s</p>
+</td>
+<td colspan="3"><p><span class="smallcaps">Evaluación con algoritmo local sobre SQLite en</span></p>
 <p>EL MÓVIL.</p>
-</blockquote></td>
+</td>
 </tr>
 <tr class="even">
-<td colspan="15"><blockquote>
-<p><strong><span class="smallcaps">ntroles de Calidad en el Periodo</span></strong></p>
-</blockquote></td>
+<td colspan="15"><p><strong><span class="smallcaps">ntroles de Calidad en el Periodo</span></strong></p>
+</td>
 </tr>
 <tr class="odd">
-<td colspan="2"><blockquote>
-<p><em><strong><span class="smallcaps">Entregab</span></strong></em></p>
+<td colspan="2"><p><em><strong><span class="smallcaps">Entregab</span></strong></em></p>
 <p><em><strong>LE</strong></em></p>
-</blockquote></td>
-<td colspan="3"><blockquote>
-<p><em><strong><span class="smallcaps">Estándar de</span></strong></em></p>
+</td>
+<td colspan="3"><p><em><strong><span class="smallcaps">Estándar de</span></strong></em></p>
 <p><em><strong><span class="smallcaps">Calidad aplicable</span></strong></em></p>
-</blockquote></td>
-<td colspan="6"><blockquote>
-<p><em><strong><span class="smallcaps">Observaciones</span></strong></em></p>
-</blockquote></td>
-<td colspan="3"><blockquote>
-<p><em><strong><span class="smallcaps">Observaciones</span></strong></em></p>
-</blockquote></td>
+</td>
+<td colspan="6"><p><em><strong><span class="smallcaps">Observaciones</span></strong></em></p>
+</td>
+<td colspan="3"><p><em><strong><span class="smallcaps">Observaciones</span></strong></em></p>
+</td>
 <td rowspan="2"></td>
 </tr>
 <tr class="even">
 <td colspan="2"></td>
 <td colspan="3"></td>
-<td colspan="3"><blockquote>
-<p><em><strong><span class="smallcaps">Fecha</span></strong></em></p>
-</blockquote></td>
-<td colspan="3"><blockquote>
-<p><em><strong><span class="smallcaps">Resultado</span></strong></em></p>
+<td colspan="3"><p><em><strong><span class="smallcaps">Fecha</span></strong></em></p>
+</td>
+<td colspan="3"><p><em><strong><span class="smallcaps">Resultado</span></strong></em></p>
 <p><em><strong><span class="smallcaps">Obtenido</span></strong></em></p>
-</blockquote></td>
+</td>
 <td colspan="3"></td>
 </tr>
 <tr class="odd">
-<td colspan="3"><blockquote>
-<p><span class="smallcaps">Backend Django / API v1</span></p>
-</blockquote></td>
-<td colspan="3"><blockquote>
-<p><span class="smallcaps">ISO/IEC 25010 (Calidad del Software)</span></p>
-</blockquote></td>
-<td colspan="2"><blockquote>
-<p>02/10/2026</p>
-</blockquote></td>
-<td colspan="4"><blockquote>
-<p><span class="smallcaps">Aprobado</span></p>
-</blockquote></td>
-<td colspan="3"><blockquote>
-<p><span class="smallcaps">Arquitectura</span></p>
+<td colspan="3"><p><span class="smallcaps">Backend Django / API v1</span></p>
+</td>
+<td colspan="3"><p><span class="smallcaps">ISO/IEC 25010 (Calidad del Software)</span></p>
+</td>
+<td colspan="2"><p>02/10/2026</p>
+</td>
+<td colspan="4"><p><span class="smallcaps">Aprobado</span></p>
+</td>
+<td colspan="3"><p><span class="smallcaps">Arquitectura</span></p>
 <p>LIMPIA; PROHÍBE EL ACCESO DIRECTO DE CLIENTES A</p>
 <p><span class="smallcaps">Supabase.</span></p>
-</blockquote></td>
+</td>
 </tr>
 <tr class="even">
-<td colspan="3"><blockquote>
-<p><span class="smallcaps">Soporte Físico Vestible</span></p>
-</blockquote></td>
-<td colspan="3"><blockquote>
-<p><span class="smallcaps">Ergonomía</span></p>
+<td colspan="3"><p><span class="smallcaps">Soporte Físico Vestible</span></p>
+</td>
+<td colspan="3"><p><span class="smallcaps">Ergonomía</span></p>
 <p>OCUPACIONAL E</p>
 <p>ISO/IEC 25010</p>
-</blockquote></td>
-<td colspan="2"><blockquote>
-<p>22/09/2026</p>
-</blockquote></td>
-<td colspan="4"><blockquote>
-<p><span class="smallcaps">Aprobado</span></p>
-</blockquote></td>
-<td colspan="3"><blockquote>
-<p><span class="smallcaps">Peso de ; estable en caminata sobre el terreno del</span></p>
+</td>
+<td colspan="2"><p>22/09/2026</p>
+</td>
+<td colspan="4"><p><span class="smallcaps">Aprobado</span></p>
+</td>
+<td colspan="3"><p><span class="smallcaps">Peso de ; estable en caminata sobre el terreno del</span></p>
 <p>VIÑEDO.</p>
-</blockquote></td>
+</td>
 </tr>
 <tr class="odd">
-<td colspan="15"><blockquote>
-<p><strong><span class="smallcaps">Costos Incurridos en el Periodo</span></strong></p>
-</blockquote></td>
+<td colspan="15"><p><strong><span class="smallcaps">Costos Incurridos en el Periodo</span></strong></p>
+</td>
 </tr>
 <tr class="even">
-<td><blockquote>
-<p><em><strong>E</strong></em></p>
+<td><p><em><strong>E</strong></em></p>
 <p><em><strong>NT RE GA BL</strong></em></p>
 <p><em><strong>E</strong></em></p>
-</blockquote></td>
-<td colspan="3"><blockquote>
-<p><em><strong><span class="smallcaps">Elemento de</span></strong></em></p>
+</td>
+<td colspan="3"><p><em><strong><span class="smallcaps">Elemento de</span></strong></em></p>
 <p><em><strong><span class="smallcaps">Costo</span></strong></em></p>
-</blockquote></td>
-<td colspan="3"><blockquote>
-<p><em><strong><span class="smallcaps">Costo Autorizado</span></strong></em></p>
-</blockquote></td>
-<td colspan="2"><blockquote>
-<p><em><strong><span class="smallcaps">Costo Incurrido</span></strong></em></p>
-</blockquote></td>
-<td><blockquote>
-<p><em><strong><span class="smallcaps">Variació</span></strong></em></p>
+</td>
+<td colspan="3"><p><em><strong><span class="smallcaps">Costo Autorizado</span></strong></em></p>
+</td>
+<td colspan="2"><p><em><strong><span class="smallcaps">Costo Incurrido</span></strong></em></p>
+</td>
+<td><p><em><strong><span class="smallcaps">Variació</span></strong></em></p>
 <p><em><strong>N</strong></em></p>
 <p><em><strong><span class="smallcaps">Absolut</span></strong></em></p>
 <p><em><strong>A</strong></em></p>
-</blockquote></td>
-<td colspan="3"><blockquote>
-<p><em><strong><span class="smallcaps">Variación Porcentual</span></strong></em></p>
-</blockquote></td>
-<td colspan="2"><blockquote>
-<p><em><strong><span class="smallcaps">Observac</span></strong></em></p>
+</td>
+<td colspan="3"><p><em><strong><span class="smallcaps">Variación Porcentual</span></strong></em></p>
+</td>
+<td colspan="2"><p><em><strong><span class="smallcaps">Observac</span></strong></em></p>
 <p><em><strong>IONES</strong></em></p>
-</blockquote></td>
+</td>
 </tr>
 <tr class="odd">
-<td><blockquote>
-<p><span class="smallcaps">Ha rd wa re</span></p>
+<td><p><span class="smallcaps">Ha rd wa re</span></p>
 <p>/</p>
 <p><span class="smallcaps">Pr ot oti</span></p>
 <p>PO</p>
-</blockquote></td>
-<td colspan="3"><blockquote>
-<p><span class="smallcaps">Neopreno, pernos y abrazaderas de presión</span></p>
-</blockquote></td>
-<td colspan="3"><blockquote>
-<p>S/ 350.00</p>
-</blockquote></td>
-<td colspan="2"><blockquote>
-<p>S/ 320.00</p>
-</blockquote></td>
-<td><blockquote>
-<p>-S/ 30.00</p>
-</blockquote></td>
-<td colspan="3"><blockquote>
-<p>-8.57%</p>
-</blockquote></td>
-<td colspan="2"><blockquote>
-<p><span class="smallcaps">Ahorro al comprar materiales en plaza</span></p>
+</td>
+<td colspan="3"><p><span class="smallcaps">Neopreno, pernos y abrazaderas de presión</span></p>
+</td>
+<td colspan="3"><p>S/ 350.00</p>
+</td>
+<td colspan="2"><p>S/ 320.00</p>
+</td>
+<td><p>-S/ 30.00</p>
+</td>
+<td colspan="3"><p>-8.57%</p>
+</td>
+<td colspan="2"><p><span class="smallcaps">Ahorro al comprar materiales en plaza</span></p>
 <p><span class="smallcaps">local (Ica).</span></p>
-</blockquote></td>
+</td>
 </tr>
 <tr class="even">
-<td><blockquote>
-<p><span class="smallcaps">Se rvi ci os</span></p>
+<td><p><span class="smallcaps">Se rvi ci os</span></p>
 <p><span class="smallcaps">Nu</span></p>
 <p>BE</p>
-</blockquote></td>
-<td colspan="3"><blockquote>
-<p><span class="smallcaps">Suscripción Supabase Pro / Cloudinary</span></p>
-</blockquote></td>
-<td colspan="3"><blockquote>
-<p>S/ 250.00</p>
-</blockquote></td>
-<td colspan="2"><blockquote>
-<p>S/ 210.00</p>
-</blockquote></td>
-<td><blockquote>
-<p>-S/ 40.00</p>
-</blockquote></td>
-<td colspan="3"><blockquote>
-<p>-16.00%</p>
-</blockquote></td>
-<td colspan="2"><blockquote>
-<p><span class="smallcaps">Optimizació n de costos por uso de capa</span></p>
+</td>
+<td colspan="3"><p><span class="smallcaps">Suscripción Supabase Pro / Cloudinary</span></p>
+</td>
+<td colspan="3"><p>S/ 250.00</p>
+</td>
+<td colspan="2"><p>S/ 210.00</p>
+</td>
+<td><p>-S/ 40.00</p>
+</td>
+<td colspan="3"><p>-16.00%</p>
+</td>
+<td colspan="2"><p><span class="smallcaps">Optimizació n de costos por uso de capa</span></p>
 <p><span class="smallcaps">BaaS</span></p>
 <p>INTEGRADA.</p>
-</blockquote></td>
+</td>
 </tr>
 <tr class="odd">
-<td><blockquote>
-<p><span class="smallcaps">To tal de l</span></p>
+<td><p><span class="smallcaps">To tal de l</span></p>
 <p><span class="smallcaps">Pe</span></p>
 <p>RI</p>
-</blockquote></td>
+</td>
 <td colspan="3"></td>
-<td colspan="3"><blockquote>
-<p>S/ 600.00</p>
-</blockquote></td>
-<td colspan="2"><blockquote>
-<p>S/ 530.00</p>
-</blockquote></td>
-<td><blockquote>
-<p>-S/ 70.00</p>
-</blockquote></td>
-<td colspan="3"><blockquote>
-<p>-11.67%</p>
-</blockquote></td>
-<td colspan="2"><blockquote>
-<p>CPI = 1.13 (DESEMPEÑ</p>
+<td colspan="3"><p>S/ 600.00</p>
+</td>
+<td colspan="2"><p>S/ 530.00</p>
+</td>
+<td><p>-S/ 70.00</p>
+</td>
+<td colspan="3"><p>-11.67%</p>
+</td>
+<td colspan="2"><p>CPI = 1.13 (DESEMPEÑ</p>
 <p>O FAVORABLE EN COSTO).</p>
-</blockquote></td>
+</td>
 </tr>
 </tbody>
 </table>
@@ -1112,49 +1034,40 @@
 <th colspan="2"></th>
 <th colspan="3"></th>
 <th colspan="2"></th>
-<th><blockquote>
-<p>TE RM ED IA RI OS</p>
+<th><p>TE RM ED IA RI OS</p>
 <p>.</p>
-</blockquote></th>
+</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td colspan="10"><blockquote>
-<p><strong><span class="smallcaps">Recursos utilizados en el periodo</span></strong></p>
-</blockquote></td>
+<td colspan="10"><p><strong><span class="smallcaps">Recursos utilizados en el periodo</span></strong></p>
+</td>
 </tr>
 <tr class="even">
-<td><blockquote>
-<p><em><strong><span class="smallcaps">Ent</span></strong></em></p>
+<td><p><em><strong><span class="smallcaps">Ent</span></strong></em></p>
 <p><em><strong>REGA BLE</strong></em></p>
-</blockquote></td>
-<td colspan="2"><blockquote>
-<p><em><strong><span class="smallcaps">Recurso</span></strong></em></p>
-</blockquote></td>
-<td colspan="2"><blockquote>
-<p><em><strong><span class="smallcaps">Cantidad Programada</span></strong></em></p>
-</blockquote></td>
-<td><blockquote>
-<p><em><strong><span class="smallcaps">Cantida</span></strong></em></p>
+</td>
+<td colspan="2"><p><em><strong><span class="smallcaps">Recurso</span></strong></em></p>
+</td>
+<td colspan="2"><p><em><strong><span class="smallcaps">Cantidad Programada</span></strong></em></p>
+</td>
+<td><p><em><strong><span class="smallcaps">Cantida</span></strong></em></p>
 <p><em><strong>D</strong></em></p>
 <p><em><strong><span class="smallcaps">Utilizad</span></strong></em></p>
 <p><em><strong>A</strong></em></p>
-</blockquote></td>
-<td colspan="2"><blockquote>
-<p><em><strong><span class="smallcaps">Variación Absoluta</span></strong></em></p>
-</blockquote></td>
-<td><blockquote>
-<p><em><strong><span class="smallcaps">Variac</span></strong></em></p>
+</td>
+<td colspan="2"><p><em><strong><span class="smallcaps">Variación Absoluta</span></strong></em></p>
+</td>
+<td><p><em><strong><span class="smallcaps">Variac</span></strong></em></p>
 <p><em><strong>IÓN</strong></em></p>
 <p><em><strong><span class="smallcaps">Porce</span></strong></em></p>
 <p><em><strong>NTUAL</strong></em></p>
-</blockquote></td>
-<td><blockquote>
-<p><em><strong>O</strong></em></p>
+</td>
+<td><p><em><strong>O</strong></em></p>
 <p><em><strong>BS ER VA CI O NE</strong></em></p>
 <p><em><strong>S</strong></em></p>
-</blockquote></td>
+</td>
 </tr>
 <tr class="odd">
 <td></td>
@@ -1163,9 +1076,8 @@
 <td></td>
 <td colspan="2"></td>
 <td></td>
-<td><blockquote>
-<p>M</p>
-</blockquote></td>
+<td><p>M</p>
+</td>
 </tr>
 <tr class="even">
 <td></td>
@@ -1174,9 +1086,8 @@
 <td></td>
 <td colspan="2"></td>
 <td></td>
-<td><blockquote>
-<p>AR</p>
-</blockquote></td>
+<td><p>AR</p>
+</td>
 </tr>
 <tr class="odd">
 <td></td>
@@ -1185,35 +1096,27 @@
 <td></td>
 <td colspan="2"></td>
 <td></td>
-<td><blockquote>
-<p>ÍA</p>
+<td><p>ÍA</p>
 <p><span class="smallcaps">Fe</span></p>
-</blockquote></td>
+</td>
 </tr>
 <tr class="even">
-<td><blockquote>
-<p>2.2</p>
+<td><p>2.2</p>
 <p>Hard ware</p>
-</blockquote></td>
-<td colspan="2"><blockquote>
-<p><span class="smallcaps">Horas/Hombre (Ingeniería de Hardware)</span></p>
-</blockquote></td>
-<td colspan="2"><blockquote>
-<p>35h</p>
-</blockquote></td>
-<td><blockquote>
-<p>35h</p>
-</blockquote></td>
-<td colspan="2"><blockquote>
-<p>0h</p>
-</blockquote></td>
-<td><blockquote>
-<p>0.00%</p>
-</blockquote></td>
-<td><blockquote>
-<p>RN AN DA</p>
+</td>
+<td colspan="2"><p><span class="smallcaps">Horas/Hombre (Ingeniería de Hardware)</span></p>
+</td>
+<td colspan="2"><p>35h</p>
+</td>
+<td><p>35h</p>
+</td>
+<td colspan="2"><p>0h</p>
+</td>
+<td><p>0.00%</p>
+</td>
+<td><p>RN AN DA</p>
 <p><span class="smallcaps">Zú</span></p>
-</blockquote></td>
+</td>
 </tr>
 <tr class="odd">
 <td></td>
@@ -1222,9 +1125,8 @@
 <td></td>
 <td colspan="2"></td>
 <td></td>
-<td><blockquote>
-<p>ÑI</p>
-</blockquote></td>
+<td><p>ÑI</p>
+</td>
 </tr>
 <tr class="even">
 <td></td>
@@ -1233,10 +1135,9 @@
 <td></td>
 <td colspan="2"></td>
 <td></td>
-<td><blockquote>
-<p>GA</p>
+<td><p>GA</p>
 <p>.</p>
-</blockquote></td>
+</td>
 </tr>
 <tr class="odd">
 <td></td>
@@ -1245,9 +1146,8 @@
 <td></td>
 <td colspan="2"></td>
 <td></td>
-<td><blockquote>
-<p>O</p>
-</blockquote></td>
+<td><p>O</p>
+</td>
 </tr>
 <tr class="even">
 <td></td>
@@ -1256,9 +1156,8 @@
 <td></td>
 <td colspan="2"></td>
 <td></td>
-<td><blockquote>
-<p>SC</p>
-</blockquote></td>
+<td><p>SC</p>
+</td>
 </tr>
 <tr class="odd">
 <td></td>
@@ -1267,9 +1166,8 @@
 <td></td>
 <td colspan="2"></td>
 <td></td>
-<td><blockquote>
-<p>AR</p>
-</blockquote></td>
+<td><p>AR</p>
+</td>
 </tr>
 <tr class="even">
 <td></td>
@@ -1278,9 +1176,8 @@
 <td></td>
 <td colspan="2"></td>
 <td></td>
-<td><blockquote>
-<p>G</p>
-</blockquote></td>
+<td><p>G</p>
+</td>
 </tr>
 <tr class="odd">
 <td></td>
@@ -1289,37 +1186,29 @@
 <td></td>
 <td colspan="2"></td>
 <td></td>
-<td><blockquote>
-<p>UE</p>
-</blockquote></td>
+<td><p>UE</p>
+</td>
 </tr>
 <tr class="even">
-<td><blockquote>
-<p>3.2 /</p>
+<td><p>3.2 /</p>
 <p>3.3</p>
 <p>Soft ware</p>
 <p>/IA</p>
-</blockquote></td>
-<td colspan="2"><blockquote>
-<p><span class="smallcaps">Horas/Hombre (Desarrollo Django e IA)</span></p>
-</blockquote></td>
-<td colspan="2"><blockquote>
-<p>90h</p>
-</blockquote></td>
-<td><blockquote>
-<p>85h</p>
-</blockquote></td>
-<td colspan="2"><blockquote>
-<p>-5h</p>
-</blockquote></td>
-<td><blockquote>
-<p>-5.56%</p>
-</blockquote></td>
-<td><blockquote>
-<p>RR ER O</p>
+</td>
+<td colspan="2"><p><span class="smallcaps">Horas/Hombre (Desarrollo Django e IA)</span></p>
+</td>
+<td colspan="2"><p>90h</p>
+</td>
+<td><p>85h</p>
+</td>
+<td colspan="2"><p>-5h</p>
+</td>
+<td><p>-5.56%</p>
+</td>
+<td><p>RR ER O</p>
 <p>/</p>
 <p>G</p>
-</blockquote></td>
+</td>
 </tr>
 <tr class="odd">
 <td></td>
@@ -1328,9 +1217,8 @@
 <td></td>
 <td colspan="2"></td>
 <td></td>
-<td><blockquote>
-<p>RA</p>
-</blockquote></td>
+<td><p>RA</p>
+</td>
 </tr>
 <tr class="even">
 <td></td>
@@ -1339,9 +1227,8 @@
 <td></td>
 <td colspan="2"></td>
 <td></td>
-<td><blockquote>
-<p>CE</p>
-</blockquote></td>
+<td><p>CE</p>
+</td>
 </tr>
 <tr class="odd">
 <td></td>
@@ -1350,9 +1237,8 @@
 <td></td>
 <td colspan="2"></td>
 <td></td>
-<td><blockquote>
-<p><span class="smallcaps">Pe</span></p>
-</blockquote></td>
+<td><p><span class="smallcaps">Pe</span></p>
+</td>
 </tr>
 <tr class="even">
 <td></td>
@@ -1361,9 +1247,8 @@
 <td></td>
 <td colspan="2"></td>
 <td></td>
-<td><blockquote>
-<p>ÑA</p>
-</blockquote></td>
+<td><p>ÑA</p>
+</td>
 </tr>
 <tr class="odd">
 <td></td>
@@ -1372,9 +1257,8 @@
 <td></td>
 <td colspan="2"></td>
 <td></td>
-<td><blockquote>
-<p>.</p>
-</blockquote></td>
+<td><p>.</p>
+</td>
 </tr>
 <tr class="even">
 <td></td>
@@ -1383,9 +1267,8 @@
 <td></td>
 <td colspan="2"></td>
 <td></td>
-<td><blockquote>
-<p><span class="smallcaps">Co</span></p>
-</blockquote></td>
+<td><p><span class="smallcaps">Co</span></p>
+</td>
 </tr>
 <tr class="odd">
 <td></td>
@@ -1394,9 +1277,8 @@
 <td></td>
 <td colspan="2"></td>
 <td></td>
-<td><blockquote>
-<p>BE</p>
-</blockquote></td>
+<td><p>BE</p>
+</td>
 </tr>
 <tr class="even">
 <td></td>
@@ -1405,9 +1287,8 @@
 <td></td>
 <td colspan="2"></td>
 <td></td>
-<td><blockquote>
-<p>RT</p>
-</blockquote></td>
+<td><p>RT</p>
+</td>
 </tr>
 <tr class="odd">
 <td></td>
@@ -1416,9 +1297,8 @@
 <td></td>
 <td colspan="2"></td>
 <td></td>
-<td><blockquote>
-<p>UR</p>
-</blockquote></td>
+<td><p>UR</p>
+</td>
 </tr>
 <tr class="even">
 <td></td>
@@ -1427,9 +1307,8 @@
 <td></td>
 <td colspan="2"></td>
 <td></td>
-<td><blockquote>
-<p>A</p>
-</blockquote></td>
+<td><p>A</p>
+</td>
 </tr>
 <tr class="odd">
 <td></td>
@@ -1438,32 +1317,24 @@
 <td></td>
 <td colspan="2"></td>
 <td></td>
-<td><blockquote>
-<p>EN</p>
-</blockquote></td>
+<td><p>EN</p>
+</td>
 </tr>
 <tr class="even">
-<td><blockquote>
-<p>Infra estru ctura</p>
-</blockquote></td>
-<td colspan="2"><blockquote>
-<p><span class="smallcaps">Créditos de Servidor (Supabase / Cloudinary)</span></p>
-</blockquote></td>
-<td colspan="2"><blockquote>
-<p>1 mes</p>
-</blockquote></td>
-<td><blockquote>
-<p>1 mes</p>
-</blockquote></td>
-<td colspan="2"><blockquote>
-<p>0</p>
-</blockquote></td>
-<td><blockquote>
-<p>0.00%</p>
-</blockquote></td>
-<td><blockquote>
-<p>LA NU BE AC</p>
-</blockquote></td>
+<td><p>Infra estru ctura</p>
+</td>
+<td colspan="2"><p><span class="smallcaps">Créditos de Servidor (Supabase / Cloudinary)</span></p>
+</td>
+<td colspan="2"><p>1 mes</p>
+</td>
+<td><p>1 mes</p>
+</td>
+<td colspan="2"><p>0</p>
+</td>
+<td><p>0.00%</p>
+</td>
+<td><p>LA NU BE AC</p>
+</td>
 </tr>
 <tr class="odd">
 <td></td>
@@ -1472,9 +1343,8 @@
 <td></td>
 <td colspan="2"></td>
 <td></td>
-<td><blockquote>
-<p>TI</p>
-</blockquote></td>
+<td><p>TI</p>
+</td>
 </tr>
 <tr class="even">
 <td></td>
@@ -1483,9 +1353,8 @@
 <td></td>
 <td colspan="2"></td>
 <td></td>
-<td><blockquote>
-<p>VA</p>
-</blockquote></td>
+<td><p>VA</p>
+</td>
 </tr>
 <tr class="odd">
 <td></td>
@@ -1494,9 +1363,8 @@
 <td></td>
 <td colspan="2"></td>
 <td></td>
-<td><blockquote>
-<p>PA</p>
-</blockquote></td>
+<td><p>PA</p>
+</td>
 </tr>
 <tr class="even">
 <td></td>
@@ -1505,10 +1373,9 @@
 <td></td>
 <td colspan="2"></td>
 <td></td>
-<td><blockquote>
-<p>RA</p>
+<td><p>RA</p>
 <p><span class="smallcaps">Sp</span></p>
-</blockquote></td>
+</td>
 </tr>
 <tr class="odd">
 <td></td>
@@ -1517,9 +1384,8 @@
 <td></td>
 <td colspan="2"></td>
 <td></td>
-<td><blockquote>
-<p>RI</p>
-</blockquote></td>
+<td><p>RI</p>
+</td>
 </tr>
 </tbody>
 </table>

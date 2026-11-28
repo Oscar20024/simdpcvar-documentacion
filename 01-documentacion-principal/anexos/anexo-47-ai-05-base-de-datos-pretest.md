@@ -22,7 +22,7 @@
 </tr>
 </table>
 
-![](../media/image65.png)
+BASE DE DATOS PRETEST
 
 <table>
 <tr>

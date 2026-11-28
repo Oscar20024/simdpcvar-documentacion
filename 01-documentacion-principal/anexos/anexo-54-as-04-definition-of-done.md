@@ -22,7 +22,7 @@
 </tr>
 </table>
 
-![](../media/image72.png)![](../media/image73.png)
+CRITERIOS DE HECHO (DEFINITION OF DONE -DoD)
 
 **Código y Nombre del Proyecto**
 

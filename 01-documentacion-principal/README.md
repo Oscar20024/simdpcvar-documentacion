@@ -1,6 +1,6 @@
 # Documentación principal (informe completo)
 
-Versión revisada del 19/11/2026 del informe *«Sistema inteligente para el monitoreo y detección de plagas en cultivos de vid en Agrícola Riachuelo»* (348 páginas en Word), partido en un archivo por capítulo y por anexo para leerlo por partes. Figuras en `media/` (los diagramas se explican en el texto que los rodea). Las tablas con celdas combinadas quedan en HTML simple; el resto en tablas Markdown.
+Versión de noviembre de 2026 (353 páginas en PDF; base: revisión del 19/11/2026) del informe *«Sistema inteligente para el monitoreo y detección de plagas en cultivos de vid en Agrícola Riachuelo»* partido en un archivo por capítulo y por anexo para leerlo por partes. Figuras en `media/`; cada una está transcrita en [`../06-figuras/informe-principal/`](../06-figuras/informe-principal/README.md) y enlazada debajo de la imagen. Las tablas con celdas combinadas quedan en HTML simple; el resto en tablas Markdown.
 
 Numeración: los títulos conservan la numeración del Word (p. ej. «14.7.10»). Los anexos tienen dos códigos: el correlativo (Anexo 1…81) y el de plantilla (AP = gestión del proyecto PMBOK, AI = investigación, AS = Scrum, AT = técnicos). El índice general, de tablas y de anexos del Word se omitió (sus números de página no aplican aquí).
 

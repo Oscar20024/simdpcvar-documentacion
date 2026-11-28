@@ -34,12 +34,12 @@ Project Charter
 
 **DESCRIPCIÓN DEL PROYECTO: ¿QUÉ, QUIÉN, CÓMO, CUÁNDO Y DÓNDE?**
 
-**El proyecto consiste en diseñar, construir y validar en campo un sistema inteligente de monitoreo y detección de plagas para los cultivos de vid de Agrícola Riachuelo S.A.C., ubicada en el distrito de La Tinguiña, provincia y región Ica.<br>El sistema estará compuesto por un prototipo vestible con dos dispositivos móviles para la captura fotográfica bilateral de cada planta, una aplicación móvil que valida la calidad de las imágenes y las almacena sin conexión, un modelo de inteligencia artificial que detecta indicios visuales de plaga, y una plataforma web centralizada donde el especialista fitosanitario confirma los hallazgos y se generan alertas automáticas por WhatsApp.<br>El desarrollo estará a cargo del siguiente equipo:<br>-Gutiérrez Rojas, Oscar Antonio -> Project Manager / Líder de arquitectura.**
+**El proyecto consiste en diseñar, construir y validar en campo un sistema inteligente de monitoreo y detección de plagas para los cultivos de vid de Agrícola Riachuelo S.A.C., ubicada en el distrito de La Tinguiña, provincia y región Ica.<br>El sistema estará compuesto por un prototipo con dos dispositivos móviles para la captura fotográfica de la hilera, una aplicación móvil que valida la calidad de las imágenes y las almacena sin conexión, un modelo de inteligencia artificial que detecta indicios visuales de plaga, y una plataforma web centralizada donde el especialista fitosanitario confirma los hallazgos y se generan alertas automáticas por Telegram.<br>El desarrollo estará a cargo del siguiente equipo:<br>-Gutiérrez Rojas, Oscar Antonio -> Project Manager / Líder de arquitectura.**
 
 | -Peña Reyes, Grace Lucia -> Analista funcional / Scrum Master.<br>-Zuñiga Matos, María Fernanda -> Analista técnica / Responsable de hardware.<br>-Guerrero Figari, Oscar Manuel -> Desarrollador de backend, plataforma web e inteligencia artificial.<br>El proyecto se ejecutará bajo un enfoque híbrido: gestión predictiva para costos, riesgos y adquisiciones, y marco ágil Scrum (Sprints de dos semanas) para el desarrollo del software, el modelo de IA y la construcción del prototipo.<br>El proyecto se desarrollará desde el 01/09/2026 hasta el 20/11/2026 (tres meses, seis Sprints), con actividades de análisis y desarrollo en la UTP (Ica) y pruebas piloto en las instalaciones y campos de cultivo de Agrícola Riachuelo, en la carretera a Los Molinos, La Tinguiña, Ica. |
 |---|
 | DEFINICIÓN DEL PRODUCTO DEL PROYECTO: DESCRIPCIÓN DEL<br>PRODUCTO, SERVICIO O CAPACIDAD A GENERAR |
-| El producto final estará compuesto por cuatro componentes integrados:<br>1. Prototipo vestible de captura bilateral: mochila ergonómica con soportes ajustables para dos dispositivos móviles que fotografían simultáneamente los lados izquierdo y derecho de cada planta, y un tercer dispositivo de control de sesión.<br>2. Aplicación móvil (iOS) de captura offline: valida en tiempo real la nitidez, exposición y ausencia de movimiento de cada fotografía, almacena localmente cuando no hay conexión y sincroniza automáticamente al restablecerse la señal. Modelo de inteligencia artificial: entrenado para detectar indicios visuales de chanchito en racimos y hojas, generando “indicios sugeridos” no vinculantes hasta la validación del especialista fitosanitario.<br>3. Plataforma web centralizada: gestión de casos, registro de tratamientos, trazabilidad histórica y envío de alertas automáticas por WhatsApp.<br>4. Documentación a entregar: manual de usuario de la aplicación móvil, manual técnico de la plataforma, especificación de casos de uso e informe final de resultados del piloto. |
+| El producto final estará compuesto por cuatro componentes integrados:<br>1. Prototipo de captura: Soporte ajustable para dos dispositivos móviles que fotografían la hilera, y un tercer dispositivo de control de sesión.<br>2. Aplicación móvil (iOS) de captura offline: valida en tiempo real la nitidez, exposición y ausencia de movimiento de cada fotografía, almacena localmente cuando no hay conexión y sincroniza automáticamente al restablecerse la señal. Modelo de inteligencia artificial: entrenado para detectar indicios visuales de chanchito en racimos y hojas, generando “indicios sugeridos” no vinculantes hasta la validación del especialista fitosanitario.<br>3. Plataforma web centralizada: gestión de casos, registro de tratamientos, trazabilidad histórica y envío de alertas automáticas por Telegram.<br>4. Documentación a entregar: manual de usuario de la aplicación móvil, manual técnico de la plataforma, especificación de casos de uso e informe final de resultados del piloto. |
 
 <table>
 <tr>
@@ -58,7 +58,7 @@ Project Charter
 </tr>
 <tr>
 <td>1. Alcance</td>
-<td>Entregar elprototipo vestible, la aplicación móvil, el modelo de IA y la plataforma web funcionando de manera integrada.</td>
+<td>Entregar el prototipo, la aplicación móvil, el modelo de IA y la plataforma web funcionando de manera integrada.</td>
 <td>Aprobación del piloto por el Jefe de Fundo y elEspecialista Fitosanitario, y sustentación aprobada ante el docente del curso.</td>
 </tr>
 <tr>
@@ -133,7 +133,7 @@ Project Charter
 <td colspan="2">01/09/2026 al 12/09/2026</td>
 </tr>
 <tr>
-<td colspan="2">3. Ensamblaje y calibración del prototipo vestible (Sprint 2).</td>
+<td colspan="2">3. Ensamblaje y calibración del prototipo (Sprint 2).</td>
 <td colspan="2">14/09/2026 al 25/09/2026</td>
 </tr>
 <tr>
@@ -210,7 +210,7 @@ Project Charter
 <td>Monto estimado (S/)</td>
 </tr>
 <tr>
-<td>1. Dispositivos móviles y componentes del prototipo vestible.</td>
+<td>1. Dispositivos móviles y componentes del prototipo.</td>
 <td>S/ 4,200.00</td>
 </tr>
 <tr>
@@ -218,7 +218,7 @@ Project Charter
 <td>S/ 1,100.00</td>
 </tr>
 <tr>
-<td>3. Materiales para ensamblaje de la mochila (arneses, soportes, tornillería).</td>
+<td>3. Materiales para ensamblaje del soporte (arneses, soportes, tornillería).</td>
 <td>S/ 650.00</td>
 </tr>
 <tr>
@@ -279,103 +279,78 @@ Project Charter
 </colgroup>
 <thead>
 <tr class="header">
-<th colspan="2"><blockquote>
-<p><strong>Rol general</strong></p>
-</blockquote></th>
-<th colspan="5"><blockquote>
-<p><strong>Stakeholders</strong></p>
-</blockquote></th>
+<th colspan="2"><p><strong>Rol general</strong></p>
+</th>
+<th colspan="5"><p><strong>Stakeholders</strong></p>
+</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td colspan="2"><blockquote>
-<p><strong>SPONSOR</strong></p>
-</blockquote></td>
-<td colspan="5"><blockquote>
-<p>Gerencia General de Agrícola Riachuelo S.A.C.</p>
-</blockquote></td>
+<td colspan="2"><p><strong>SPONSOR</strong></p>
+</td>
+<td colspan="5"><p>Gerencia General de Agrícola Riachuelo S.A.C.</p>
+</td>
 </tr>
 <tr class="even">
-<td colspan="2"><blockquote>
-<p><strong>EQUIPO DE PROYECTO</strong></p>
-</blockquote></td>
-<td><blockquote>
-<p>PROJECT</p>
+<td colspan="2"><p><strong>EQUIPO DE PROYECTO</strong></p>
+</td>
+<td><p>PROJECT</p>
 <p>Antonio.</p>
-</blockquote></td>
-<td><blockquote>
-<p>MANAGER:</p>
-</blockquote></td>
-<td><blockquote>
-<p>Gutiérrez</p>
-</blockquote></td>
-<td><blockquote>
-<p>Rojas,</p>
-</blockquote></td>
-<td><blockquote>
-<p>Oscar</p>
-</blockquote></td>
+</td>
+<td><p>MANAGER:</p>
+</td>
+<td><p>Gutiérrez</p>
+</td>
+<td><p>Rojas,</p>
+</td>
+<td><p>Oscar</p>
+</td>
 </tr>
 <tr class="odd">
-<td colspan="2"><blockquote>
-<p><strong>EQUIPO DE PROYECTO</strong></p>
-</blockquote></td>
-<td colspan="5"><blockquote>
-<p>EQUIPO DE GESTIÓN: Peña Reyes, Grace Lucia (analista funcional); Zuñiga Matos, María Fernanda (analista técnica).</p>
-</blockquote></td>
+<td colspan="2"><p><strong>EQUIPO DE PROYECTO</strong></p>
+</td>
+<td colspan="5"><p>EQUIPO DE GESTIÓN: Peña Reyes, Grace Lucia (analista funcional); Zuñiga Matos, María Fernanda (analista técnica).</p>
+</td>
 </tr>
 <tr class="even">
-<td colspan="2"><blockquote>
-<p><strong>EQUIPO DE PROYECTO</strong></p>
-</blockquote></td>
-<td colspan="5"><blockquote>
-<p>OTROS MIEMBROS: Guerrero Figari, Oscar Manuel (desarrollador de backend, plataforma web e IA).</p>
-</blockquote></td>
+<td colspan="2"><p><strong>EQUIPO DE PROYECTO</strong></p>
+</td>
+<td colspan="5"><p>OTROS MIEMBROS: Guerrero Figari, Oscar Manuel (desarrollador de backend, plataforma web e IA).</p>
+</td>
 </tr>
 <tr class="odd">
-<td colspan="2"><blockquote>
-<p><strong>ASESOR ACADÉMICO</strong></p>
-</blockquote></td>
-<td colspan="5"><blockquote>
-<p>Pacheco Tamariz, Jean Pierre.</p>
-</blockquote></td>
+<td colspan="2"><p><strong>ASESOR ACADÉMICO</strong></p>
+</td>
+<td colspan="5"><p>Pacheco Tamariz, Jean Pierre.</p>
+</td>
 </tr>
 <tr class="even">
-<td colspan="2"><blockquote>
-<p><strong>GERENTES FUNCIONALES</strong></p>
-</blockquote></td>
-<td colspan="5"><blockquote>
-<p>Jefe de Fundo; Especialista fitosanitario (agrónomo).</p>
-</blockquote></td>
+<td colspan="2"><p><strong>GERENTES FUNCIONALES</strong></p>
+</td>
+<td colspan="5"><p>Jefe de Fundo; Especialista fitosanitario (agrónomo).</p>
+</td>
 </tr>
 <tr class="odd">
-<td colspan="2"><blockquote>
-<p><strong>USUARIOS / CLIENTES</strong></p>
-</blockquote></td>
-<td colspan="5"><blockquote>
-<p>Operadores de monitoreo; Supervisores de zona.</p>
-</blockquote></td>
+<td colspan="2"><p><strong>USUARIOS / CLIENTES</strong></p>
+</td>
+<td colspan="5"><p>Operadores de monitoreo; Supervisores de zona.</p>
+</td>
 </tr>
 <tr class="even">
-<td><blockquote>
-<p><strong>PROVEEDORES SOCIOS NEGOCIO</strong></p>
-</blockquote></td>
-<td><blockquote>
-<p><strong>/ DE</strong></p>
-</blockquote></td>
-<td colspan="5"><blockquote>
-<p>Proveedores de insumos agrícolas; proveedor de servicios en la nube.</p>
-</blockquote></td>
+<td><p><strong>PROVEEDORES SOCIOS NEGOCIO</strong></p>
+</td>
+<td><p><strong>/ DE</strong></p>
+</td>
+<td colspan="5"><p>Proveedores de insumos agrícolas; proveedor de servicios en la nube.</p>
+</td>
 </tr>
 <tr class="odd">
-<td colspan="2"><blockquote>
-<p><strong>OTROS</strong></p>
+<td colspan="2"><p><strong>OTROS</strong></p>
 <p><strong>STAKEHOLDERS</strong></p>
-</blockquote></td>
-<td colspan="5"><blockquote>
-<p>SENASA; certificadoras de buenas prácticas agrícolas (GlobalG.A.P.); clientes/importadores.</p>
-</blockquote></td>
+</td>
+<td colspan="5"><p>SENASA; certificadoras de buenas prácticas agrícolas (GlobalG.A.P.); clientes/importadores.</p>
+</td>
 </tr>
 </tbody>
 </table>

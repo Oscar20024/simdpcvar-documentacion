@@ -46,7 +46,9 @@
 <td>S/ 1.00</td>
 </tr>
 <tr>
-<td>Fase<br>![](../media/image51.png)</td>
+<td>Fase<br>![Logotipo «Dharma Consulting» (encabezado de las plantillas de gestión)](../media/image51.png)</td>
+
+> **Figura transcrita (image51.png):** Encabezado de las plantillas de gestión de proyectos (formatos tipo PMBOK de Dharma Consulting) usadas en varios anexos AP. No aporta información del proyecto. [Transcripción completa](../../06-figuras/informe-principal/img51-logotipo-dharma-consulting-encabezado-de-las-plantillas-de-g.md)
 <td>Asignación de rubros a fase</td>
 <td>S/ 1.00</td>
 </tr>
@@ -225,7 +227,9 @@
 <td colspan="3">Fuentes: recursos comprometidos por proyecto académico y adquisiciones justificadas.</td>
 </tr>
 <tr>
-<td colspan="3">nueva financiación ajena a los rubros fuente se presume aprobada.<br>![](../media/image51.png)</td>
+<td colspan="3">nueva financiación ajena a los rubros fuente se presume aprobada.<br>![Logotipo «Dharma Consulting» (encabezado de las plantillas de gestión)](../media/image51.png)</td>
+
+> **Figura transcrita (image51.png):** Encabezado de las plantillas de gestión de proyectos (formatos tipo PMBOK de Dharma Consulting) usadas en varios anexos AP. No aporta información del proyecto. [Transcripción completa](../../06-figuras/informe-principal/img51-logotipo-dharma-consulting-encabezado-de-las-plantillas-de-g.md)
 </tr>
 <tr>
 <td colspan="3"></td>

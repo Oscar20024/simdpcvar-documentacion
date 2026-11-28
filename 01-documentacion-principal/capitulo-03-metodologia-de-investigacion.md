@@ -101,82 +101,61 @@ Para comprobar que la intervención tecnológica haya sido aplicada de manera ef
 <thead>
 <tr class="header">
 <th rowspan="5"></th>
-<th colspan="2"><blockquote>
-<p>Registro de datos y ubicación</p>
-</blockquote></th>
-<th><blockquote>
-<p>Cada capturaconserva identificadores y datos de contexto como sesión, secuencia, lado, fecha/hora, lote, hilera, zona, marcador y</p>
+<th colspan="2"><p>Registro de datos y ubicación</p>
+</th>
+<th><p>Cada capturaconserva identificadores y datos de contexto como sesión, secuencia, lado, fecha/hora, lote, hilera, zona, marcador y</p>
 <p>ubicación disponible.</p>
-</blockquote></th>
-<th><blockquote>
-<p>Cumple cumple</p>
-</blockquote></th>
-<th><blockquote>
-<p>/ No</p>
-</blockquote></th>
+</th>
+<th><p>Cumple cumple</p>
+</th>
+<th><p>/ No</p>
+</th>
 </tr>
 <tr class="odd">
-<th colspan="2"><blockquote>
-<p>Almacenamiento local</p>
-</blockquote></th>
-<th><blockquote>
-<p>Las fotografías y metadatos pueden conservarse localmente cuando no existe conexión a Internet y permanecen disponibles ante</p>
+<th colspan="2"><p>Almacenamiento local</p>
+</th>
+<th><p>Las fotografías y metadatos pueden conservarse localmente cuando no existe conexión a Internet y permanecen disponibles ante</p>
 <p>interrupciones.</p>
-</blockquote></th>
-<th><blockquote>
-<p>Cumple cumple</p>
-</blockquote></th>
-<th><blockquote>
-<p>/ No</p>
-</blockquote></th>
+</th>
+<th><p>Cumple cumple</p>
+</th>
+<th><p>/ No</p>
+</th>
 </tr>
 <tr class="header">
-<th colspan="2"><blockquote>
-<p>Sincronización</p>
-</blockquote></th>
-<th><blockquote>
-<p>Las evidencias pendientes pueden enviarse posteriormente al backend al recuperarse la conectividad, manteniendo su identificación</p>
+<th colspan="2"><p>Sincronización</p>
+</th>
+<th><p>Las evidencias pendientes pueden enviarse posteriormente al backend al recuperarse la conectividad, manteniendo su identificación</p>
 <p>y evitando duplicidades.</p>
-</blockquote></th>
-<th><blockquote>
-<p>Cumple cumple</p>
-</blockquote></th>
-<th><blockquote>
-<p>/ No</p>
-</blockquote></th>
+</th>
+<th><p>Cumple cumple</p>
+</th>
+<th><p>/ No</p>
+</th>
 </tr>
 <tr class="odd">
-<th colspan="2"><blockquote>
-<p>Procesamiento mediante visión artificial</p>
-</blockquote></th>
-<th><blockquote>
-<p>Las imágenes sincronizadas pueden serprocesadas mediante el detector basado en YOLO y generar posibles indicios mediante bounding</p>
+<th colspan="2"><p>Procesamiento mediante visión artificial</p>
+</th>
+<th><p>Las imágenes sincronizadas pueden serprocesadas mediante el detector basado en YOLO y generar posibles indicios mediante bounding</p>
 <p>boxes y niveles de confianza.</p>
-</blockquote></th>
-<th><blockquote>
-<p>Cumple cumple</p>
-</blockquote></th>
-<th><blockquote>
-<p>/ No</p>
-</blockquote></th>
+</th>
+<th><p>Cumple cumple</p>
+</th>
+<th><p>/ No</p>
+</th>
 </tr>
 <tr class="header">
-<th><blockquote>
-<p>Revisión trazabilidad hallazgos</p>
-</blockquote></th>
-<th><blockquote>
-<p>y de</p>
-</blockquote></th>
-<th><blockquote>
-<p>La plataforma web permite al especialista consultar la evidencia y su ubicación, revisar los indicios sugeridos por la IA y registrar su decisión manteniendo el historial del</p>
+<th><p>Revisión trazabilidad hallazgos</p>
+</th>
+<th><p>y de</p>
+</th>
+<th><p>La plataforma web permite al especialista consultar la evidencia y su ubicación, revisar los indicios sugeridos por la IA y registrar su decisión manteniendo el historial del</p>
 <p>caso.</p>
-</blockquote></th>
-<th><blockquote>
-<p>Cumple cumple</p>
-</blockquote></th>
-<th><blockquote>
-<p>/ No</p>
-</blockquote></th>
+</th>
+<th><p>Cumple cumple</p>
+</th>
+<th><p>/ No</p>
+</th>
 </tr>
 </thead>
 <tbody>
